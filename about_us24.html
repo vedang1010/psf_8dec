@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>PSF'24</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Nothing+You+Could+Do&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                        nycd: ['Nothing You Could Do', 'cursive'],
+                    },
+                },
+            },
+        };
+    </script> -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+
+
+
+	<script src="https://cdn.tailwindcss.com"></script>
+
+
+
+	<!-- <script>
+		tailwind.config = {
+			darkMode: 'class',
+			theme: {
+				extend: {
+					fontFamily: {
+						inter: ['Inter', 'sans-serif'],
+					},
+				},
+			},
+		};
+	</script> -->
+
+
+
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+	<!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+	<script src="https://unpkg.com/scrollreveal"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css"> -->
+</head>
+
+<body>
+
+
+
+	<main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
+
+            <center>
+                <div style="margin-top: 3vh; font-size: 2rem; color: white;"> ABOUT US </div>
+            </center>
+            <main
+                class="relative min-h-screen flex flex-col justify-center overflow-hidden supports-[overflow:clip]:overflow-clip">
+                <div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
+        
+                    <!-- Cards Waterfall -->
+                    <div class="max-w-5xl mx-auto">
+                        <div class="relative z-0 space-y-14" x-data="{ entered: '0' }">
+                            <!-- Section #1 -->
+                            <section x-intersect.margin.-70%.0.-30%.0="entered = '0'" class="[--i:0]"
+                                :class="'[--e:'+entered+']'">
+                                <div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[2]"
+                                    :class="entered >= 0 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
+                                    <div class="wrap animate pop">
+                                        <div class="overlay">
+                                            <div class="overlay-content animate slide-left delay-2">
+                                                <p class="animate slide-left pop delay-4" style="color: white;">
+                                                    COEP Technological University</p>
+                                                <p class="animate slide-left pop delay-5"
+                                                    style="color: white; margin-bottom: 2.5rem;">Asia's third oldest
+                                                    Engineering College</p>
+                                            </div>
+                                            <div class="image-content animate slide delay-5">
+                                            </div>
+                                            <div class="dots animate">
+                                                <div class="dot animate slide-up delay-6"></div>
+                                                <div class="dot animate slide-up delay-7"></div>
+                                                <div class="dot animate slide-up delay-8"></div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                                <img class="inset" src="coep image.jpg" alt="" />
+                                                <p>Pune is called as
+                                                the 'Oxford of the East', as it is a hub to many educational
+                                                institutes. COEP Technological University (formerly known as College
+                                                of Engineering, Pune) is a prominent educational institute in Pune
+                                                as it is the 3rd oldest engineering college in Asia. Established in
+                                                1854, this institute is a 168-year-old legacy. COEP Tech has many
+                                                notable alumni from different walks of life like Bharat Ratna Mr. M
+                                                Visvesvaraya, Prof. Thomas Kailath, Dr. C. K. N. Patel and many more
+                                                to name. COEP Tech strives for the overall development of its
+                                                students.</p>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            </section>
+                            <!-- Section #2 -->
+                            <section x-intersect.margin.-70%.0.-30%.0="entered = '1'" class="[--i:1]"
+                                :class="'[--e:'+entered+']'">
+                                <div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[1]"
+                                    :class="entered >= 1 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
+                                    <div class="wrap animate pop">
+                                        <div class="overlay">
+                                            <div class="overlay-content animate slide-left delay-2">
+                                                <p class="animate slide-left pop delay-4" style="color: white;">BHAU's
+                                                    Innovation and Entrepreneurship Cell</p>
+                                                <p class="animate slide-left pop delay-5"
+                                                    style="color: white; margin-bottom: 2.5rem;">Home for many startups</p>
+                                            </div>
+                                            <div class="image-content animate slide delay-5"></div>
+                                            <div class="dots animate">
+                                                <div class="dot animate slide-up delay-6"></div>
+                                                <div class="dot animate slide-up delay-7"></div>
+                                                <div class="dot animate slide-up delay-8"></div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <img class="inset" src="biec.jpeg" alt="" />
+                                                <p>It is a students led club, supported
+                                                by the institute and mentored by faculty. BHAU's Innovation and Entrepreneurship
+                                                Cell, COEP Tech aims to foster a culture of entrepreneurship among students. The
+                                                cell has been organizing various engaging events to inculcate an interest in
+                                                entrepreneurship and Startups. For example, IDEA competition, B-Plan
+                                                Competition, Case Study Activity, Budgeting, Workshops, and seminars, etc. Pune
+                                                Startup Fest (PSF) is the annual entrepreneurial festival organized by the
+                                                I&E-Cell of COEP Tech. COEP Tech's I&E-Cell is a pre-incubation center of COEP
+                                                Tech.</p>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            </section>
+                            <!-- Section #3 -->
+                            <section x-intersect.margin.-70%.0.-30%.0="entered = '2'" class="[--i:2]"
+                                :class="'[--e:'+entered+']'">
+                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-0"
+                                    :class="entered >= 2 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
+                                    <div class="wrap animate pop">
+                                        <div class="overlay">
+                                            <div class="overlay-content animate slide-left delay-2" style="color: white;">
+                                                <p class="animate slide-left pop delay-4" style="color: white;">PUNE STARTUP FEST</p>
+                                                <p class="animate slide-left pop delay-5"
+                                                    style="color: white; margin-bottom: 2.5rem;">Flagship event of Bhau's
+                                                    Innovation and Entrepreneurship Cell</p>
+                                            </div>
+                                            <div class="image-content animate slide delay-5"></div>
+                                            <div class="dots animate">
+                                                <div class="dot animate slide-up delay-6"></div>
+                                                <div class="dot animate slide-up delay-7"></div>
+                                                <div class="dot animate slide-up delay-8"></div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <img class="inset" src="psf.jpeg" alt="" />
+                                                <p>The Startup expo was set up on the
+                                                Virtual Exhibition Platform ExpoSim and there was also an offline exhibition.
+                                                Pune Startup Fest'22, with the theme Caressing Ideas, Cultivating Innovation,
+                                                brought together 120 innovative Startups through a hybrid Startup expo, along
+                                                with investors, mentors, and C-Level executives from top corporations,
+                                                industries, and people across the country and successfully epitomized this idea
+                                                over the two grand days of the fest. PSF'22 was tremendously successful despite
+                                                being the first ever hybrid (virtual+offline) startup exhibition with overall
+                                                footfall of 3000+. Over the 4 editions, PSF has witnessed an investment of 5.5
+                                                crores.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+        
+                </div>
+        
+            </main>
+            <div class="w-full mx-auto px-4 md:px-6 py-24">
+
+		</div>
+
+
+		<div class="text-center">
+
+			<!-- Illustration #1 -->
+			<div class="absolute top-0 left-0 rotate-180 -translate-x-3/4 -scale-x-100 blur-3xl opacity-70 pointer-events-none"
+				aria-hidden="true">
+				<img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			</div>
+
+			<!-- Illustration #2 -->
+			<div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+				aria-hidden="true">
+				<img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			</div>
+			<div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+				style="top: 90%;" aria-hidden="true">
+				<img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			</div>
+			<!-- Illustration #3 -->
+			<div class="absolute top-80 left-100 -translate-y-1 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+				aria-hidden="true">
+				<img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			</div>
+			<div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+				style="top: 90%;" aria-hidden="true">
+				<img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			</div>
+
+
+			<!-- Particles animation -->
+			<div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+				<canvas data-particle-animation></canvas>
+			</div>
+			<div class="relative">
+			</div>
+		</div>
+		<!-- </div> -->
+
+		<!-- Ilusration #5 -->
+		<!-- <div class="absolute bottom-0 left-50 rotate-180 -translate-x-1 -scale-x-100 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
+		  <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration">
+	  </div> -->
+	</main>
+
+
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+	<script src="./js/particle-animation.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			offset: 300,
+			duration: 2000, // Animation duration in milliseconds
+			once: false,     // Animation only once on page load
+		});
+	</script>
+	<script src="./script.js"></script>
+</body>
+
+</html>
