@@ -78,6 +78,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
+  /* padding: 5px; */
 }
 .card .content .img{
   height: 130px;
@@ -233,12 +234,54 @@ img {
   width: 30%;
 }
 
+/* .timeline {
+  position: fixed;
+  top: 0;
+  left: 1%;
+  width: 4px; 
+  height: 100%;
+  background-color: #3498db; 
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+.portfolio_heading {
+   text-align: center;
+   display: block;
+   background: linear-gradient(to right, rgb(105, 244, 237), #1830bb);  
+   color: white; 
+  
+  position: relative;
+ 
+  margin-left: 12px; 
+  
+} */
+
+.timeline {
+  position: fixed;
+  top: 0;
+  left: 1%;
+  width: 4px; 
+  height: 100%;
+  background-color: #3498db; 
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
 .portfolio_heading {
   text-align: center;
-  background: linear-gradient(to right, rgb(105, 244, 237), #1830bb); /* Adjust colors as needed */
-  color: white;
-  /* padding: 10px; Optional: Add padding for better visual appearance */
+  display: block;
+  background: linear-gradient(to right, rgb(105, 244, 237), #1830bb);  
+  color: white; 
+  
+  position: relative;
+  
+  margin-left: 12px; 
+  min-width: 1.1em; 
+  box-sizing: border-box; 
 }
+
+
 
 @media screen and (max-width:1080px) {
   #authorities{

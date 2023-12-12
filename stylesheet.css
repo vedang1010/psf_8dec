@@ -137,7 +137,7 @@ p {
 @media screen and (max-width:900px) {
   
     .text p{
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     }
 }
 .wrap:hover .overlay {

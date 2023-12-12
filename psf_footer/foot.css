@@ -3,7 +3,7 @@
 * {
   font-family: Open Sans;
 }
-section {
+/* section {
   width: 100%;
   display: inline-block;
   background: #00000000;
@@ -12,7 +12,7 @@ section {
   font-size: 22px;
   font-weight: 700;
   text-decoration: underline;
-}
+} */
 
 .cardcontainer{
     background-color: black;
@@ -469,6 +469,8 @@ a{
     background-color: #507bfc;
     transition: all ease 0.5s;
 }
+
+
 /* * {
     margin: 0;
     padding: 0;
