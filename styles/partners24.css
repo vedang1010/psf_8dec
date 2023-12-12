@@ -820,7 +820,7 @@ body {
     width: 280px;
   }
   .newcsscard__title{
-    font-size: 1.75rem;
+    font-size: 1.22rem;
   }
   i{
     font-size: 1.5rem;
@@ -836,7 +836,7 @@ body {
     width: 250px;
   }
   .newcsscard__title{
-    font-size: 1.35rem;
+    font-size: 1rem;
   }
 
 
@@ -1272,3 +1272,9 @@ body {
   #page section{
     z-index: 100;
   }
+
+@media screen and (max-width:500px){
+  header nav {
+    width: 360px;
+}
+}
