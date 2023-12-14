@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900");
+  @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900");
 article,
 header,
 section,
@@ -100,10 +100,6 @@ h2 span {
   width: 100%;
   padding: 2em 0;
 
-}
-
-.rt-container{
-  /* background: linear-gradient(to bottom, rgb(40, 7, 116) 5%, rgb(30, 124, 131) 95%) !important; */
 }
 
 .rt-heading {
@@ -294,7 +290,7 @@ h2 span {
   flex-direction: column;
   border: 1px solid rgba(201, 216, 218, 0.11);
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.623);
+  background-color: rgba(118, 192, 221, 0.623);
   /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25); */
   backdrop-filter: blur(15px);
 

@@ -1,0 +1,1978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PSF'24</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/navbarAndFooter/PSF + Marsh White1.png">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/profiles.css">
+    <link rel="stylesheet" href="./investor.css">
+    <!-- <link rel="stylesheet" href="./psf_footer/foot.css"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Nothing+You+Could+Do&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                        nycd: ['Nothing You Could Do', 'cursive'],
+                    },
+                },
+            },
+        };
+    </script>
+
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
+
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css"> -->
+    <!-- footer-style -->
+    <style>@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+        * {
+          font-family: Open Sans;
+        }
+        /* section {
+          width: 100%;
+          display: inline-block;
+          background: #00000000;
+          height: 5vh;
+          text-align: center;
+          font-size: 22px;
+          font-weight: 700;
+          text-decoration: underline;
+        } */
+        
+        .ftcardcontainer{
+            background-color: black;
+        }
+        .ftfooter-distributed{
+            background: black;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+            box-sizing: border-box;
+            width: 100%;
+            text-align: left;
+            font: bold 16px sans-serif;
+            padding: 10px 50px;
+        }
+        
+        .ftfooter-distributed .ftfooter-left,
+        .ftfooter-distributed .ftfooter-center,
+        .ftfooter-distributed .ftfooter-right{
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        /* Footer left */
+        
+        .ftfooter-distributed .ftfooter-left{
+            width: 38%;
+          text-align: center;
+        }
+        
+        /* The company logo */
+        
+        .ftfooter-distributed h3{
+            color:  #ffffff;
+            font: normal 36px 'Open Sans', cursive;
+            margin: 0;
+        }
+        
+        .ftfooter-distributed  span{
+            width: 100%;
+        }
+        
+        /* Footer links */
+        
+        .ftfooter-distributed .ftfooter-links{
+            color:  #ffffff;
+            margin: 60px 0 12px;
+            padding: 0;
+        }
+        .ftfooter-distributed .ftfooter-links a:hover{
+            color:  #ffffff86;
+            display:inline-block;
+            line-height: 1.8;
+            font-weight:400;
+            text-decoration: none;
+        }
+        
+        .ftfooter-distributed .ftfooter-links a{
+            display:inline-block;
+            line-height: 1.8;
+          font-weight:400;
+            text-decoration: none;
+            color:  inherit;
+        }
+        
+        .ftfooter-distributed .ftfooter-company-name{
+            color:  #00000000;
+            font-size: 14px;
+            font-weight: normal;
+            margin: 0;
+        }
+        
+        /* Footer Center */
+        
+        .ftfooter-distributed .ftfooter-center{
+            width: 35%;
+          
+        }
+        
+        .ftfooter-distributed .ftfooter-center i{
+            background-color:  #00000000;
+            color: #ff0000;
+            font-size: 25px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 42px;
+            margin: 10px 15px;
+            vertical-align: middle;
+        }
+        
+        .ftfooter-distributed .ftfooter-center i.ftfa-envelope{
+            font-size: 17px;
+            line-height: 38px;
+        }
+        
+        .ftfooter-distributed .ftfooter-center p{
+            display: inline-block;
+            color: #ffffff;
+          font-weight:400;
+            vertical-align: middle;
+            margin:0;
+        }
+        
+        .ftfooter-distributed .ftfooter-center p span{
+            display:block;
+            font-weight: normal;
+            font-size:16px;
+            line-height:2;
+        }
+        
+        .ftfooter-distributed .ftfooter-center .ftCopyright p{
+            margin-top: 40px;
+        }
+        
+        .ftfooter-distributed .ftfooter-center p a{
+            color:  lightseagreen;
+            text-decoration: none;
+        }
+        
+        .ftfooter-distributed .ftfooter-links a:before {
+          content: "|";
+          font-weight:300;
+          font-size: 20px;
+          left: 0;
+          color: #fff;
+          display: inline-block;
+          padding-right: 5px;
+        }
+        
+        .ftCopyright{
+          margin-top: 20px;
+          text-align: center;
+          color: white;
+        }
+        
+        .ftfooter-distributed .ftfooter-links .ftlink-1:before {
+          content: none;
+        }
+        
+        /* Footer Right */
+        
+        .ftfooter-distributed .ftfooter-right{
+            width: 20%;
+        }
+        
+        .ftfooter-distributed .ftfooter-company-about{
+            line-height: 20px;
+            color:  #eaeff3;
+            font-size: 17px;
+            font-weight: normal;
+            margin: 0;
+        }
+        
+        .ftfooter-distributed .ftfooter-company-about span{
+            display: block;
+            color:  #ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .ftfooter-distributed .ftfooter-icons{
+            margin-top: 66px;
+        }
+        
+        .ftfooter-distributed .ftfooter-icons a{
+            display: inline-block;
+            width: 40px;
+            height: 42px;
+            cursor: pointer;
+            background-color:  #00000000;
+            border-radius: 2px;
+        
+            font-size: 35px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 35px;
+        
+            margin-right: 3px;
+            margin-bottom: 5px;
+        }
+        
+        .ftfooter-distributed .ftfooter-icons a:hover{
+            display: inline-block;
+            width: 40px;
+            height: 42px;
+            cursor: pointer;
+            background-color:  #070006f1;
+            border-radius: 2px;
+        
+            font-size: 35px;
+            color: #f36ff3;
+            text-align: center;
+            line-height: 35px;
+        
+            margin-right: 3px;
+            margin-bottom: 5px;
+        }
+        
+        
+        
+        /* If you don't want the footer to be responsive, remove these media queries */
+        
+        @media (max-width: 880px) {
+        
+            .ftfooter-distributed{
+                font: bold 14px sans-serif;
+            }
+        
+            .ftfooter-distributed .ftfooter-left,
+            .ftfooter-distributed .ftfooter-center,
+            .ftfooter-distributed .ftfooter-right{
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+        
+            .ftfooter-distributed .ftfooter-center i{
+                margin-left: 0;
+            }
+        
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+        
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        /* body{
+            width: 100%;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        } */
+        a{
+            text-decoration: none;
+        }
+        
+        
+        .fth1-text{
+            font-size: 1.3rem;
+            margin: 10px 0;
+            color: #ffffff;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .fth1-text i{
+            background-color: #509bfc;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            box-shadow: 2px 5px 30px rgba(80, 123, 252, 0.4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+            margin: 0 20px;
+        }
+        
+         .ftcontainer{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        } 
+        
+        
+        .ftbox{
+            position: relative;
+            min-width: 250px;
+            background-color: #091b51;
+            box-shadow: 2px 3px 30px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            padding: 24px;
+            margin: 20px;
+            position: relative;
+            border-radius: 10px;
+            width: 25vw;
+            background-color: rgb(80 78 78 / 51%);
+            box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(50px);
+            height: 23vh;
+        }
+        
+        /* .ftbox {
+          position: relative;
+          min-width: 250px;
+          background-color: rgba(0, 100, 255, 0.1); 
+          /* backdrop-filter: blur(20px); 
+          box-shadow: 2px 3px 30px rgba(0, 0, 0, 0.3); 
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 24px;
+          margin: 20px;
+          border-radius: 10px;
+          width: 25vw;
+        } */ 
+        
+        
+        
+        
+        /* .ftbox:hover{
+            position: relative;
+            min-width: 250px;
+            background-color: black;
+            box-shadow: 2px 3px 30px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin: 20px;
+            position: relative;
+            border-radius: 10px;
+            border: 1px solid white;
+            color: white;
+        } */
+        .ftbox:hover{
+          position: relative;
+          min-width: 250px;
+          background-color: #091b51;
+          box-shadow: 2px 3px 30px rgba(0,0,0,0.05);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 24px;
+          margin: 20px;
+          position: relative;
+          border-radius: 10px;
+          width: 25vw;
+          background-color: rgb(80 78 78 / 51%);
+          box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+          backdrop-filter: blur(50px);
+          transform: scale(1.05);
+          
+        }
+        
+        .fttop-bar{
+            width: 50%;
+            height: 4px;
+            background: black;
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 0px 0px 10px 10px;
+        }
+        
+        .fttop{
+            display: flex;
+            justify-content: space-between;
+            align-items:center ;
+            width: 100%;
+        }
+        
+        .fa-check-circle{
+            color: #17b667;
+        }
+        
+        /* creating heart */
+         .heart{
+            color: rgba(155,155,155);
+        }
+        .ftheart::before{
+            content: '\f004';
+            font-family: fontawesome;
+            line-height: 30px;
+            cursor: pointer;
+            z-index: 1;
+            transition: all 0.3s;
+        }
+        .ftbox .ftheart-btn:checked ~ .ftheart::before{
+            color:#e41934
+        }
+        .ftheart-btn{
+            position: absolute;
+            top: 25px;
+            right: 20px;
+            padding: 1rem;
+            display: none;
+        }
+        
+        
+        .ftcontent img{
+            width: 110px;
+            height: 110px;
+            border-radius:100px;
+            overflow: hidden;
+            object-fit: cover;
+            object-position: top;
+        }
+        .ftcontent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            line-height: normal;
+        }
+        .ftcontent b{
+          font-size: 20px;
+        }
+        /* .content strong{
+            font-weight: 500;
+            color: white;
+            margin-top: 10px;
+        } */
+        .ftcontent p{
+            font-size: 0.9rem;
+            color: #7a7a7a;
+            margin: 4px 0px 10px 0px;
+            cursor: pointer;
+        }
+        .ftcontent p:hover{
+            text-decoration: underline;
+            color: white;
+        }
+        
+        .ftbtn{
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .ftbtn a i{
+            margin-right: 9px;
+        }
+        .ftbtn a{
+            border-radius: 20px;
+            color: #8b8b8b;
+            padding: 8px 20px;
+            font-size: 0.9rem;
+        }
+        .ftbtn a:hover{
+            color: #fff;
+            box-shadow: 2px 5px 15px rgba(80,123,252,0.05);
+            background-color: #507bfc;
+            transition: all ease 0.5s;
+        }
+        /* * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          
+          .container1 {
+            width: 100%;
+            min-height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+          }
+          
+          .menu {
+            position: relative;
+            width: 170px;
+            height: 170px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .menu .navigation {
+            position: relative;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: 0.5s;
+          }
+          
+          .menu .navigation span {
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+            transform: translate(calc(14px * var(--x)), calc(14px * var(--y)));
+            transition: transform 0.5s, width 0.5s, height 0.5s;
+            transition-delay: calc(0.1s * var(--i));
+          }
+          
+          .menu .navigation span ion-icon {
+            color: #fff;
+            font-size: 0.25rem;
+            transition: 0.5s;
+          }
+          
+          .menu .navigation.active span ion-icon {
+            font-size: 1.75rem;
+            transition: 0.5s;
+          }
+          
+          .menu .navigation.active span:hover ion-icon {
+            color: #2dfc52;
+            filter: drop-shadow(0 0 3px #2dfc52) drop-shadow(0 0 6px #2dfc52) drop-shadow(0 0 12px #2dfc52);
+          }
+          
+          .menu .navigation.active span {
+            width: 45px;
+            height: 45px;
+            background: #1f2536;
+            transform: translate(calc(60px * var(--x)), calc(60px * var(--y)));
+          }
+          
+          .menu .close {
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+            transition: 0.5s;
+            cursor: pointer;
+          }
+          
+          .menu .navigation.active ~ .close {
+            width: 40px;
+            height: 40px;
+            pointer-events: initial;
+            transition-delay: 0.8s;
+            background: #2dfc52;
+            color: #fff;
+          }
+          
+          .menu .navigation ~ .close ion-icon {
+            color: #10131c;
+            font-size: 2.5rem;
+            scale: 0;
+            transition: 1s;
+          }
+          
+          .menu .navigation.active ~ .close ion-icon {
+            scale: 1;
+            transition-delay: 0.5s;
+          } */</style>
+</head>
+
+<body>
+
+
+
+    <main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
+        <!-- Can add content Here(Start) accorfing to need-->
+
+
+
+
+        <!-- Can add content Here(End) -->
+        <div class="w-full mx-auto px-4 md:px-6 py-24">
+        <!-- Can add content Here(Start) accorfing to need-->
+        <script src="https://kit.fontawesome.com/6fc46b33e7.js" crossorigin="anonymous"></script>
+
+        <div style="width: 100%;margin: 20px; position: relative;">
+            <center id="laptop">
+                <h1 style="color: aqua; font-family: league_spartan; margin:20px; font-size:50px;">PITCHER'S VALLEY
+                    INVESTORS
+                </h1>
+            </center>
+        </div>
+    
+        <div class="container2">
+    
+            <div id="carousel">
+                <div><img src="images/investors/Sanjay Mehta.png" />
+                </div>
+                <div><img src="images/investors/Bhawna Bhatnagar.png" />
+                </div>
+                <div><img src="images/investors/Dr. Ganesh Natarajan.png" />
+                </div>
+                <div><img src="images/investors/Mr. Mayuresh Raut.png" />
+                </div>
+                <div><img src="images/investors/Mahavir Pratap Sharma.png" />
+                </div>
+                <div><img src="images/investors/Madhu Lunawat.png" />
+                </div>
+    
+                <div id="123"><img src="images/main/Pitcher's Valley Square.png">
+                </div>
+            </div>
+        </div>
+    
+        <div class="container3" data-aos="zoom-in-up">
+            <!-- Carousel wrapper -->
+            <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="5"
+                        aria-label="Slide 6"></button>
+    
+                </div>
+    
+                <!-- Inner -->
+                <div class="carousel-inner d-block p-3">
+                    <!-- Single item -->
+                    <div class="carousel-item active ">
+                        <img src="images/investors/Sanjay Mehta.png" class="d-block m-auto" style="width:90%"
+                            alt="Sanjay Mehta" />
+    
+                    </div>
+    
+                    <!-- Single item -->
+                    <div class="carousel-item">
+                        <img src="images/investors/Bhawna Bhatnagar.png" class="d-block m-auto" style="width:90%"
+                            alt="Bhavana Bhatnagar" />
+    
+                    </div>
+    
+                    <!-- Single item -->
+                    <div class="carousel-item">
+                        <img src="images/investors/Dr. Ganesh Natarajan.png" class="d-block  m-auto" style="width:90%"
+                            alt="" />
+    
+                    </div>
+    
+                    <!-- Single item -->
+                    <div class="carousel-item">
+                        <img src="images/investors/Mr. Mayuresh Raut.png" class="d-block  m-auto" style="width:90%"
+                            alt="" />
+    
+                    </div>
+    
+                    <div class="carousel-item">
+                        <img src="images/investors/Mahavir Pratap Sharma.png" class="d-block  m-auto" style="width:90%"
+                            alt="" />
+    
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/investors/Madhu Lunawat.png" class="d-block  m-auto" style="width:90%" alt="" />
+    
+                    </div>
+    
+                </div>
+                <!-- Inner -->
+    
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
+                    style="margin:-3%" data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
+                    style="margin:-3%" data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Carousel wrapper -->
+        </div>
+        </div>
+    
+        <div class="container">
+            <div style="width: 100%;">
+                <center>
+                    <h1 style="color: aqua; font-family: league_spartan; font-size:50px; padding-top: 80px;">INVESTORS</h1>
+                </center>
+            </div>
+            <div class="row justify-content-center p-3">
+                <div class=" card111 col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-2 " data-aos="zoom-in-up">
+                    <div class="our-team">
+                        <div class="picture m-2 p-2">
+                            <img class="img-fluid" src="./images/investors/Ashwin Raguraman no bg.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Ashwin Raguraman</h3>
+                            <h4 class="title">Co-founder & Partner, Bharat Innovation Funds, VC.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card111 col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-2 " data-aos="zoom-in-up">
+                    <div class="our-team">
+                        <div class="picture m-2 p-2">
+                            <img class="img-fluid" src="./images/investors/Devang Raja.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Devang Raja</h3>
+                            <h4 class="title">Angel Investor VC, Founder Venture Wolf.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card111 col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-2 " data-aos="zoom-in-up">
+                    <div class="our-team">
+                        <div class="picture m-2 p-2">
+                            <img class="img-fluid" src="./images/investors/Sudin Baraokar.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Sudin Baraokar</h3>
+                            <h4 class="title">ndustry Expert, Global IT & Innovation Advisor, CIO Fortune 500 companies.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card111 col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-2 " data-aos="zoom-in-up">
+                    <div class="our-team">
+                        <div class="picture m-2 p-2">
+                            <img class="img-fluid" src="./images/investors/Harsha Mundhada.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Harsha Mundhada</h3>
+                            <h4 class="title">Principal Inflexor Ventures
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card111 col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-2 " data-aos="zoom-in-up">
+                    <div class="our-team">
+                        <div class="picture m-2 p-2">
+                            <img class="img-fluid" src="./images/investors/Tushar Kansal.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Tushar Kansal</h3>
+                            <h4 class="title">Founder & CEO Kansaltancy Ventures</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card111 col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-2 " data-aos="zoom-in-up">
+                    <div class="our-team">
+                        <div class="picture m-2 p-2">
+                            <img class="img-fluid" src="./images/investors/vaibhav domkundwar.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Vaibhav Domkundwar</h3>
+                            <h4 class="title">CEO and Founder "Better"
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card111 col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-2 " data-aos="zoom-in-up">
+                    <div class="our-team">
+                        <div class="picture m-2 p-2">
+                            <img class="img-fluid" src="./images/investors/Aditya Pittie.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Aditya Pittie</h3>
+                            <h4 class="title">Managing Director PYN Autocomp Pvt Ltd.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card111 col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-2 " data-aos="zoom-in-up">
+                    <div class="our-team">
+                        <div class="picture m-2 p-2">
+                            <img class="img-fluid" src="./images/investors/Rohit Goyal.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Rohit Goyal</h3>
+                            <h4 class="title">Managing Director Sanveg green solutions
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card111 col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-2 " data-aos="zoom-in-up">
+                    <div class="our-team">
+                        <div class="picture m-2 p-2">
+                            <img class="img-fluid" src="./images/investors/Devansh Lakhani.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Devansh Lakhani</h3>
+                            <h4 class="title">Director & StartUp Fundraising expert
+                                Lakhani Financial Services</h4>
+                        </div>
+                    </div>
+                </div>
+    
+    
+            </div>
+    
+        </div>
+        <div class="super-container">
+            <div style="width: 100%;margin: 20px; position: relative;">
+                <center id="laptop">
+                    <h1 style="color: aqua; font-family: league_spartan; margin:20px; font-size:50px;">VENTURE CAPITALS
+                    </h1>
+                </center>
+            </div>
+            <div class="subContainer">
+    
+                <div  class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                           Indian Angel Network
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/indian-angel-network?trk=tyah&trkInfo=tarId%3A1405059515469%2Ctas%3Aindian+angel%2Cidx%3A2-1-4/" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/indianangelnetwork" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://iangroup.vc/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo1"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div>
+                <div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                            Mumbai Angel N.
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/mumbaiangelsnetwork/" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/mumbaiangels_/" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.mumbaiangels.com/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo2"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                           Ah ventures
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/ahventures/" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/ahventures" target="_blank" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.ahventures.in/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo3"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                            Better
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/bettervc/" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/BetterVentures?s=20" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.better.vc/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo4"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                            BFC
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="http://bit.ly/BharatFundLI" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="http://bit.ly/BharatFundTW" target="_blank" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://bharat.fund/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo5"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                           Campus Fund
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/campus-fund/mycompany/?viewAsMember=true/" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/campus.fund/?hl=en/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.yourcampusfund.com//" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo6"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                           Dexter Angels
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/dexter-angels" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/DexterAngels" target="_blank" class="social-link"><i class="fa-brands fa-twitter"></i></i></a>
+                        <a href="https://www.dexterangels.com/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo7"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                           Eagle Wings
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/30248991/admin/" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/atul.javeri.315" target="_blank" class="social-link"><i class="fa-brands fa-square-facebook"></i></i></a>
+                        <a href="https://eaglewings.vc/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo8"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                           Ethiqual
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://in.linkedin.com/company/ethiqualindia" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="http://ethiqual.in/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo9"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                           IIA
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/investor-india-alliance/" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://investorindiaalliance.com/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo10"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                            Inflexor
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/inflexor-ventures/" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/Inflexor_VC" target="_blank" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.inflexor.vc/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo11"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                            Inflextion
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://in.linkedin.com/company/ipventures" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://ipventures.in/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo12"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                            Sea Fund
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/seafund/" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FVCSEAFund" target="_blank" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://seafund.in/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo13"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                            WFC
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/we-founder-circle/" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/wefoundercircle" target="_blank" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.wefoundercircle.com/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo14"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                            100X
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/100x-vc/" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/100X.VC/" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.100x.vc/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo15"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div><div class="wcard" >
+    
+                    <div class="info">
+                        <div class="name1">
+                            Windrose Capital
+                        </div>
+    
+                        <div class="divider"></div>
+    
+    
+                    </div>
+                    <div style="margin-top: 330px;" class="btn-group">
+                        <a href="https://www.linkedin.com/company/windrosecapital" target="_blank" class="social-link"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.windrose.capital/" target="_blank" class="social-link"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="photo photo16"> </div>
+    
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                </div>
+    
+    
+                        <!-- <div class="filterDiv two box">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/100X-01.png" alt="">
+                        <p><a href="">100X</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Indian Angel Network-01.png" alt="">
+                        <p><a href="">Indian Angel Network</a></p>
+                    </div>
+                </div>
+    
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Mumbai network-01.png" alt="">
+                        <p><a href="">Mumbai Angels Network</a></p>
+                    </div>
+                </div>
+    
+    
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Ah ventures-01.png" alt="">
+                        <p><a href="">Ah ventures</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Better-01.png" alt="">
+                        <p><a href="">Better</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/BFC-01.png" alt="">
+                        <p><a href="">BFC</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Campus fund-01.png" alt="">
+                        <p><a href="">Campus fund</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Dexter Angels-01.png" alt="">
+                        <p><a href="">Dexter Angels</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Eagle wings-01.png" alt="">
+                        <p><a href="">Eagle wings</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Ethiqual-01.png" alt="">
+                        <p><a href="">Ethiqual</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/iiA-01.png" alt="">
+                        <p><a href="">iiA</a></p>
+                    </div>
+                </div>
+    
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Inflexor-01.png" alt="">
+                        <p><a href="">Inflexor</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Inflextion-01.png" alt="">
+                        <p><a href="">Inflextion</a></p>
+                    </div>
+                </div>
+    
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Sea fund-01.png" alt="">
+                        <p><a href="">Sea Fund</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/WFC-01.png" alt="">
+                        <p><a href="">WFC</a></p>
+                    </div>
+                </div>
+                <div class="filterDiv two box"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img src="./images/PastPartners/Venture Capitals/Windrose-01.png" alt="">
+                        <p><a href="">Windrose</a></p>
+                    </div>
+                </div>
+     -->
+    
+    
+    
+    
+    
+                        <!--
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/AccessMBA.jpg" alt="">
+                            <p><a href="">Outreach Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Funky Turtle.jpg" alt="">
+                            <p><a href="">Coupon Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/10000 startups.jpg" alt="">
+                            <p><a href="">Ecosystem Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Ahaslides.jpg" alt="">
+                            <p><a href="">Virtual Event Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/asheyys.jpg" alt="">
+                            <p><a href="">Official Dessert Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/aws activate.jpg" alt="">
+                            <p><a href="">Web Services Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/D2C.jpg" alt="">
+                            <p><a href="">Event Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Grabon.jpg" alt="">
+                            <p><a href="">Official Savings Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/IIA.jpg" alt="">
+                            <p><a href="">Investment Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Internin.jpg" alt="">
+                            <p><a href="">Internship Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Knowafest.jpg" alt="">
+                            <p><a href="">Sanitation Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Msis.jpg" alt="">
+                            <p><a href="">Goverment Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/PMA.jpg" alt="">
+                            <p><a href="">Community Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/riidl.jpg" alt="">
+                            <p><a href="">Community Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Sakal.jpg" alt="">
+                            <p><a href="">Print Media Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Shoptimize.jpg" alt="">
+                            <p><a href="">E-Commerce Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/StockGro.jpg" alt="">
+                            <p><a href="">Bullrun Event Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Tickertape.jpg" alt="">
+                            <p><a href="">Investment Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/venture wolf.jpg" alt="">
+                            <p><a href="">Investment Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Wework.jpg" alt="">
+                            <p><a href="">Co-Working Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/Yes Startups.jpg" alt="">
+                            <p><a href="">Service Partner</a></p>
+                        </div>
+                    </div>
+                    <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Sponsors/YKT Talentica.jpg" alt="">
+                            <p><a href="">Consulting Partner</a></p>
+                        </div>
+                    </div>
+                 -->
+    
+    
+    
+                        <div class="filterDiv three box"><span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="content">
+                                <img src="./images/PastPartners/Media Partners/Ecosystem_Partner.png" alt="">
+                                <p><a href="">Ecosystem Partner</a></p>
+                            </div>
+                        </div>
+                        <div class="filterDiv three box"><span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="content">
+                                <img src="./images/PastPartners/Media Partners/Growth_Partner.png" alt="">
+                                <p><a href="">Growth Partner</a></p>
+                            </div>
+                        </div>
+                        <div class="filterDiv three box"><span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="content">
+                                <img src="./images/PastPartners/Media Partners/HRMS_partner.png" alt="">
+                                <p><a href="">HRMS Partner</a></p>
+                            </div>
+                        </div>
+                        <div class="filterDiv three box"><span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="content">
+                                <img src="./images/PastPartners/Media Partners/Content_Partner.png" alt="">
+                                <p><a href="">Content Partner</a></p>
+                            </div>
+                        </div>
+                        <div class="filterDiv three box"><span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="content">
+                                <img src="./images/PastPartners/Media Partners/Hydration_Partner.png" alt="">
+                                <p><a href="">Hydration Partner</a></p>
+                            </div>
+                        </div>
+                        <div class="filterDiv three box"><span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="content">
+                                <img src="./images/PastPartners/Media Partners/Vats-01.png" alt="">
+                                <p><a href="">Platinum Partner</a></p>
+                            </div>
+                        </div>
+    
+                        <!-- <h1 class="title1" style="font-family: league_spartan;">Patronages</h1>
+                    <div class="filterDiv three box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Patronages/Nippam-01.png" alt="">
+                            <p><a href="">Nippam</a></p>
+                        </div>
+                    </div> -->
+    
+                        <!-- <div class="filterDiv two box"><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                            <img src="./images/PastPartners/Media Partners/TOI.jpg" alt="">
+                            <p><a href="">The Times Of India</a></p>
+                        </div>
+                    </div> -->
+    
+    
+                        <!-- <div class="filterDiv fruits"><img src="./Images/s3.jpeg" alt=""></div> -->
+                </div>
+            </div>
+
+         
+
+            <!-- Can add content Here(End) -->
+        </div>
+        <!-- Can add content Here(Start) accorfing to need-->
+
+
+
+
+        <!-- Can add content Here(End) -->
+
+        <div class="text-center">
+
+            <!-- Illustration #1 -->
+            <div class="absolute top-0 left-0 rotate-180 -translate-x-3/4 -scale-x-100 blur-3xl opacity-70 pointer-events-none"
+                aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+
+            <!-- Illustration #2 -->
+            <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+                aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+            <div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+                style="top: 90%;" aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+            <!-- Illustration #3 -->
+            <div class="absolute top-80 left-100 -translate-y-1 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+                aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+            <div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+                style="top: 90%;" aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+
+
+            <!-- Particles animation -->
+            <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+                <canvas data-particle-animation></canvas>
+            </div>
+            <div class="relative">
+            </div>
+        </div>
+        <!-- </div> -->
+
+        <!-- Ilusration #5 -->
+        <!-- <div class="absolute bottom-0 left-50 rotate-180 -translate-x-1 -scale-x-100 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
+		  <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration">
+	  </div> -->
+    </main>
+
+    <footer>
+        <div class="ftcardcontainer">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+                integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+                crossorigin="anonymous">
+
+            <!-- <h1 class="fth1-text">
+                <i class="ftfa fa-users" aria-hidden="true"></i>Team Members
+            </h1> -->
+            <div class="ftcontainer">
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="ftcontent">
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                            alt=""> -->
+                        <b>Dr Vidya More</b>
+                        Faculty Advisor
+                        <p>vnm.extc@coep.ac.in</p>
+                    </div>
+
+                </div>
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="fttop">
+                    </div>
+                    <div class="ftcontent">
+                        <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+                            alt=""> -->
+                        <b>Dr Rahul Adhao</b>
+                        Faculty Advisor
+                        <p>rba.comp@coep.ac.in</p>
+                    </div>
+
+                </div>
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="ftcontent">
+                        <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                            alt=""> -->
+                        <b>Gaurav Sonewane</b>
+                        Secretary
+                        <p>secretary.psf@coep.ac.in</p>
+                    </div>
+                </div>
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="ftcontent">
+                        <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                            alt=""> -->
+                        <b>Samta Raka </b>
+                        Finance and Marketing Executive
+                        <p>finance.psf@coep.ac.in</p>
+                    </div>
+                </div>
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="ftcontent">
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                            alt=""> -->
+                        <b>Sanmeet Sawla</b>
+                        Investor Relations Executive
+                        <p>ir.psf@coep.ac.in</p>
+                    </div>
+
+                </div>
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="ftcontent">
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                            alt=""> -->
+                        <b>Varun Shetty</b>
+                        Events and Networking Executive
+                        <p>events.psf@coep.ac.in</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="ftfooter-distributed">
+
+            <div class="ftfooter-left">
+
+                <span><img style="margin-left: 30%;"
+                    src="./psf_footer/psflogo.jpeg" alt=""></span>
+
+                <p class="ftfooter-links">
+                    <a href="#" class="ftlink-1">Home</a>
+
+                    <a href="#">About US</a>
+
+                    <a href="#">Investors</a>
+
+                    <a href="#">Contact</a>
+                </p>
+
+                <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
+            </div>
+
+            <div class="ftfooter-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <a
+                        href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
+                        <p><span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005</p>
+                    </a>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+91 1234567890</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">support@company.com</a></p>
+                </div>
+                <!-- <div class="ftCopyright">
+                    <p>Copyright &copy; 2023, All Rights Reserved</p>
+                </div> -->
+            </div>
+
+            <div class="ftfooter-right">
+
+                <p class="ftfooter-company-about">
+                    <span>About Pune Startup Fest</span>
+                    Pune Startup Fest is an unique Startup Expo, which provides an excellent platform for numerous
+                    students and Start-ups to connect with this ever growing entrepreneurial world.
+                </p>
+
+                <div class="ftfooter-icons">
+                    <!-- <h3>Follow Us:</h3> -->
+                    <a href="https://www.facebook.com/biec.coep/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/BIEC_COEP?t=UdnnunU2-JfVRhQ_SBoRBQ&s=08"><i
+                            class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/pune-startup-fest/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/biec_coep/?igshid=Yzg5MTU1MDY%3D"><i
+                            class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/c/BhausInnovationEntrepreneurshipCellCOEP2022"><i
+                            class="fa fa-youtube"></i></a>
+
+                    <!-- <a class="ftglassIco" href="#"><i class="ftfab fa-facebook-f"></i></a>
+                    <a class="ftglassIco" href="#"><i class="ftfab fa-instagram"></i></a>
+                    <a class="ftglassIco" href="#"><i class="ftfab fa-linkedin-in"></i></a>
+                    <a class="ftglassIco" href="#"><i class="ftfab fa-whatsapp"></i></a> -->
+
+                </div>
+                <!-- <div class="ftcontainer1">
+                    <div class="ftmenu">
+                      <div class="ftnavigation">
+                        <span style="--i:0; --x:-1; --y:0">
+                          <ion-icon name="videocam-outline"></ion-icon>
+                        </span>
+                        <span style="--i:1; --x:1; --y:0">
+                          <ion-icon name="flame-outline"></ion-icon>
+                        </span>
+                        <span style="--i:2; --x:0; --y:-1">
+                          <ion-icon name="bulb-outline"></ion-icon>
+                        </span>
+                        <span style="--i:3; --x:0; --y:1">
+                          <ion-icon name="build-outline"></ion-icon>
+                        </span>
+                        <span style="--i:4; --x:-1; --y:1">
+                          <ion-icon name="thermometer-outline"></ion-icon>
+                        </span>
+                        <span style="--i:5; --x:-1; --y:-1">
+                          <ion-icon name="water-outline"></ion-icon>
+                        </span>
+                        <span style="--i:6; --x:1; --y:-1">
+                          <ion-icon name="alarm-outline"></ion-icon>
+                        </span>
+                        <span style="--i:7; --x:1; --y:1">
+                          <ion-icon name="radio-outline"></ion-icon>
+                        </span>
+                      </div>
+                      <div class="ftclose">
+                        <ion-icon name="close-outline">X</ion-icon>
+                      </div>
+                    </div>
+                  </div> -->
+            </div>
+            <div class="ftCopyright">
+                <p>Copyright &copy; 2023, All Rights Reserved</p>
+            </div>
+
+        </footer>
+    </footer>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
+
+    <script> jQuery('#waterdrop').raindrops({ color: '#1c1f2f', canvasHeight: 150, density: 0.1, frequency: 20 });
+    </script>
+    <script>
+        let navigation = document.querySelector('.navigation')
+        let close = document.querySelector('.close')
+
+        navigation.onclick = function () {
+            navigation.classList.add('active')
+        }
+
+        close.onclick = function () {
+            navigation.classList.remove('active')
+        }
+    </script>
+   
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="./js/particle-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000, // Animation duration in milliseconds
+            once: false,     // Animation only once on page load
+        });
+    </script>
+</body>
+
+</html>

@@ -1272,3 +1272,9 @@ body {
   #page section{
     z-index: 100;
   }
+
+@media screen and (max-width:500px){
+  header nav {
+    width: 360px;
+}
+}
