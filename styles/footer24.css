@@ -429,6 +429,7 @@ a{
   color: white;
   line-height: normal;
   text-align: center;
+  font-size: 18px;
 }
 .ftcontent b{
   font-size: 20px;
@@ -439,7 +440,7 @@ a{
   margin-top: 10px;
 } */
 .ftcontent p{
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   color: #7a7a7a;
   margin: 4px 0px 10px 0px;
   cursor: pointer;
