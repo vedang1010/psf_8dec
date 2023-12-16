@@ -107,10 +107,9 @@ body .container {
     content: "\e079";
 }
 
-.glyphicon-chevron-right:before {
-    /* margin-left: 300%; */
-
-}
+/* .glyphicon-chevron-right:before {
+     margin-left: 300%; 
+} */
 
 .clearfix {
     padding: 0;
