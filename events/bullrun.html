@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PSF'24</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Nothing+You+Could+Do&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["Inter", "sans-serif"],
+              nycd: ["Nothing You Could Do", "cursive"],
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css"> -->
+    <link
+      rel="shortcut icon"
+      href="../images/navbarAndFooter/PSF + Marsh White1.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../styles/event_details.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/footer24.css" />
+  </head>
+
+  <body>
+    <main
+      class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden"
+    >
+      <!-- Can add content Here(Start) accorfing to need-->
+
+      <div class="nav-bg">
+        <div class="logo" style="top: 1%; right: 1%">
+          <a href="../main">
+            <img src="../images/navbarAndFooter/MM + PSF + BF.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <input type="checkbox" id="burger-toggle" />
+      <label for="burger-toggle" class="burger-menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+      <div class="menu">
+        <div class="menu-inner">
+          <ul class="menu-nav">
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../main"
+                ><span>
+                  <div>
+                    <i class="fa-solid fa-house" style="padding-right: 1rem"></i
+                    >Home
+                  </div>
+                </span></a
+              >
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../aboutus"
+                ><span>
+                  <div>
+                    <i
+                      class="fa-regular fa-file-lines"
+                      style="padding-right: 1rem"
+                    ></i
+                    >About Us
+                  </div>
+                </span></a
+              >
+            </li>
+            <!-- <li class="menu-nav-item"><a class="menu-nav-link" href="../partners"><span>
+                                    <div><i class="fa-solid fa-handshake" style="padding-right: 1rem;"></i>Present Partners
+                                    </div>
+                                </span></a></li> -->
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../partners"
+                ><span>
+                  <div>
+                    <i
+                      class="fa-regular fa-handshake"
+                      style="padding-right: 1rem; display: inline-block"
+                    ></i
+                    >Sponsors / Partners
+                  </div>
+                </span></a
+              >
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../startup_expo"
+                ><span>
+                  <div>
+                    <i
+                      class="fa-solid fa-stairs"
+                      style="padding-right: 1rem"
+                    ></i
+                    >Startup Expo
+                  </div>
+                </span></a
+              >
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../alumni"
+                ><span>
+                  <div>
+                    <i
+                      class="fa-solid fa-people-group"
+                      style="padding-right: 1rem"
+                    ></i
+                    >Alumni
+                  </div>
+                </span></a
+              >
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../ongoing_events"
+                ><span>
+                  <div>
+                    <i
+                      class="fa-regular fa-calendar-days"
+                      style="padding-right: 1rem"
+                    ></i
+                    >Ongoing Sessions
+                  </div>
+                </span></a
+              >
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../munafa/munafa.html"
+                ><span>
+                  <div>
+                    <i
+                      class="fa-sharp fa-solid fa-puzzle-piece"
+                      style="padding-right: 1rem"
+                    ></i
+                    >Events
+                  </div>
+                </span></a
+              >
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../investor"
+                ><span>
+                  <div>
+                    <i
+                      class="fa-solid fa-hand-holding-dollar"
+                      style="padding-right: 1rem"
+                    ></i
+                    >Investors
+                  </div>
+                </span></a
+              >
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../visitorreg.php"
+                ><span>
+                  <div>
+                    <i
+                      class="fa-solid fa-shoe-prints"
+                      style="padding-right: 1rem"
+                    ></i
+                    >Visitor Registration
+                  </div>
+                </span></a
+              >
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../contact.php"
+                ><span>
+                  <div>
+                    <i
+                      class="fa-solid fa-envelope-open-text"
+                      style="padding-right: 1rem"
+                    ></i
+                    >Contact Us
+                  </div>
+                </span></a
+              >
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="../team"
+                ><span>
+                  <div>
+                    <i
+                      class="fa-solid fa-user-group"
+                      style="padding-right: 1rem"
+                    ></i
+                    >Team
+                  </div>
+                </span></a
+              >
+            </li>
+
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="#"
+                ><span>
+                  <div>
+                    <center><i class="fa-solid fa-chevron-down"></i></center>
+                  </div> </span
+              ></a>
+            </li>
+          </ul>
+          <div class="gallery">
+            <div class="title">
+              <p>PSF'22 Gallery</p>
+            </div>
+            <div class="images">
+              <a class="image-link" href="#">
+                <div class="image" data-label="PSF'22 Gallery">
+                  <img
+                    src="../images/navbarAndFooter/PSF'22_Gallery0.jpg"
+                    alt=""
+                  />
+                </div>
+              </a>
+              <a class="image-link" href="#">
+                <div class="image" data-label="PSF'22 Gallery">
+                  <img
+                    src="../images/navbarAndFooter/PSF'22_Gallery1.jpg"
+                    alt=""
+                  />
+                </div>
+              </a>
+              <a class="image-link" href="#">
+                <div class="image" data-label="PSF'22 Gallery">
+                  <img
+                    src="../images/navbarAndFooter/PSF'22_Gallery2.jpg"
+                    alt=""
+                  />
+                </div>
+              </a>
+              <a class="image-link" href="#">
+                <div class="image" data-label="PSF'22 Gallery">
+                  <img
+                    src="../images/navbarAndFooter/PSF'22_Gallery3.jpg"
+                    alt=""
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script
+        src="https://kit.fontawesome.com/6fc46b33e7.js"
+        crossorigin="anonymous"
+      ></script>
+
+      <div class="sub-menu">
+        <div class="menu-btn">
+          <button class="homebtn btn" id="homeBtn" onclick="toggleTl(this.id)">
+            <span>Read More!</span><span>Home</span>
+          </button>
+        </div>
+        <div class="menu-btn">
+          <button
+            class="detailsbtn btn"
+            id="detailsBtn"
+            onclick="toggleTl(this.id)"
+          >
+            <span>Read More!</span><span>Details</span>
+          </button>
+        </div>
+        <div class="menu-btn">
+          <button class="faqbtn btn" id="strBtn" onclick="toggleTl(this.id)">
+            <span>Read More!</span><span>Structure</span>
+          </button>
+        </div>
+        <div class="menu-btn">
+          <button
+            class="structurebtn btn"
+            id="faqBtn"
+            onclick="toggleTl(this.id)"
+          >
+            <span>Read More!</span><span>Guidelines</span>
+          </button>
+        </div>
+        <div class="menu-btn">
+          <button
+            class="timelinebtn btn"
+            id="tlBtn"
+            onclick="toggleTl(this.id)"
+          >
+            <span>Read More!</span><span>Timeline</span>
+          </button>
+        </div>
+      </div>
+      <div class="navigation_container">
+        <div class="navigation">
+          <ul>
+            <li class="list active">
+              <a href="#" id="homeBtn" onclick="toggleTl(this.id)">
+                <span class="icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </span>
+                <span class="text">Home</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#" id="detailsBtn" onclick="toggleTl(this.id)">
+                <span class="icon">
+                  <i class="fa fa-file-text-o"></i>
+                </span>
+                <span class="text">Details</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#" id="strBtn" onclick="toggleTl(this.id)">
+                <span class="icon" id="strBtn" onclick="toggleTl(this.id)">
+                  <i class="fa fa-cogs"></i>
+                </span>
+                <span class="text">Structure</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#" id="faqBtn" onclick="toggleTl(this.id)">
+                <span class="icon">
+                  <i class="fas fa-question"></i>
+                </span>
+                <span class="text">Guidelines</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#" id="tlBtn" onclick="toggleTl(this.id)">
+                <span class="icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                <span class="text">Timeline</span>
+              </a>
+            </li>
+            <div class="indicator"></div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="information_section" id="information_section">
+          <div class="image">
+            <img
+              src="../images/pastEvents/bullrun.png"
+              style="width: 100%"
+              alt=" event name"
+            />
+            <div class="register_button" id="register_button">
+              <a id=" reg_button" href="../munafa/munafa.html"> Closed </a>
+            </div>
+          </div>
+          <div class="information home sec" id="home">
+            <h1>Home</h1>
+            <div class="information-content">
+              <p style="color: #fff">
+                "A good trader would make profits on a certain day but only a
+                great trader would make profits every day."
+              </p>
+
+              <p style="color: #fff">
+                <b>Bullrun</b> is a trading competition we conduct every year
+                during Pune Startup Fest. Bull Run is basically a virtual stock
+                market and like a stock market, the participant may buy/sell
+                shares and invest in the stock market. Anyone who is keen on
+                testing their investing skills or is interested in playing with
+                shares or just wants to experience the stock market environment
+                can participate in this event. “Everyone has the brainpower to
+                follow the stock market. If you made it through fifth-grade
+                math, you can do it.” – Peter Lynch.
+              </p>
+            </div>
+          </div>
+
+          <div class="information details sec" id="details">
+            <h1>Details</h1>
+            <div class="information-content">
+              <ul
+                style="
+                  list-style-type: square;
+                  color: #fff;
+                  margin-top: 20px;
+                  margin-top: 40px;
+                "
+              >
+                <li style="margin: 5px">
+                  <b style="font-size: 15px">Eligibility: </b>OPEN FOR ALL (No
+                  Age Restriction)
+                </li>
+                <li style="margin: 5px">
+                  <b style="font-size: 15px">Date of competition: </b>06 March
+                  2023, 9:35 AM to 10 March 2023, 4.30 PM (On 7th March market
+                  is closed, hence 4 trading days)
+                </li>
+                <li style="margin: 5px">
+                  <b style="font-size: 15px">Venue: </b>Online Platform Stockgro
+                </li>
+                <li style="margin: 5px">
+                  <b style="font-size: 15px">Team Size: </b>Individual
+                </li>
+                <li style="margin: 5px">
+                  <b style="font-size: 15px">Registration Fees: </b>99 Rs/-
+                </li>
+                <li style="margin: 5px">
+                  <b style="font-size: 15px">Last date to register: </b>4th
+                  March 2023.
+                </li>
+                <li style="margin: 5px">
+                  <b style="font-size: 15px">Registration Structure: </b
+                  >Participants have to register for the competition on the
+                  Online Platform "Townscript". Further information will be made
+                  available on the registered Email ID and the Phone number of
+                  the participant.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="information structure sec" id="structure">
+            <h1>Structure</h1>
+            <div class="information-content">
+              <ul
+                style="list-style-type: square; color: #fff; font-weight: 500"
+              >
+                <li style="margin: 5px">
+                  The actual event will start one week before &ldquo;Pune
+                  Startup Fest 23&ldquo;.
+                </li>
+                <li style="margin: 5px">
+                  The duration of the event is from
+                  <b>06 March 2023, 9:35 AM to 10 March 2023, 4.30 PM.</b> Make
+                  note that due to ‘HOLI’ market will be closed on 7th March
+                  2023 therefore, the league will last for 4 trading days.
+                </li>
+                <li style="margin: 5px">
+                  The league will get active on the
+                  <b>Stockgro virtual trading platform.</b>
+                </li>
+                <li style="margin: 5px">
+                  The login information for the trading account will be made
+                  available to the registered participants only.
+                </li>
+                <li style="margin: 5px">
+                  Details regarding login and registration on the Stockgro
+                  platform would be communicated via email and WhatsApp.
+                </li>
+                <li style="margin: 5px">
+                  Participants will be ranked based on the performance of their
+                  portfolio.
+                </li>
+                <li style="margin: 5px">
+                  We will give a fixed amount of virtual money of 10 LAKHs Rs.
+                </li>
+                <li style="margin: 5px">
+                  The individual achieving maximum gain in portfolio value at
+                  the end of five days will be the overall winner of
+                  &ldquo;Bullrun&rdquo;.
+                </li>
+                <li style="margin: 5px">
+                  Real-time market prices (Live standard tracking of the Indian
+                  Stock market) will be used, and the participants and
+                  organizers cannot influence the price.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="information questions sec" id="questions">
+            <h1>Guidelines</h1>
+            <div class="information-content">
+              <ul
+                style="list-style-type: square; color: #fff; font-weight: 500"
+              >
+                <li style="margin: 5px">
+                  The participants must carefully read through and agree to the
+                  following Terms & Conditions:
+                </li>
+                <li style="margin: 5px">
+                  The decisions of the organizers will be final and binding on
+                  all participants.
+                </li>
+                <li style="margin: 5px">
+                  All decisions in matters of eligibility, authenticity, and
+                  final judgments will be with the organizing committee of Pune
+                  Startup Fest 23, COEP Technological University Pune (Formerly
+                  known as College of Engineering Pune.)
+                </li>
+                <li style="margin: 5px">
+                  The format and structure of events could be subject to change
+                  before the actual beginning of the event.
+                </li>
+                <li style="margin: 5px">
+                  Prize money AND Positions will be reduced in case of lesser
+                  participation. (Less than 10)
+                </li>
+                <li style="margin: 5px">
+                  NO REFUND will be given under any circumstances except less
+                  than 10 registrations by 4th March 2023
+                </li>
+                <li style="margin: 5px">
+                  Entry fees are inclusive of ticketing charges.
+                </li>
+                <li style="margin: 5px">
+                  Organizers will not be responsible for any injuries or mishaps
+                  that happened to the participants during the event.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="timeline" class="timeline sec" style="padding-bottom: 25px">
+        <h1 class="title">Events Timeline</h1>
+        <ul>
+          <li></li>
+          <li>
+            <div>
+              <time>4th Mar</time>
+              <div class="discovery">
+                <h1>Bullrun</h1>
+                <p>Virtual stock market</p>
+              </div>
+              <div class="scientist">
+                <h1>Register</h1>
+                <span>Till 11:59 PM</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>6th Mar</time>
+              <div class="discovery">
+                <h1>Bullrun</h1>
+                <p>Virtual stock market</p>
+              </div>
+              <div class="scientist">
+                <h1>Start</h1>
+                <span>From 9:35 AM</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>7th Mar</time>
+              <div class="discovery">
+                <h1>Bullrun</h1>
+                <p>Virtual stock market</p>
+              </div>
+              <div class="scientist">
+                <h1>Paused</h1>
+                <span>Market will be closed</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>8th Mar</time>
+              <div class="discovery">
+                <h1>Bullrun</h1>
+                <p>Virtual stock market</p>
+              </div>
+              <div class="scientist">
+                <h1>Resume</h1>
+                <span>From 9:30 AM</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>10th mar</time>
+              <div class="discovery">
+                <h1>Bullrun</h1>
+                <p>Virtual stock market</p>
+              </div>
+              <div class="scientist">
+                <h1>End</h1>
+                <span>Till 4:30 PM</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Can add content Here(End) -->
+      <div class="w-full mx-auto px-4 md:px-6 py-24">
+        <!-- Can add content Here(Start) accorfing to need-->
+
+        <!-- Can add content Here(End) -->
+      </div>
+      <!-- Can add content Here(Start) accorfing to need-->
+
+      <!-- Can add content Here(End) -->
+
+      <div class="text-center">
+        <!-- Illustration #1 -->
+        <div
+          class="absolute top-0 left-0 rotate-180 -translate-x-3/4 -scale-x-100 blur-3xl opacity-70 pointer-events-none"
+          aria-hidden="true"
+        >
+          <img
+            src="./svg/shape.svg"
+            class="max-w-none"
+            width="852"
+            height="582"
+            alt="Illustration"
+          />
+        </div>
+
+        <!-- Illustration #2 -->
+        <div
+          class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+          aria-hidden="true"
+        >
+          <img
+            src="./svg/shape.svg"
+            class="max-w-none"
+            width="852"
+            height="582"
+            alt="Illustration"
+          />
+        </div>
+        <div
+          class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+          style="top: 90%"
+          aria-hidden="true"
+        >
+          <img
+            src="./svg/shape.svg"
+            class="max-w-none"
+            width="852"
+            height="582"
+            alt="Illustration"
+          />
+        </div>
+        <!-- Illustration #3 -->
+        <div
+          class="absolute top-80 left-100 -translate-y-1 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+          aria-hidden="true"
+        >
+          <img
+            src="./svg/shape.svg"
+            class="max-w-none"
+            width="852"
+            height="582"
+            alt="Illustration"
+          />
+        </div>
+        <div
+          class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+          style="top: 90%"
+          aria-hidden="true"
+        >
+          <img
+            src="./svg/shape.svg"
+            class="max-w-none"
+            width="852"
+            height="582"
+            alt="Illustration"
+          />
+        </div>
+
+        <!-- Particles animation -->
+        <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+          <canvas data-particle-animation></canvas>
+        </div>
+        <div class="relative"></div>
+      </div>
+      <!-- </div> -->
+      <footer>
+        <div class="ftcardcontainer">
+          <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+          />
+
+          <!-- <h1 class="fth1-text">
+            <i class="ftfa fa-users" aria-hidden="true"></i>Team Members
+          </h1> -->
+          <div class="ftcontainer">
+            <div class="ftbox">
+              <div class="fttop-bar"></div>
+              <div class="ftcontent">
+                <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                  alt=""> -->
+                <b>Dr Vidya More</b>
+                Faculty Advisor
+                <p>vnm.extc@coep.ac.in</p>
+              </div>
+            </div>
+            <div class="ftbox">
+              <div class="fttop-bar"></div>
+              <div class="fttop"></div>
+              <div class="ftcontent">
+                <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+                  alt=""> -->
+                <b>Dr Rahul Adhao</b>
+                Faculty Advisor
+                <p>rba.comp@coep.ac.in</p>
+              </div>
+            </div>
+            <div class="ftbox">
+              <div class="fttop-bar"></div>
+              <div class="ftcontent">
+                <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                  alt=""> -->
+                <b>Gaurav Sonewane</b>
+                Secretary
+                <p>secretary.psf@coep.ac.in</p>
+              </div>
+            </div>
+            <div class="ftbox">
+              <div class="fttop-bar"></div>
+              <div class="ftcontent">
+                <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                  alt=""> -->
+                <b>Samta Raka </b>
+                Finance and Marketing Executive
+                <p>finance.psf@coep.ac.in</p>
+              </div>
+            </div>
+            <div class="ftbox">
+              <div class="fttop-bar"></div>
+              <div class="ftcontent">
+                <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                  alt=""> -->
+                <b>Sanmeet Sawla</b>
+                Investor Relations Executive
+                <p>ir.psf@coep.ac.in</p>
+              </div>
+            </div>
+            <div class="ftbox">
+              <div class="fttop-bar"></div>
+              <div class="ftcontent">
+                <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                  alt=""> -->
+                <b>Varun Shetty</b>
+                Events and Networking Executive
+                <p>events.psf@coep.ac.in</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="ftfooter-distributed">
+          <div class="ftfooter-left">
+            <span
+              ><img
+                style="margin-left: 30%; max-width: 40%"
+                src="../images/navbarAndFooter/PSF24 White.png"
+                alt=""
+            /></span>
+
+            <p class="ftfooter-links">
+              <a href="#" class="ftlink-1">Home</a>
+
+              <a href="#">About US</a>
+
+              <a href="#">Investors</a>
+
+              <a href="#">Contact</a>
+            </p>
+
+            <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
+          </div>
+
+          <div class="ftfooter-center">
+            <div class="icons">
+              <i class="fa fa-map-marker"></i>
+              <a
+                href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu"
+              >
+                <p>
+                  <span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar,
+                  Pune-411005
+                </p>
+              </a>
+            </div>
+
+            <div class="icons">
+              <i class="fa fa-phone"></i>
+              <p><a href=""> Contact us </a></p>
+            </div>
+
+            <div class="icons">
+              <i class="fa fa-envelope"></i>
+              <p>
+                <a href="mailto:queries.psf@gmail.com">queries.psf@gmail.com</a>
+              </p>
+            </div>
+            <!-- <div class="ftCopyright">
+              <p>Copyright &copy; 2023, All Rights Reserved</p>
+            </div> -->
+          </div>
+
+          <div class="ftfooter-right">
+            <p class="ftfooter-company-about">
+              <span>About Pune Startup Fest</span>
+              Pune Startup Fest is an unique Startup Expo, which provides an
+              excellent platform for numerous students and Start-ups to connect
+              with this ever growing entrepreneurial world.
+            </p>
+
+            <div class="ftfooter-icons">
+              <!-- <h3>Follow Us:</h3> -->
+              <a href="https://www.facebook.com/biec.coep/"
+                ><i class="fa fa-facebook"></i
+              ></a>
+              <a
+                href="https://twitter.com/BIEC_COEP?t=UdnnunU2-JfVRhQ_SBoRBQ&s=08"
+                ><i class="fa fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/pune-startup-fest/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/biec_coep/?igshid=Yzg5MTU1MDY%3D"
+                ><i class="fa fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/c/BhausInnovationEntrepreneurshipCellCOEP2022"
+                ><i class="fa fa-youtube"></i
+              ></a>
+
+              <!-- <a class="ftglassIco" href="#"><i class="ftfab fa-facebook-f"></i></a>
+              <a class="ftglassIco" href="#"><i class="ftfab fa-instagram"></i></a>
+              <a class="ftglassIco" href="#"><i class="ftfab fa-linkedin-in"></i></a>
+              <a class="ftglassIco" href="#"><i class="ftfab fa-whatsapp"></i></a> -->
+            </div>
+            <!-- <div class="ftcontainer1">
+              <div class="ftmenu">
+                <div class="ftnavigation">
+                <span style="--i:0; --x:-1; --y:0">
+                  <ion-icon name="videocam-outline"></ion-icon>
+                </span>
+                <span style="--i:1; --x:1; --y:0">
+                  <ion-icon name="flame-outline"></ion-icon>
+                </span>
+                <span style="--i:2; --x:0; --y:-1">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </span>
+                <span style="--i:3; --x:0; --y:1">
+                  <ion-icon name="build-outline"></ion-icon>
+                </span>
+                <span style="--i:4; --x:-1; --y:1">
+                  <ion-icon name="thermometer-outline"></ion-icon>
+                </span>
+                <span style="--i:5; --x:-1; --y:-1">
+                  <ion-icon name="water-outline"></ion-icon>
+                </span>
+                <span style="--i:6; --x:1; --y:-1">
+                  <ion-icon name="alarm-outline"></ion-icon>
+                </span>
+                <span style="--i:7; --x:1; --y:1">
+                  <ion-icon name="radio-outline"></ion-icon>
+                </span>
+                </div>
+                <div class="ftclose">
+                <ion-icon name="close-outline">X</ion-icon>
+                </div>
+              </div>
+              </div> -->
+          </div>
+          <div class="ftCopyright">
+            <p>Copyright &copy; 2023, All Rights Reserved</p>
+          </div>
+        </footer>
+      </footer>
+      <!-- Ilusration #5 -->
+      <!-- <div class="absolute bottom-0 left-50 rotate-180 -translate-x-1 -scale-x-100 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
+		  <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration">
+	  </div> -->
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="../js/particle-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 2000, // Animation duration in milliseconds
+        once: false, // Animation only once on page load
+      });
+    </script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+     </script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+     </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+     </script>
+ 
+   <script src="https://kit.fontawesome.com/6fc46b33e7.js" crossorigin="anonymous"></script>
+   <script src="../js/event_details.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
