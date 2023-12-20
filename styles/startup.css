@@ -127,7 +127,9 @@ p {
     letter-spacing: 1.5px;
     font-size: 18px;
 }
-
+.about-us{
+    z-index: 500;
+}
 /*End Global*/
 
 /*Start Mutual*/
