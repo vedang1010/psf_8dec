@@ -19,9 +19,7 @@
   background-color: beige;
   height: 350px;
   box-sizing: border-box;
-  /* width: 450px; */
   border-radius: 5%;
-  width:180px;
 }
 
 
@@ -384,7 +382,7 @@
 }
 
 
-@media screen and (max-width:520px) {
+@media screen and (max-width:480px) {
 
   .container2{
       display: none;
@@ -393,7 +391,6 @@
       display: block;
   }
 }
-
 
 .subContainer {
 
