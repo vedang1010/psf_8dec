@@ -127,9 +127,7 @@ p {
     letter-spacing: 1.5px;
     font-size: 18px;
 }
-.about-us{
-    z-index: 500;
-}
+
 /*End Global*/
 
 /*Start Mutual*/
@@ -522,6 +520,7 @@ header .arrow-down {
 }
 
 
+
 @media (max-width: 576px) {
 
     h3,
@@ -598,7 +597,7 @@ body .containerr {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 40px 0;
 }
 
@@ -719,20 +718,19 @@ body .containerr .carrd .box .content a:hover {
         height: 300px;
     }
 }
-
+@media (min-width:800px){
+    .pitchersValley-container{
+        width: 70%;
+    }
+}
 .a h1 {
     text-align: center;
     color: #a96700;
 }
-.image-container{
-    z-index: 500;
-}
-.reservation .text{
-    z-index: 500;
-}
-/* .carding {
+
+.carding {
     background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEyMCc+Cgk8ZGVmcz4KCQk8cGF0dGVybiBwYXR0ZXJuVW5pdHM9J3VzZXJTcGFjZU9uVXNlJyBpZD0nYycgd2lkdGg9JzYwJyBoZWlnaHQ9JzEyMCcgeD0nMCcgeT0nMCcgdmlld0JveD0nMCAwIDUgMTAnPgoJCQk8cGF0aCBmaWxsLW9wYWNpdHk9JzAnIHN0cm9rZT0nIzI5MjkyOScgc3Ryb2tlLXdpZHRoPScwLjA5JyBkPSdNLTIsMUw3LDEwTS0yLDZMNywxNU0tMiwtNEw3LDUnLz4KCQk8L3BhdHRlcm4+CgkJPHBhdHRlcm4gcGF0dGVyblVuaXRzPSd1c2VyU3BhY2VPblVzZScgaWQ9J2MyJyB3aWR0aD0nNjAnIGhlaWdodD0nMTIwJyB4PScxMDAlJyB5PScwJyB2aWV3Qm94PScwIDAgNSAxMCc+CgkJCTxwYXRoIGZpbGwtb3BhY2l0eT0nMCcgc3Ryb2tlPScjMjkyOTI5JyBzdHJva2Utd2lkdGg9JzAuMDknIGQ9J003LDFMLTIsMTBNNyw2TC0yLDE1TTcsLTRMLTIsNScvPgoJCTwvcGF0dGVybj4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPSc1MCUnIGhlaWdodD0nMTAwJScgZmlsbD0ndXJsKCNjKScvPgoJPHJlY3QgeD0nNTAlJyB3aWR0aD0nNTAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYzIpJy8+Cjwvc3ZnPg==');
-} */
+}
 
 /* image slider css */
 
@@ -750,12 +748,12 @@ body .containerr .carrd .box .content a:hover {
   .carousel-wrapper {
     position: relative;
     max-width: 600px;
-    margin: 50px;
+    margin-bottom: 50px;
   }
   .carousel-wrapper input {
     display: none;
   }
-  .carousel {
+  .carousel { 
     overflow: hidden;
     border-radius: 15px;
   }
@@ -783,6 +781,13 @@ body .containerr .carrd .box .content a:hover {
     background-color: white;
     border-radius: 50%;
     transition: 0.4s;
+  }
+  @media (max-width:453px) {
+    .nav-dot{
+        width:10px;
+        height:10px;
+    }
+    
   }
   .nav-dot:hover {
     opacity: 0.8;
