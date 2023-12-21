@@ -79,48 +79,49 @@
                         <img src="images/feedback.png" alt="IMG">
                     </div>
 
-					<form class="contact1-form validate-form" action="./php/send_feedback_in.php">
-						<!-- <span class="contact1-form-title">
-							Startup Feedback
-						</span> -->
-					
-						<div class="wrap-input1 validate-input" data-validate="Name is required">
-							<input required class="input1" type="text" name="name" placeholder="Name">
-							<span class="shadow-input1"></span>
-						</div>
-					
-						<div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-							<input required class="input1" type="email" name="email" placeholder="Email">
-							<span class="shadow-input1"></span>
-						</div>
-					
-						<!-- Replace the Subject field with a dropdown menu -->
-						<div class="wrap-input1 validate-input" data-validate="Please choose a subject">
-							<select required class="input1" name="subject">
-								<option value="" selected disabled>Select Subject</option>
-								<option value="Option 1">PSF'24</option>
-								<option value="Option 2">Management</option>
-								<option value="Option 3">Website</option>
-								<option value="Option 3">Startups</option>
-								<option value="Option 3">Events</option>
-							</select>
-							<span class="shadow-input1"></span>
-						</div>
-					
-						<div class="wrap-input1 validate-input" data-validate="Message is required">
-							<input required class="textarea input1" name="message" placeholder="Message">
-							<span class="shadow-input1"></span>
-						</div>
-					
-						<div class="container-contact1-form-btn">
-							<button class="contact1-form-btn">
-								<span>
-									Submit
-									<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-								</span>
-							</button>
-						</div>
-					</form>
+                    <form class="contact1-form validate-form" action="./php/send_feedback_in.php" method="post">
+                        <!-- <span class="contact1-form-title">
+                            Startup Feedback
+                        </span> -->
+                    
+                        <div class="wrap-input1 validate-input" data-validate="Name is required">
+                            <input required class="input1" type="text" name="name" placeholder="Name">
+                            <span class="shadow-input1"></span>
+                        </div>
+                    
+                        <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                            <input required class="input1" type="email" name="email" placeholder="Email">
+                            <span class="shadow-input1"></span>
+                        </div>
+                    
+                        <!-- Replace the Subject field with a dropdown menu -->
+                        <div class="wrap-input1 validate-input" data-validate="Please choose a subject">
+                            <select required class="input1" name="subject">
+                                <option value="" selected disabled>Select Subject</option>
+                                <option value="PSF'24">PSF'24</option>
+                                <option value="Management">Management</option>
+                                <option value="Website">Website</option>
+                                <option value="Startups">Startups</option>
+                                <option value="Events">Events</option>
+                            </select>
+                            <span class="shadow-input1"></span>
+                        </div>
+                    
+                        <div class="wrap-input1 validate-input" data-validate="Message is required">
+                            <textarea required class="textarea input1" name="message" placeholder="Message"></textarea>
+                            <span class="shadow-input1"></span>
+                        </div>
+                    
+                        <div class="container-contact1-form-btn">
+                            <button type="submit" class="contact1-form-btn">
+                                <span>
+                                    Submit
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                    
 					
                 </div>
 
