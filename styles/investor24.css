@@ -167,7 +167,7 @@ h1{
     bottom: 0;
     background-size: 100% 100%;
     border-radius: 8px;
-    transition: 1.5s;
+    transition: 1.25s;
 
 }
 
@@ -188,7 +188,7 @@ h1{
 
 .wcard {
     position: relative;
-    transition: 0.5s;
+    transition: 0.25s;
     /* color: #fff; */
     /* background: transparent; */
     overflow: hidden;
