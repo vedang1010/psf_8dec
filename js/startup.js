@@ -38,13 +38,22 @@ const body = document.querySelector("body"),
 
 // remove loader
 function fadeOutEffect() {
-    const fadeEffect = setInterval(function() {
+    // Assuming loader is an element with the ID "loader"
+    const loader = document.getElementById('loader');
+
+    if (!loader) {
+        console.error("Loader element not found");
+        return;
+    }
+
+    const fadeEffect = setInterval(function () {
         if (!loader.style.opacity) {
             loader.style.opacity = 1;
         }
         if (loader.style.opacity > 0) {
             loader.style.opacity -= 0.4;
         } else {
+            // Assuming body is defined somewhere in your code
             body.classList.remove('stop-scroll');
             loader.classList.add('remove');
             clearInterval(fadeEffect);
