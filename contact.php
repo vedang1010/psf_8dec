@@ -430,6 +430,9 @@ $mail->Port = 587; // Use port 587 for TLS
 			<div class="ftCopyright">
 				<p>Copyright &copy; 2023, All Rights Reserved</p>
 			</div>
+			<div class="ftCopyright designed" style="background-color: #1c335a;">
+				<p>DESIGNED BY WEB TEAM</p>
+			</div>
   
 		</footer>
 	</footer>

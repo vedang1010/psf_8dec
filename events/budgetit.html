@@ -81,8 +81,14 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="../styles/event_details.css" />
-    <link rel="stylesheet" href="../styles/navbar.css" />
-    <link rel="stylesheet" href="../styles/footer.css" />
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        /* height: 100%; */
+      }
+    </style>    <link rel="stylesheet" href="../styles/footer.css" />
     <link rel="stylesheet" href="../styles/footer24.css">
   </head>
 
@@ -91,97 +97,7 @@
       class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden"
     >
       <!-- Can add content Here(Start) accorfing to need-->
-      <div class="nav-bg">
-        <div class="logo" style="top: 1%;right: 1%;"><a href="../main"> <img
-              src="../images/navbarAndFooter/MM + PSF + BF.png" alt=""></a></div>
-      </div>
-      <input type="checkbox" id="burger-toggle">
-      <label for="burger-toggle" class="burger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </label>
-      <div class="menu">
-        <div class="menu-inner">
-          <ul class="menu-nav">
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../main"><span>
-                  <div><i class="fa-solid fa-house" style="padding-right: 1rem;"></i>Home</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../aboutus"><span>
-                  <div><i class="fa-regular fa-file-lines" style="padding-right: 1rem;"></i>About Us</div>
-                </span></a></li>
-            <!-- <li class="menu-nav-item"><a class="menu-nav-link" href="../partners"><span>
-                                <div><i class="fa-solid fa-handshake" style="padding-right: 1rem;"></i>Present Partners
-                                </div>
-                            </span></a></li> -->
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../partners"><span>
-                  <div> <i class="fa-regular fa-handshake" style="padding-right: 1rem; display: inline-block;"></i>Sponsors
-                    /
-                    Partners</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../startup_expo"><span>
-                  <div><i class="fa-solid fa-stairs" style="padding-right: 1rem;"></i>Startup Expo</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../alumni"><span>
-                  <div><i class="fa-solid fa-people-group" style="padding-right: 1rem;"></i>Alumni</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../ongoing_events"><span>
-                  <div><i class="fa-regular fa-calendar-days" style="padding-right: 1rem;"></i>Ongoing Sessions
-                  </div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../munafa/munafa.html"><span>
-                  <div><i class="fa-sharp fa-solid fa-puzzle-piece" style="padding-right: 1rem;"></i>Events</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../investor"><span>
-                  <div><i class="fa-solid fa-hand-holding-dollar" style="padding-right: 1rem;"></i>Investors</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../visitorreg.php"><span>
-                  <div><i class="fa-solid fa-shoe-prints" style="padding-right: 1rem;"></i>Visitor Registration</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../contact.php"><span>
-                  <div><i class="fa-solid fa-envelope-open-text" style="padding-right: 1rem;"></i>Contact Us</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="../team"><span>
-                  <div><i class="fa-solid fa-user-group" style="padding-right: 1rem;"></i>Team</div>
-                </span></a></li>
-    
-    
-            <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                  <div>
-                    <center><i class="fa-solid fa-chevron-down"></i></center>
-                  </div>
-                </span></a></li>
-          </ul>
-          <div class="gallery">
-            <div class="title">
-              <p>PSF'22 Gallery</p>
-            </div>
-            <div class="images">
-              <a class="image-link" href="#">
-                <div class="image" data-label="PSF'22 Gallery"><img src="../images/navbarAndFooter/PSF'22_Gallery0.jpg"
-                    alt="">
-                </div>
-              </a>
-              <a class="image-link" href="#">
-                <div class="image" data-label="PSF'22 Gallery"><img src="../images/navbarAndFooter/PSF'22_Gallery1.jpg"
-                    alt="">
-                </div>
-              </a>
-              <a class="image-link" href="#">
-                <div class="image" data-label="PSF'22 Gallery"><img src="../images/navbarAndFooter/PSF'22_Gallery2.jpg"
-                    alt="">
-                </div>
-              </a>
-              <a class="image-link" href="#">
-                <div class="image" data-label="PSF'22 Gallery"><img src="../images/navbarAndFooter/PSF'22_Gallery3.jpg"
-                    alt="">
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <script src="https://kit.fontawesome.com/6fc46b33e7.js" crossorigin="anonymous"></script>
+
     
       <div class="sub-menu">
         <div class="menu-btn"> <button class="homebtn  btn " id="homeBtn" onclick="toggleTl(this.id)"><span>Read
@@ -471,212 +387,203 @@
         <div class="relative"></div>
       </div>
       <!-- </div> -->
-      <footer>
-        <div class="ftcardcontainer">
-          <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-            crossorigin="anonymous"
-          />
 
-          <!-- <h1 class="fth1-text">
-            <i class="ftfa fa-users" aria-hidden="true"></i>Team Members
-          </h1> -->
-          <div class="ftcontainer">
-            <div class="ftbox">
-              <div class="fttop-bar"></div>
-              <div class="ftcontent">
-                <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-                  alt=""> -->
-                <b>Dr Vidya More</b>
-                Faculty Advisor
-                <p>vnm.extc@coep.ac.in</p>
-              </div>
-            </div>
-            <div class="ftbox">
-              <div class="fttop-bar"></div>
-              <div class="fttop"></div>
-              <div class="ftcontent">
-                <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
-                  alt=""> -->
-                <b>Dr Rahul Adhao</b>
-                Faculty Advisor
-                <p>rba.comp@coep.ac.in</p>
-              </div>
-            </div>
-            <div class="ftbox">
-              <div class="fttop-bar"></div>
-              <div class="ftcontent">
-                <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-                  alt=""> -->
-                <b>Gaurav Sonewane</b>
-                Secretary
-                <p>secretary.psf@coep.ac.in</p>
-              </div>
-            </div>
-            <div class="ftbox">
-              <div class="fttop-bar"></div>
-              <div class="ftcontent">
-                <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-                  alt=""> -->
-                <b>Samta Raka </b>
-                Finance and Marketing Executive
-                <p>finance.psf@coep.ac.in</p>
-              </div>
-            </div>
-            <div class="ftbox">
-              <div class="fttop-bar"></div>
-              <div class="ftcontent">
-                <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-                  alt=""> -->
-                <b>Sanmeet Sawla</b>
-                Investor Relations Executive
-                <p>ir.psf@coep.ac.in</p>
-              </div>
-            </div>
-            <div class="ftbox">
-              <div class="fttop-bar"></div>
-              <div class="ftcontent">
-                <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-                  alt=""> -->
-                <b>Varun Shetty</b>
-                Events and Networking Executive
-                <p>events.psf@coep.ac.in</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <footer class="ftfooter-distributed">
-          <div class="ftfooter-left">
-            <span
-              ><img
-                style="margin-left: 30%; max-width: 40%"
-                src="../images/navbarAndFooter/PSF24 White.png"
-                alt=""
-            /></span>
-
-            <p class="ftfooter-links">
-              <a href="#" class="ftlink-1">Home</a>
-
-              <a href="#">About US</a>
-
-              <a href="#">Investors</a>
-
-              <a href="#">Contact</a>
-            </p>
-
-            <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
-          </div>
-
-          <div class="ftfooter-center">
-            <div class="icons">
-              <i class="fa fa-map-marker"></i>
-              <a
-                href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu"
-              >
-                <p>
-                  <span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar,
-                  Pune-411005
-                </p>
-              </a>
-            </div>
-
-            <div class="icons">
-              <i class="fa fa-phone"></i>
-              <p><a href=""> Contact us </a></p>
-            </div>
-
-            <div class="icons">
-              <i class="fa fa-envelope"></i>
-              <p>
-                <a href="mailto:queries.psf@gmail.com">queries.psf@gmail.com</a>
-              </p>
-            </div>
-            <!-- <div class="ftCopyright">
-              <p>Copyright &copy; 2023, All Rights Reserved</p>
-            </div> -->
-          </div>
-
-          <div class="ftfooter-right">
-            <p class="ftfooter-company-about">
-              <span>About Pune Startup Fest</span>
-              Pune Startup Fest is an unique Startup Expo, which provides an
-              excellent platform for numerous students and Start-ups to connect
-              with this ever growing entrepreneurial world.
-            </p>
-
-            <div class="ftfooter-icons">
-              <!-- <h3>Follow Us:</h3> -->
-              <a href="https://www.facebook.com/biec.coep/"
-                ><i class="fa fa-facebook"></i
-              ></a>
-              <a
-                href="https://twitter.com/BIEC_COEP?t=UdnnunU2-JfVRhQ_SBoRBQ&s=08"
-                ><i class="fa fa-twitter"></i
-              ></a>
-              <a href="https://www.linkedin.com/company/pune-startup-fest/"
-                ><i class="fa fa-linkedin"></i
-              ></a>
-              <a
-                href="https://www.instagram.com/biec_coep/?igshid=Yzg5MTU1MDY%3D"
-                ><i class="fa fa-instagram"></i
-              ></a>
-              <a
-                href="https://www.youtube.com/c/BhausInnovationEntrepreneurshipCellCOEP2022"
-                ><i class="fa fa-youtube"></i
-              ></a>
-
-              <!-- <a class="ftglassIco" href="#"><i class="ftfab fa-facebook-f"></i></a>
-              <a class="ftglassIco" href="#"><i class="ftfab fa-instagram"></i></a>
-              <a class="ftglassIco" href="#"><i class="ftfab fa-linkedin-in"></i></a>
-              <a class="ftglassIco" href="#"><i class="ftfab fa-whatsapp"></i></a> -->
-            </div>
-            <!-- <div class="ftcontainer1">
-              <div class="ftmenu">
-                <div class="ftnavigation">
-                <span style="--i:0; --x:-1; --y:0">
-                  <ion-icon name="videocam-outline"></ion-icon>
-                </span>
-                <span style="--i:1; --x:1; --y:0">
-                  <ion-icon name="flame-outline"></ion-icon>
-                </span>
-                <span style="--i:2; --x:0; --y:-1">
-                  <ion-icon name="bulb-outline"></ion-icon>
-                </span>
-                <span style="--i:3; --x:0; --y:1">
-                  <ion-icon name="build-outline"></ion-icon>
-                </span>
-                <span style="--i:4; --x:-1; --y:1">
-                  <ion-icon name="thermometer-outline"></ion-icon>
-                </span>
-                <span style="--i:5; --x:-1; --y:-1">
-                  <ion-icon name="water-outline"></ion-icon>
-                </span>
-                <span style="--i:6; --x:1; --y:-1">
-                  <ion-icon name="alarm-outline"></ion-icon>
-                </span>
-                <span style="--i:7; --x:1; --y:1">
-                  <ion-icon name="radio-outline"></ion-icon>
-                </span>
-                </div>
-                <div class="ftclose">
-                <ion-icon name="close-outline">X</ion-icon>
-                </div>
-              </div>
-              </div> -->
-          </div>
-          <div class="ftCopyright">
-            <p>Copyright &copy; 2023, All Rights Reserved</p>
-          </div>
-        </footer>
-      </footer>
       <!-- Ilusration #5 -->
       <!-- <div class="absolute bottom-0 left-50 rotate-180 -translate-x-1 -scale-x-100 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
 		  <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration">
 	  </div> -->
     </main>
-
+    <footer>
+      <div class="ftcardcontainer">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    
+        <!-- <h1 class="fth1-text">
+          <i class="ftfa fa-users" aria-hidden="true"></i>Team Members
+        </h1> -->
+        <div class="ftcontainer">
+          <div class="ftbox">
+            <div class="fttop-bar"></div>
+            <div class="ftcontent">
+              <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                alt=""> -->
+              <b>Dr Vidya More</b>
+              Faculty Advisor
+              <p>vnm.extc@coep.ac.in</p>
+            </div>
+    
+          </div>
+          <div class="ftbox">
+            <div class="fttop-bar"></div>
+            <div class="fttop">
+            </div>
+            <div class="ftcontent">
+              <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+                alt=""> -->
+              <b>Dr Rahul Adhao</b>
+              Faculty Advisor
+              <p>rba.comp@coep.ac.in</p>
+            </div>
+    
+          </div>
+          <div class="ftbox">
+            <div class="fttop-bar"></div>
+            <div class="ftcontent">
+              <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                alt=""> -->
+              <b>Gaurav Sonewane</b>
+              Secretary
+              <p>secretary.psf@coep.ac.in</p>
+            </div>
+          </div>
+          <div class="ftbox">
+            <div class="fttop-bar"></div>
+            <div class="ftcontent">
+              <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                alt=""> -->
+              <b>Samta Raka </b>
+              Finance and Marketing Executive
+              <p>finance.psf@coep.ac.in</p>
+            </div>
+          </div>
+          <div class="ftbox">
+            <div class="fttop-bar"></div>
+            <div class="ftcontent">
+              <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                alt=""> -->
+              <b>Sanmeet Sawla</b>
+              Investor Relations Executive
+              <p>ir.psf@coep.ac.in</p>
+            </div>
+    
+          </div>
+          <div class="ftbox">
+            <div class="fttop-bar"></div>
+            <div class="ftcontent">
+              <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                alt=""> -->
+              <b>Varun Shetty</b>
+              Events and Networking Executive
+              <p>events.psf@coep.ac.in</p>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <footer class="ftfooter-distributed">
+    
+        <div class="ftfooter-left">
+    
+          <span><img style="margin-left: 30%;max-width:40%;" src="./images/navbarAndFooter/PSF24 White.png" alt=""></span>
+    
+          <p class="ftfooter-links">
+            <a href="#" class="ftlink-1">Home</a>
+    
+            <a href="#">About US</a>
+    
+            <a href="#">Investors</a>
+    
+            <a href="#">Contact</a>
+          </p>
+    
+          <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
+        </div>
+    
+        <div class="ftfooter-center">
+    
+          <div class="icons">
+            <i class="fa fa-map-marker"></i>
+            <a
+              href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
+              <p><span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005</p>
+            </a>
+          </div>
+    
+          <div class="icons">
+            <i class="fa fa-phone"></i>
+            <p><a href="">
+        Contact us
+        </a></p>
+          </div>
+    
+          <div class="icons">
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:queries.psf@gmail.com">queries.psf@gmail.com</a></p>
+          </div>
+          <!-- <div class="ftCopyright">
+            <p>Copyright &copy; 2023, All Rights Reserved</p>
+          </div> -->
+        </div>
+    
+        <div class="ftfooter-right">
+    
+          <p class="ftfooter-company-about">
+            <span>About Pune Startup Fest</span>
+            Pune Startup Fest is an unique Startup Expo, which provides an excellent platform for numerous
+            students and Start-ups to connect with this ever growing entrepreneurial world.
+          </p>
+    
+          <div class="ftfooter-icons">
+            <!-- <h3>Follow Us:</h3> -->
+            <a href="https://www.facebook.com/biec.coep/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/BIEC_COEP?t=UdnnunU2-JfVRhQ_SBoRBQ&s=08"><i
+                class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/pune-startup-fest/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/biec_coep/?igshid=Yzg5MTU1MDY%3D"><i
+                class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/c/BhausInnovationEntrepreneurshipCellCOEP2022"><i
+                class="fa fa-youtube"></i></a>
+    
+            <!-- <a class="ftglassIco" href="#"><i class="ftfab fa-facebook-f"></i></a>
+            <a class="ftglassIco" href="#"><i class="ftfab fa-instagram"></i></a>
+            <a class="ftglassIco" href="#"><i class="ftfab fa-linkedin-in"></i></a>
+            <a class="ftglassIco" href="#"><i class="ftfab fa-whatsapp"></i></a> -->
+    
+          </div>
+          <!-- <div class="ftcontainer1">
+            <div class="ftmenu">
+              <div class="ftnavigation">
+              <span style="--i:0; --x:-1; --y:0">
+                <ion-icon name="videocam-outline"></ion-icon>
+              </span>
+              <span style="--i:1; --x:1; --y:0">
+                <ion-icon name="flame-outline"></ion-icon>
+              </span>
+              <span style="--i:2; --x:0; --y:-1">
+                <ion-icon name="bulb-outline"></ion-icon>
+              </span>
+              <span style="--i:3; --x:0; --y:1">
+                <ion-icon name="build-outline"></ion-icon>
+              </span>
+              <span style="--i:4; --x:-1; --y:1">
+                <ion-icon name="thermometer-outline"></ion-icon>
+              </span>
+              <span style="--i:5; --x:-1; --y:-1">
+                <ion-icon name="water-outline"></ion-icon>
+              </span>
+              <span style="--i:6; --x:1; --y:-1">
+                <ion-icon name="alarm-outline"></ion-icon>
+              </span>
+              <span style="--i:7; --x:1; --y:1">
+                <ion-icon name="radio-outline"></ion-icon>
+              </span>
+              </div>
+              <div class="ftclose">
+              <ion-icon name="close-outline">X</ion-icon>
+              </div>
+            </div>
+            </div> -->
+        </div>
+        <div class="ftCopyright">
+          <p>Copyright &copy; 2023, All Rights Reserved</p>
+        </div>
+        <div class="ftCopyright designed" style="background-color: #1c335a;">
+          <p>DESIGNED BY WEB TEAM</p>
+        </div>
+    
+      </footer>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="../js/particle-animation.js"></script>
