@@ -82,18 +82,129 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css"> -->
 
-
+<link rel="stylesheet" href="./styles/navbar24.css">
+<style>
+	.title1 {
+		font-size: 35px;
+		color: aqua;
+		text-align: center;
+		width: 100%;
+		font-family: kanit;
+		font-weight: 600;
+	}
+</style>
 </head>
 
 <body>
 
+    <!-- NAVBAR START -->
+    <nav style="position: fixed; z-index: 9999999; padding-top: 1rem;">
+        <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+        <label for="checkbox3" class="checkbtn">
+            <div class="hamburger hamburger3">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
 
+            </div>
+        </label>
+
+        <!-- <input type="checkbox" id="check">
+  <label for="check" class="checkbtton">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    
+  </label> -->
+        <!-- <div class="imgg"><a href="./main"><img  class="imgg" src="PSF + Marsh White1.png" alt=""></a></div> -->
+
+        <ul>
+            <!-- <img class="imgg" src="PSF + Marsh White1.png" alt="PSF + Marsh White1.png"> -->
+
+            <li> <a href="./main.html"> <i id="icon" class="fa-solid fa-house icon" style="padding-right: 0.5rem;"></i>
+                    Home</a>
+            </li>
+            <li><a href="./aboutus.html"> <i id="icon" class="fa-regular fa-file-lines"
+                        style="padding-right: 0.5rem;"></i> About
+                    Us</a>
+            </li>
+
+            <li><a href="./events.html"> <i id="icon" class="fa-sharp fa-solid fa-puzzle-piece"
+                        style="padding-right: 0.5rem;"></i>Events</a></li>
+
+
+            <li><a href="./investor.html"><i id="icon" class="fa-solid fa-shoe-prints"
+                        style="padding-right: 0.5rem;"></i>Investors</a></li>
+            <li><a href="./partners.html"><i id="icon" class="fa-solid fa-envelope-open-text"
+                        style="padding-right: 0.5rem;"></i>Sponsors</a></li>
+
+            <div class="dropdown ">
+                <button class="dropbtn">OTHER <i class="fa-solid fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>INTERSHIP
+                        PORTAL
+                    </a>
+                    <a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>Alumni
+                    </a>
+                    <a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
+                            style="padding-right: 0.5rem;"></i>STARTUP</a>
+                    <a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                            style="padding-right: 0.5rem;"></i>Registration</a>
+                    <a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                            style="padding-right: 0.5rem;"></i>Team</a>
+                </div>
+            </div>
+            <li class="mobli"><a href="./intership_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                        style="padding-right: 0.5rem;"></i>Internship
+                    Portal</a></li>
+            <li class="mobli"><a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                        style="padding-right: 0.5rem;"></i>Alumni
+                </a></li>
+            <li class="mobli"><a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
+                        style="padding-right: 0.5rem;"></i>STARTUP</a></li>
+            <li class="mobli"><a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                        style="padding-right: 0.5rem;"></i>Registration</a></li>
+            <li class="mobli"><a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                        style="padding-right: 0.5rem;"></i>Team</a></li>
+
+            <div class="dropdown">
+                <button class="dropbtn">FEEDBACK <i class="fa-solid fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="./startup_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>Startup
+                        Feedback
+                    </a>
+                    <a href="./investor_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>Investor
+                        Feedback
+                    </a>
+
+                </div>
+            </div>
+            <li class="mobli"><a href="./startup_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                        style="padding-right: 0.5rem;"></i>Startup
+                    Feedback</a></li>
+            <li class="mobli"><a href="./investor_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                        style="padding-right: 0.5rem;"></i>Investor
+                    Feedback</a></li>
+            <!-- <li><a href="#"> <i id="icon" class="fa-regular fa-handshake" style="padding-right: 0.5rem;"></i>Feedback </a></li> -->
+            <li><a href="./contact.php"><i id="icon" class="fa-solid fa-user-group"
+                        style="padding-right: 0.5rem;"></i>Contact
+                    Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- NAVBAR END -->
 
 	<main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
+        <h1 class="title1" style="font-family: league_spartan; margin-top: 6.8%"> ABOUT US</h1>
 
-		<center>
-			<div style="margin-top: 3vh; font-size: 2rem; color: white;"> ABOUT US </div>
-		</center>
+		<!-- <center> -->
+			<!-- <div style="margin-top: 3vh; font-size: 2rem; color: white;"> </div> -->
+		<!-- </center> -->
 		<main
 			class="relative min-h-screen flex flex-col justify-center overflow-hidden supports-[overflow:clip]:overflow-clip">
 			<div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
@@ -104,7 +215,7 @@
 						<!-- Section #1 -->
 						<section x-intersect.margin.-70%.0.-30%.0="entered = '0'" class="[--i:0]"
 							:class="'[--e:'+entered+']'">
-							<div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[2]"
+							<div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[3]"
 								:class="entered >= 0 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
 								<div class="wrap animate pop">
 									<div class="overlay">
@@ -125,16 +236,13 @@
 									</div>
 									<div class="text">
 										<img class="inset" src="./images/about/about_coep.jpg" alt="" />
-										<p>Pune is called as
-											the 'Oxford of the East', as it is a hub to many educational
-											institutes. COEP Technological University (formerly known as College
-											of Engineering, Pune) is a prominent educational institute in Pune
-											as it is the 3rd oldest engineering college in Asia. Established in
-											1854, this institute is a 168-year-old legacy. COEP Tech has many
-											notable alumni from different walks of life like Bharat Ratna Mr. M
-											Visvesvaraya, Prof. Thomas Kailath, Dr. C. K. N. Patel and many more
-											to name. COEP Tech strives for the overall development of its
-											students.</p>
+										<p>Pune is called as the ‘Oxford of the East’, as it is a hub
+											to many educational institutes. COEP Technological University (formerly known as College of Engineering,
+											Pune) is a prominent educational institute in Pune as it is the 3rd oldest engineering college in Asia.
+											Established in
+											1854, this institute is a 168-year-old legacy. COEP Tech has many notable alumni from different walks of
+											life like Bharat Ratna Mr. M Visvesvaraya, Prof. Thomas Kailath, Dr. C. K. N. Patel and many more to name.
+											COEP Tech strives for the overall development of its students.</p>
 									</div>
 								</div>
 
@@ -143,7 +251,7 @@
 						<!-- Section #2 -->
 						<section x-intersect.margin.-70%.0.-30%.0="entered = '1'" class="[--i:1]"
 							:class="'[--e:'+entered+']'">
-							<div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[1]"
+							<div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[2]"
 								:class="entered >= 1 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
 								<div class="wrap animate pop">
 									<div class="overlay">
@@ -162,18 +270,12 @@
 									</div>
 									<div class="text">
 										<img class="inset" src="./images/about/about_bhau.jpg" alt="" />
-										<p>It is a students led club, supported
-											by the institute and mentored by faculty. BHAU's Innovation and
-											Entrepreneurship
-											Cell, COEP Tech aims to foster a culture of entrepreneurship among students.
-											The
-											cell has been organizing various engaging events to inculcate an interest in
-											entrepreneurship and Startups. For example, IDEA competition, B-Plan
-											Competition, Case Study Activity, Budgeting, Workshops, and seminars, etc.
-											Pune
-											Startup Fest (PSF) is the annual entrepreneurial festival organized by the
-											I&E-Cell of COEP Tech. COEP Tech's I&E-Cell is a pre-incubation center of
-											COEP
+										<p>It is a students led club, supported by the institute and
+											mentored by faculty. BHAU's Innovation and Entrepreneurship Cell, COEP Tech aims to foster a culture of
+											entrepreneurship among students. The cell has been organizing various engaging events to inculcate an
+											interest in entrepreneurship and Startups. For example, IDEA competition, B-Plan Competition, Case Study
+											Activity, Budgeting, Workshops, and seminars, etc. Pune Startup Fest (PSF) is the annual entrepreneurial
+											festival organized by the I&E-Cell of COEP Tech. COEP Tech's I&E-Cell is a pre-incubation center of COEP
 											Tech.</p>
 									</div>
 								</div>
@@ -183,7 +285,7 @@
 						<!-- Section #3 -->
 						<section x-intersect.margin.-70%.0.-30%.0="entered = '2'" class="[--i:2]"
 							:class="'[--e:'+entered+']'">
-							<div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-0"
+							<div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-[1]"
 								:class="entered >= 2 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
 								<div class="wrap animate pop">
 									<div class="overlay">
@@ -203,23 +305,51 @@
 									</div>
 									<div class="text">
 										<img class="inset" src="./images/about/about_psf23.jpeg" alt="" />
-										<p>The Startup expo was set up on the
-											Virtual Exhibition Platform ExpoSim and there was also an offline
-											exhibition.
-											Pune Startup Fest'22, with the theme Caressing Ideas, Cultivating
-											Innovation,
-											brought together 120 innovative Startups through a hybrid Startup expo,
-											along
-											with investors, mentors, and C-Level executives from top corporations,
-											industries, and people across the country and successfully epitomized this
-											idea
-											over the two grand days of the fest. PSF'22 was tremendously successful
-											despite
-											being the first ever hybrid (virtual+offline) startup exhibition with
-											overall
-											footfall of 3000+. Over the 4 editions, PSF has witnessed an investment of
-											5.5
-											crores.</p>
+										<p>Pune Start-up Fest'23, brought together <b>170+</b> innovative start-ups through a 'Launchpad',a start-up
+											expo, along
+											with investors, mentors, C-Level executives from top corporations, industry, and people across the country
+											and successfully epitomized this idea over the two grand days of the fest.
+								
+											• An infusion of Rs. <b>5 Cr+</b>was deployed as a capital investment at Pitcher's Valley.
+											• A
+											footfall of over <b>15000+</b> people including students and corporates.
+											• More than <b>120</b> investors, mentors, and industry experts.
+											A prize pool of <b> Rs. 1 Lakh</b> was awarded for the competitions organised during PSF'23.
+											• A dedicated "Student Startup Zone" for enabling opportunities for young entrepreneurs.
+											"Student Internships" - to help students find internships in startups.
+											• Rs.<b>12 Cr+</b> were invested into startups over the last <b>5</b> years.</p>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- Section #4 -->
+						<section x-intersect.margin.-70%.0.-30%.0="entered = '3'" class="[--i:3]"
+							:class="'[--e:'+entered+']'">
+							<div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-0"
+								:class="entered >= 3 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
+								<div class="wrap animate pop">
+									<div class="overlay">
+										<div class="overlay-content animate slide-left delay-2" style="color: white;">
+											<p class="animate slide-left pop delay-4" style="color: white;">Pitcher's Valley</p>
+											<p class="animate slide-left pop delay-5"
+												style="color: white; margin-bottom: 2.5rem;"> Event of Pune
+												Startup Fest</p>
+										</div>
+										<div class="image-content animate slide delay-5"></div>
+										<div class="dots animate">
+											<div class="dot animate slide-up delay-6"></div>
+											<div class="dot animate slide-up delay-7"></div>
+											<div class="dot animate slide-up delay-8"></div>
+										</div>
+									</div>
+									<div class="text">
+										<img class="inset" src="./images/about/about_psf23.jpeg" alt="" />
+										<p>Pitcher's Valley is an exhilarating live pitching event, where registered startups undergo rigorous scrutiny
+											based on their pitch deck, out of which, around <b> 10 exceptional startups</b> are handpicked to present
+											their innovative business ideas in front of some of the most prominent venture investors of India.
+											The inaugural edition of Pitchers Valley took place last year, wherein an infusion of <b> INR 5 crore</b>
+											was
+											deployed as a capital investment.</p>
 									</div>
 								</div>
 							</div>

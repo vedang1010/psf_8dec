@@ -22,7 +22,7 @@ h1 {
 p {
     font-size: max(10pt, 2.5vmin);
     line-height: 1.4;
-    color: white;
+    color: rgb(17, 8, 8);
     margin-bottom: 1.5rem;
 }
 
@@ -267,4 +267,7 @@ p {
 
 .delay-8 {
     animation-delay: 2.4s;
+}
+b{
+    /* color: #e0e0ea; */
 }
