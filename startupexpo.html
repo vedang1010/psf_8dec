@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PSF'24</title>
+
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="stylesheet" href="./psf_footer/foot.css"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Nothing+You+Could+Do&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                        nycd: ['Nothing You Could Do', 'cursive'],
+                    },
+                },
+            },
+        };
+    </script>
+
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css"> -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/navbarAndFooter/PSF + Marsh White1.png">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles/startup24.css">
+    <link rel="stylesheet" href="./styles/footer24.css">
+    <link rel="stylesheet" href="./styles/navbar24.css">
+    <!-- <link rel="stylesheet" href="./styles/event.css"> -->
+    <style>
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        @media screen and (max-width:480px) {
+            #about1 {
+                margin-top: 70px;
+            }
+        }
+
+        .view-more {
+            position: relative;
+            bottom: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+            text-decoration: none;
+        }
+
+        .view-more p {
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Fredoka One', cursive;
+            margin: 0;
+        }
+
+        .custom-btn {
+            width: 150px;
+            height: 50px;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 25px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 500;
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.5s ease;
+            position: relative;
+            display: inline-block;
+            box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+                7px 7px 20px 0px rgba(0, 0, 0, .1),
+                4px 4px 5px 0px rgba(0, 0, 0, .1);
+            outline: none;
+        }
+
+        .btn-view {
+            border: none;
+            background: rgb(251, 33, 117);
+            background: linear-gradient(0deg, rgba(251, 33, 117, 1) 0%, rgba(234, 76, 137, 1) 100%);
+            color: #fff;
+            overflow: hidden;
+            text-decoration: none;
+            box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2),
+                inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+                inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+        }
+
+        .btn-view:hover {
+            text-decoration: none;
+            scale: 1.1;
+        }
+    </style>
+
+
+    <!-- <script src="./js/play.js"></script> -->
+</head>
+
+<body>
+        <!-- NAVBAR START -->
+        <nav style="position: fixed; z-index: 9999999; padding-top: 1rem;">
+            <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+            <label for="checkbox3" class="checkbtn">
+                <div class="hamburger hamburger3">
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+                    <span class="bar bar4"></span>
+    
+                </div>
+            </label>
+    
+            <!-- <input type="checkbox" id="check">
+      <label for="check" class="checkbtton">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        
+      </label> -->
+            <!-- <div class="imgg"><a href="./main"><img  class="imgg" src="PSF + Marsh White1.png" alt=""></a></div> -->
+    
+            <ul>
+                <!-- <img class="imgg" src="PSF + Marsh White1.png" alt="PSF + Marsh White1.png"> -->
+    
+                <li> <a href="./main.html"> <i id="icon" class="fa-solid fa-house icon" style="padding-right: 0.5rem;"></i>
+                        Home</a>
+                </li>
+                <li><a href="./aboutus.html"> <i id="icon" class="fa-regular fa-file-lines"
+                            style="padding-right: 0.5rem;"></i> About
+                        Us</a>
+                </li>
+    
+                <li><a href="./events.html"> <i id="icon" class="fa-sharp fa-solid fa-puzzle-piece"
+                            style="padding-right: 0.5rem;"></i>Events</a></li>
+    
+    
+                <li><a href="./investor.html"><i id="icon" class="fa-solid fa-shoe-prints"
+                            style="padding-right: 0.5rem;"></i>Investors</a></li>
+                <li><a href="./partners.html"><i id="icon" class="fa-solid fa-envelope-open-text"
+                            style="padding-right: 0.5rem;"></i>Sponsors</a></li>
+    
+                <div class="dropdown ">
+                    <button class="dropbtn">OTHER <i class="fa-solid fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                                style="padding-right: 0.5rem;"></i>INTERSHIP
+                            PORTAL
+                        </a>
+                        <a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                                style="padding-right: 0.5rem;"></i>Alumni
+                        </a>
+                        <a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
+                                style="padding-right: 0.5rem;"></i>STARTUP</a>
+                        <a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                                style="padding-right: 0.5rem;"></i>Registration</a>
+                        <a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                                style="padding-right: 0.5rem;"></i>Team</a>
+                    </div>
+                </div>
+                <li class="mobli"><a href="./intership_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>Internship
+                        Portal</a></li>
+                <li class="mobli"><a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>Alumni
+                    </a></li>
+                <li class="mobli"><a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
+                            style="padding-right: 0.5rem;"></i>STARTUP</a></li>
+                <li class="mobli"><a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                            style="padding-right: 0.5rem;"></i>Registration</a></li>
+                <li class="mobli"><a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                            style="padding-right: 0.5rem;"></i>Team</a></li>
+    
+                <div class="dropdown">
+                    <button class="dropbtn">FEEDBACK <i class="fa-solid fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="./startup_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                                style="padding-right: 0.5rem;"></i>Startup
+                            Feedback
+                        </a>
+                        <a href="./investor_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                                style="padding-right: 0.5rem;"></i>Investor
+                            Feedback
+                        </a>
+    
+                    </div>
+                </div>
+                <li class="mobli"><a href="./startup_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                            style="padding-right: 0.5rem;"></i>Startup
+                        Feedback</a></li>
+                <li class="mobli"><a href="./investor_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                            style="padding-right: 0.5rem;"></i>Investor
+                        Feedback</a></li>
+                <!-- <li><a href="#"> <i id="icon" class="fa-regular fa-handshake" style="padding-right: 0.5rem;"></i>Feedback </a></li> -->
+                <li><a href="./contact.php"><i id="icon" class="fa-solid fa-user-group"
+                            style="padding-right: 0.5rem;"></i>Contact
+                        Us</a></li>
+            </ul>
+        </nav>
+    
+        <!-- NAVBAR END -->
+    <main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
+        <!-- Can add content Here(Start) accorfing to need-->
+
+
+
+
+        <!-- Can add content Here(End) -->
+        <div class="w-full mx-auto px-4 md:px-6 py-24">
+            <!-- Can add content Here(Start) accorfing to need-->
+
+            <div id="my-background"
+                style="height: 150%; width: 100%; z-index: -100; position: fixed; filter: opacity(0.35); margin-top: -100px;">
+            </div>
+
+            <!--Start Header-->
+
+            <!-- NAVBAR -->
+
+
+
+            <!-- NAVBAR Ends -->
+
+            <!--End Header-->
+
+            <!--start About Us-->
+            <div class="about-us">
+                <div class="text" data-aos="fade-up">
+                    <h2 class="top" id="about1" style="font-family: league_spartan; color: aqua;">ABOUT</h2>
+                    <p class="se" style="font-family: league_spartan; color: whitesmoke;">STARTUP EXPO</p>
+                    <hr style="border-top-width:5px;">
+                    <p style="font-family: metropolis; text-align: left;">The Startup Expo is one of the key highlights
+                        of Pune
+                        Startup Fest. The Expo
+                        is
+                        aimed at providing
+                        entrepreneurs a high visibility transformative platform where they can showcase their ventures,
+                        meet
+                        investors, engage with government organizations, attend knowledge sessions, receive one-on-one
+                        mentoring, network with business experts, explore partnership opportunities, find potential
+                        customers and interact with students and stakeholders that can help them scale new heights. It
+                        serves as a great medium of interaction between the founders and students, thus promoting a
+                        thriving
+                        entrepreneurial culture. The Startups also recruit these young innovators who look out for new
+                        opportunities.</p>
+                </div>
+                <div class="image-container" style="filter: drop-shadow(8px 8px 10px rgb(5, 3, 3));" data-aos="fade-up">
+                    <div class="image image1">
+                        <img src="./images/startupExpo/PSF'22_Gallery3.jpg" alt="Image">
+
+                    </div>
+                    <!-- <div class="image image2">
+                    <img src="/S2.png" alt="Image">
+                </div> -->
+                </div>
+            </div>
+            <!--End About Us-->
+            <!--start Main-->
+            <div class="main">
+                <div class="box-model">
+                    <!-- <i class="fas fa-times fa-2x close"></i> -->
+                    <div class="box-image-container">
+                        <div class="box-image">
+                            <img src="" alt="Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="main-image-container" data-aos="fade-right">
+                    <!-- <div class="image active" data-aos="zoom-in">
+                <img src="./images/startupExpo/PSF'22_Gallery1.jpg" alt="Image">
+            </div>
+            <div class="image" data-aos="zoom-in">
+                <img src="./images/startupExpo/PSF'22_Gallery2.jpg" alt="Image">
+            </div>
+            <div class="image" data-aos="zoom-in">
+                <img src="./images/startupExpo/PSF img 1.jpg" alt="Image">
+            </div>
+            <div class="image" data-aos="zoom-in">
+                <img src="./images/startupExpo/PSF img 2.jpg" alt="Image">
+            </div> -->
+                    <div class="center">
+                        <div class="carousel-wrapper">
+                            <!-- abstract radio buttons for slides -->
+                            <input id="slide1" type="radio" name="controls" checked="checked" />
+                            <input id="slide2" type="radio" name="controls" />
+                            <input id="slide3" type="radio" name="controls" />
+                            <input id="slide4" type="radio" name="controls" />
+                            <input id="slide5" type="radio" name="controls" />
+
+                            <!-- navigation dots -->
+                            <label for="slide1" class="nav-dot"></label>
+                            <label for="slide2" class="nav-dot"></label>
+                            <label for="slide3" class="nav-dot"></label>
+                            <label for="slide4" class="nav-dot"></label>
+                            <label for="slide5" class="nav-dot"></label>
+
+                            <!-- arrows -->
+                            <label for="slide1" class="left-arrow">
+                                < </label>
+                                    <label for="slide2" class="left-arrow">
+                                        < </label>
+                                            <label for="slide3" class="left-arrow">
+                                                < </label>
+                                                    <label for="slide4" class="left-arrow">
+                                                        < </label>
+                                                            <label for="slide5" class="left-arrow">
+                                                                < </label>
+
+                                                                    <label for="slide1" class="right-arrow"> > </label>
+                                                                    <label for="slide2" class="right-arrow"> > </label>
+                                                                    <label for="slide3" class="right-arrow"> > </label>
+                                                                    <label for="slide4" class="right-arrow"> > </label>
+                                                                    <label for="slide5" class="right-arrow"> > </label>
+
+                                                                    <div class="carousel">
+                                                                        <ul style="margin-bottom: 10px;">
+                                                                            <li>
+                                                                                <img
+                                                                                    src="./images/startupExpo/PSF'22_Gallery1.jpg" />
+                                                                            </li>
+                                                                            <li>
+                                                                                <img src="./images/startupExpo/PSF'22_Gallery2.jpg"
+                                                                                    alt="">
+                                                                            </li>
+                                                                            <li>
+                                                                                <img
+                                                                                    src="./images/startupExpo/PSF img 1.jpg" />
+                                                                            </li>
+                                                                            <li>
+                                                                                <img
+                                                                                    src="./images/startupExpo/PSF img 2.jpg">
+                                                                            </li>
+                                                                            <li>
+                                                                                <img
+                                                                                    src="./images/startupExpo/PSF'22_Gallery1.jpg" />
+                                                                            </li>
+                                                                            <!-- <li>
+                                                                                <img src="https://images.ctfassets.net/9l3tjzgyn9gr/photo-157575/d224d518da6c26515a470a9b7e490df8/157575-honey-bun-baby.jpg?fm=jpg&fl=progressive&q=50&w=1200"
+                                                                                    alt="">
+                                                                            </li> -->
+                                                                        </ul>
+                                                                    </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text" data-aos="fade-up">
+                    <h2 class="key1" style="font-family: league_spartan; font-size: 50px; color: aqua;">KEY HIGHLIGHTS
+                    </h2>
+                    <h3 class="key2"
+                        style="color: #ebd9eb; font-family: league_spartan; font-size: 60px; color: whitesmoke;">
+                        STARTUP
+                        EXPO</h3>
+                    <hr style="border-top-width:5px;">
+                    <ul style="text-align: left;">
+                        <li>
+                            <p style="font-family: metropolis;">&#8594; 100 startup exhibitors from various sectors in
+                                hybrid
+                                mode.</p>
+                        </li>
+                        <li>
+                            <p style="font-family: metropolis;">&#8594; 20 startup exhibits in offline mode.</p>
+                        </li>
+                        <li>
+                            <p style="font-family: metropolis;">&#8594; A footfall of over 3000 people.</p>
+                        </li>
+                        <li>
+                            <p style="font-family: metropolis;">&#8594; More than 75 investors, mentors, and industry
+                                experts.
+                            </p>
+                        </li>
+                        <li>
+                            <p style="font-family: metropolis;">&#8594; A prize pool of Rs. 70,000 was awarded for 7
+                                competitions
+                                organised during PSF'22.</p>
+                        </li>
+                        <li>
+                            <p style="font-family: metropolis;">&#8594; A dedicated "Student Startup Zone" for enabling
+                                opportunities for
+                                young entrepreneurs.</p>
+                        </li>
+                        <li>
+                            <p style="font-family: metropolis;">&#8594; "Student Internships" - to help students find
+                                internships in
+                                startups.</p>
+                        </li>
+                        <li>
+                            <p style="font-family: metropolis;">&#8594; Rs. 5.5 cr were invested into startups over the
+                                last 4
+                                years.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--End Main-->
+            <center>
+                <div class="carding">
+                    <div class="a" style="font-family: league_spartan;font-size:40px;">
+                        <h1 style="color: whitesmoke;">The Pitcher's Valley</h1>
+                    </div>
+                </div>
+                <div class="pitchersValley-container" style="margin-bottom: 5%;">
+                    <a href="./events/pitchersvalley">
+                        <img src="./images/main/Pitcher's Valley Square.png" alt="">
+                    </a>
+                </div>
+                <div class="view-more" style="margin-bottom: 5%;">
+                    <a href="./events/pitchersvalley">
+                        <button class="custom-btn btn-view">
+                            <p>View Details</p>
+                        </button>
+                    </a>
+                </div> -->
+            </center>
+            <section>
+                <!-- StartUp Zones -->
+                <div class="carding">
+                    <div class="a" style="font-family: league_spartan;">
+                        <h1 style="color: whitesmoke; font-size: 4rem;">STARTUP ZONES</h1>
+                    </div>
+                    <center>
+                        <hr align="center" style="border-top-width:5px;
+                     width:50%">
+
+                        <div class="containerr"
+                            style="filter: drop-shadow(8px 8px 10px rgb(8, 6, 6)); align-items:center">
+
+                            <div data-aos="zoom-in">
+                                <div class="carrd">
+                                    <div class="box">
+                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                        <div class="content">
+                                            <h3>SOCIAL STARTUPS</h3>
+                                            <hr class="cardline">
+                                            <p>Features startups emphasizing on solution to a social problem to create
+                                                change.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div data-aos="zoom-in">
+                                <div class="carrd">
+                                    <div class="box">
+                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                        <div class="content">
+                                            <h3> AGRO STARTUPS</h3>
+                                            <hr class="cardline">
+                                            <p>Features startups that help enhance traditional farming ways or develop
+                                                new
+                                                ones.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div data-aos="zoom-in">
+                                <div class="carrd">
+                                    <div class="box">
+                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                        <div class="content">
+                                            <h3>TECHNICAL STARTUPS</h3>
+                                            <hr class="cardline">
+                                            <p>Features products and services of startups which leverages technology.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-aos="zoom-in">
+                                <div class="carrd">
+                                    <div class="box">
+                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                        <div class="content">
+                                            <h3>HEALTH & LIFESTYLE STARTUPS</h3>
+                                            <hr class="cardline">
+                                            <p>Features startups that aim to rejuvenate human life.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-aos="zoom-in">
+                                <div class="carrd">
+                                    <div class="box">
+                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                        <div class="content">
+                                            <h3>STUDENT STARTUPS</h3>
+                                            <hr class="cardline">
+                                            <p>Features Young entrepeneurs striving to create a difference</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-aos="zoom-in">
+                                <div class="carrd">
+                                    <div class="box">
+                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                        <div class="content">
+                                            <h3>GREEN STARTUPS</h3>
+                                            <hr class="cardline">
+                                            <p>Incubators, accelerators, financial institutions and coworking spaces.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-aos="zoom-in">
+                                <div class="carrd">
+                                    <div class="box">
+                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                        <div class="content">
+                                            <h3>INNOVATION ZONE STARTUP</h3>
+                                            <hr class="cardline">
+                                            <p>Featuring creations of the innovators with IPR and/or patents with the
+                                                sole
+                                                aim of
+                                                solving
+                                                widespread problems</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-aos="zoom-in">
+                                <div class="carrd">
+                                    <div class="box">
+                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                        <div class="content">
+                                            <h3>EDUCATION ZONE STARTUP</h3>
+                                            <hr class="cardline">
+                                            <p>Features startups that aim to innovate and revolutionize the education
+                                                sector.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </center>
+
+                </div>
+                <!-- StartUp Zones -->
+            </section>
+
+
+            <!--start About Us-->
+            <div class="reservation">
+                <div class="text" data-aos="fade-right">
+                    <h2 class="zone" style="font-family: league_spartan; color: aqua;">INVESTOR ZONE</h2>
+                    <hr>
+                    <p>Amalgamation of Investors/Mentors from different domains of works coming together to network,
+                        interact,
+                        evaluate and mentor at Startup Expo sets up the premises of Investor Zone at Pune Startup Fest.
+                        <br><br>
+                        Despite the pandemic odds, Pune Startup Fest'22 was embraced with arms wide open as 75+
+                        investors and
+                        mentors
+                        visited the event in 2 days.
+                        Their visit comprises thorough interaction with the Startups as per their domain of interest,
+                        leading to
+                        mentorship and investment channels.
+                        Over 5.5 crores of investment has been achieved in previous 4 editions of Pune Startup Fest and
+                        with the
+                        association of esteemed ensemble of investors/mentors we are geared up to deliver the same for
+                        5th
+                        edition of
+                        Pune Startup Fest'23.
+                        Investor Zone serves the Startups with agenda of " Pruning predicaments with words of sagacity
+                        and
+                        watering
+                        worthy ideas with shower of greenbacks" in the process making it absolute centre of attraction.
+                    </p>
+                </div>
+                <div class="image-container" data-aos="fade-up">
+                    <div class="image image1">
+                        <img src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fpitching-investors_2021-08-16-223955_uvni.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.0825&fp-y=0.2205&h=415&q=88&w=622&s=2414200334f375415b91eb011897387d"
+                            alt="Image">
+                    </div>
+                    <!-- <div class="image image2">
+                    <img src="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988518/bacon-2.jpg"
+                        alt="Image">
+                </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Can add content Here(Start) accorfing to need-->
+
+
+
+
+        <!-- Can add content Here(End) -->
+
+        <div class="text-center">
+
+            <!-- Illustration #1 -->
+            <div class="absolute top-0 left-0 rotate-180 -translate-x-3/4 -scale-x-100 blur-3xl opacity-70 pointer-events-none"
+                aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+
+            <!-- Illustration #2 -->
+            <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+                aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+            <div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+                style="top: 90%;" aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+            <!-- Illustration #3 -->
+            <div class="absolute top-80 left-100 -translate-y-1 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+                aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+            <div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+                style="top: 90%;" aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+
+
+            <!-- Particles animation -->
+            <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+                <canvas data-particle-animation></canvas>
+            </div>
+            <div class="relative">
+            </div>
+        </div>
+        <!-- </div> -->
+
+        <!-- Ilusration #5 -->
+        <!-- <div class="absolute bottom-0 left-50 rotate-180 -translate-x-1 -scale-x-100 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
+  <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration">
+</div> -->
+    </main>
+    <!--End About Us-->
+
+    <!-- footer starts -->
+
+    <footer>
+		<div class="ftcardcontainer">
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+				integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+				crossorigin="anonymous">
+  
+			<!-- <h1 class="fth1-text">
+				<i class="ftfa fa-users" aria-hidden="true"></i>Team Members
+			</h1> -->
+			<div class="ftcontainer">
+				<div class="ftbox">
+					<div class="fttop-bar"></div>
+					<div class="ftcontent">
+						<!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+							alt=""> -->
+						<b>Dr Vidya More</b>
+						Faculty Advisor
+						<p>vnm.extc@coep.ac.in</p>
+					</div>
+  
+				</div>
+				<div class="ftbox">
+					<div class="fttop-bar"></div>
+					<div class="fttop">
+					</div>
+					<div class="ftcontent">
+						<!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+							alt=""> -->
+						<b>Dr Rahul Adhao</b>
+						Faculty Advisor
+						<p>rba.comp@coep.ac.in</p>
+					</div>
+  
+				</div>
+				<div class="ftbox">
+					<div class="fttop-bar"></div>
+					<div class="ftcontent">
+						<!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+							alt=""> -->
+						<b>Gaurav Sonewane</b>
+						Secretary
+						<p>secretary.psf@coep.ac.in</p>
+					</div>
+				</div>
+				<div class="ftbox">
+					<div class="fttop-bar"></div>
+					<div class="ftcontent">
+						<!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+							alt=""> -->
+						<b>Samta Raka </b>
+						Finance and Marketing Executive
+						<p>finance.psf@coep.ac.in</p>
+					</div>
+				</div>
+				<div class="ftbox">
+					<div class="fttop-bar"></div>
+					<div class="ftcontent">
+						<!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+							alt=""> -->
+						<b>Sanmeet Sawla</b>
+						Investor Relations Executive
+						<p>ir.psf@coep.ac.in</p>
+					</div>
+  
+				</div>
+				<div class="ftbox">
+					<div class="fttop-bar"></div>
+					<div class="ftcontent">
+						<!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+							alt=""> -->
+						<b>Varun Shetty</b>
+						Events and Networking Executive
+						<p>events.psf@coep.ac.in</p>
+					</div>
+  
+				</div>
+			</div>
+		</div>
+		<footer class="ftfooter-distributed">
+  
+			<div class="ftfooter-left">
+  
+				<span><img style="margin-left: 30%;max-width:40%;" src="./images/navbarAndFooter/PSF24 White.png" alt=""></span>
+  
+				<p class="ftfooter-links">
+					<a href="#" class="ftlink-1">Home</a>
+  
+					<a href="#">About US</a>
+  
+					<a href="#">Investors</a>
+  
+					<a href="#">Contact</a>
+				</p>
+  
+				<p class="ftfooter-company-name">PUNE STARTUP FEST</p>
+			</div>
+  
+			<div class="ftfooter-center">
+  
+				<div class="icons">
+					<i class="fa fa-map-marker"></i>
+					<a
+						href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
+						<p><span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005</p>
+					</a>
+				</div>
+  
+				<div class="icons">
+					<i class="fa fa-phone"></i>
+					<p><a href="">
+			Contact us
+		  </a></p>
+				</div>
+  
+				<div class="icons">
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:queries.psf@gmail.com">queries.psf@gmail.com</a></p>
+				</div>
+				<!-- <div class="ftCopyright">
+					<p>Copyright &copy; 2023, All Rights Reserved</p>
+				</div> -->
+			</div>
+  
+			<div class="ftfooter-right">
+  
+				<p class="ftfooter-company-about">
+					<span>About Pune Startup Fest</span>
+					Pune Startup Fest is an unique Startup Expo, which provides an excellent platform for numerous
+					students and Start-ups to connect with this ever growing entrepreneurial world.
+				</p>
+  
+				<div class="ftfooter-icons">
+					<!-- <h3>Follow Us:</h3> -->
+					<a href="https://www.facebook.com/biec.coep/"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/BIEC_COEP?t=UdnnunU2-JfVRhQ_SBoRBQ&s=08"><i
+							class="fa fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/company/pune-startup-fest/"><i class="fa fa-linkedin"></i></a>
+					<a href="https://www.instagram.com/biec_coep/?igshid=Yzg5MTU1MDY%3D"><i
+							class="fa fa-instagram"></i></a>
+					<a href="https://www.youtube.com/c/BhausInnovationEntrepreneurshipCellCOEP2022"><i
+							class="fa fa-youtube"></i></a>
+  
+					<!-- <a class="ftglassIco" href="#"><i class="ftfab fa-facebook-f"></i></a>
+					<a class="ftglassIco" href="#"><i class="ftfab fa-instagram"></i></a>
+					<a class="ftglassIco" href="#"><i class="ftfab fa-linkedin-in"></i></a>
+					<a class="ftglassIco" href="#"><i class="ftfab fa-whatsapp"></i></a> -->
+  
+				</div>
+				<!-- <div class="ftcontainer1">
+					<div class="ftmenu">
+					  <div class="ftnavigation">
+						<span style="--i:0; --x:-1; --y:0">
+						  <ion-icon name="videocam-outline"></ion-icon>
+						</span>
+						<span style="--i:1; --x:1; --y:0">
+						  <ion-icon name="flame-outline"></ion-icon>
+						</span>
+						<span style="--i:2; --x:0; --y:-1">
+						  <ion-icon name="bulb-outline"></ion-icon>
+						</span>
+						<span style="--i:3; --x:0; --y:1">
+						  <ion-icon name="build-outline"></ion-icon>
+						</span>
+						<span style="--i:4; --x:-1; --y:1">
+						  <ion-icon name="thermometer-outline"></ion-icon>
+						</span>
+						<span style="--i:5; --x:-1; --y:-1">
+						  <ion-icon name="water-outline"></ion-icon>
+						</span>
+						<span style="--i:6; --x:1; --y:-1">
+						  <ion-icon name="alarm-outline"></ion-icon>
+						</span>
+						<span style="--i:7; --x:1; --y:1">
+						  <ion-icon name="radio-outline"></ion-icon>
+						</span>
+					  </div>
+					  <div class="ftclose">
+						<ion-icon name="close-outline">X</ion-icon>
+					  </div>
+					</div>
+				  </div> -->
+			</div>
+			<div class="ftCopyright">
+				<p>Copyright &copy; 2023, All Rights Reserved</p>
+			</div>
+			<div class="ftCopyright designed" style="background-color: #1c335a;">
+				<p>DESIGNED BY WEB TEAM</p>
+			</div>
+  
+		</footer>
+	</footer>
+
+    <!-- footer ends -->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="./js/particle-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000, // Animation duration in milliseconds
+            once: false,     // Animation only once on page load
+        });
+    </script>
+    <!-- image slider js  -->
+    <script>
+        // JavaScript for automatic sliding
+        const slides = document.querySelectorAll('.carousel-wrapper input[name="controls"]');
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            slides[index].checked = true;
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        // Set up automatic sliding (adjust the interval as needed)
+        setInterval(nextSlide, 5000); // Change slide every 5 seconds
+    </script>
+
+
+
+    <!-- Add your site or application content here -->
+    <script src="js/main.js"></script>
+    <script src="js/main.min.js"></script>
+
+    <!-- partial -->
+    <script src="./js/startup.js"></script>
+
+    <!-- footer  -->
+
+
+
+    <!-- <script src="./js/play.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script> -->
+
+    <!-- 
+  <script>
+    VANTA.WAVES({
+      el: "#my-background",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+    })
+  </script> -->
+
+</body>
+
+</html>
