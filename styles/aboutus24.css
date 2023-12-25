@@ -18,11 +18,14 @@ h1 {
     text-align: center;
     color: white;
 }
-
-p {
+.animate{
     font-size: max(10pt, 2.5vmin);
-    line-height: 1.4;
     color: rgb(17, 8, 8);
+
+}
+p {
+
+    line-height: 1.4;
     margin-bottom: 1.5rem;
 }
 
@@ -131,7 +134,7 @@ p {
     /* overflow-y: scroll; */
 }
 .text p{
-    font-size: 1.1rem;
+    font-size: 0.95rem;
 
 }
 @media screen and (max-width:900px) {

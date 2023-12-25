@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Synchronized Timer</title>
+  <!-- Add Firebase SDK -->
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    div {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    button {
+      font-size: 1em;
+      margin: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <h1 id="timer">00:00:00</h1>
+    <button onclick="startTimer()">Start Timer</button>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js"></script>
+
+  <!-- Your Firebase config -->
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyCUYroDVFzskV5X46xLRFOEFB6Gf3A4Rk4",
+      authDomain: "psfweb-c5a94.firebaseapp.com",
+      projectId: "psfweb-c5a94",
+      storageBucket: "psfweb-c5a94.appspot.com",
+      messagingSenderId: "678966913337",
+      appId: "1:678966913337:web:c8161a39cb4bdf517820e8"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    // Get a reference to the database service
+    var database = firebase.database();
+
+    var timerInterval;
+
+    function startTimer() {
+      // Set the start time in Firebase
+      database.ref('timer').set({
+        startTime: new Date().getTime()
+      });
+
+      // Start updating the timer on the page
+      timerInterval = setInterval(updateTimer, 1000);
+    }
+
+    function updateTimer() {
+      // Listen for changes in the timer value
+      database.ref('timer').once('value').then(function (snapshot) {
+        if (snapshot.exists()) {
+          var elapsedTime = snapshot.val().startTime
+            ? new Date().getTime() - snapshot.val().startTime
+            : 0;
+          var formattedTime = formatTime(elapsedTime);
+          document.getElementById("timer").innerText = formattedTime;
+        }
+      });
+    }
+
+    function formatTime(milliseconds) {
+      var seconds = Math.floor(milliseconds / 1000);
+      var minutes = Math.floor(seconds / 60);
+      var hours = Math.floor(minutes / 60);
+
+      seconds %= 60;
+      minutes %= 60;
+
+      return (
+        pad(hours) + ":" + pad(minutes) + ":" + pad(seconds)
+      );
+    }
+
+    function pad(number) {
+      return (number < 10 ? '0' : '') + number;
+    }
+  </script>
+
+</body>
+
+</html>
