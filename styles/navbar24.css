@@ -5,14 +5,11 @@
     list-style: none;
     box-sizing: border-box;
 }
-.loo{
-    position: fixed;
-   
-}
+
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background-color: #0d1b24;
+    background-color: #0b0430;
 }
 
 nav {
