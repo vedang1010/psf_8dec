@@ -624,3 +624,37 @@ button:focus{
 
 
 
+
+.logo-nav {
+  /* z-index: 99999; */
+  /* margin-top: -30px; */
+  /* position:absolute; */
+  right: 30px;
+  position: relative;
+  float: right;
+  padding: 15px;
+  overflow-x: visible;
+}
+
+.logo-nav img{
+  width: 15vh;
+  overflow-x: visible;
+}
+
+@media screen and (max-width:480px) {
+  .logo-nav{
+      margin-top: 20px;
+      padding: 0%;
+  }
+  .menu-nav-link{
+      font-size: 2rem;
+  }
+  .menu{
+      max-width: 100vw;
+  }
+}
+
+
+
+
+
