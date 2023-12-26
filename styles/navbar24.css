@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-    background:transparent;
+    /* background:black; */
    
     height: 60px;
     width: 100%;
@@ -55,7 +55,8 @@ ul{
 nav ul {
     /* float: right; */
     /* margin-top: 20px; */
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    /* background: black; */
 }
 
 nav ul li {
@@ -132,6 +133,12 @@ a:hover::before {
         }
 }
 @media (max-width: 1212px) {
+    nav{
+        background: transparent;
+    }
+    nav ul{
+        background: transparent;
+    }
     .checkbtn {
         display: block;
        
