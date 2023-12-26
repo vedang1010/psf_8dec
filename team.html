@@ -51,10 +51,19 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-<link rel="stylesheet" href="./styles/team24.css">
-<!-- <link rel="stylesheet" href="./styles/navbar24.css"> -->
+    <link rel="stylesheet" href="./styles/team24.css">
+    <link rel="stylesheet" href="./styles/navbar24.css">
+    <style>
+        .title1 {
+            font-size: 35px;
+            color: aqua;
+            text-align: center;
+            width: 100%;
+            font-family: kanit;
+            font-weight: 600;
+        }
+    </style>
 
-   
 </head>
 
 <body>
@@ -164,13 +173,13 @@
     <main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
         <!-- Can add content Here(Start) accorfing to need-->
 
-
-        <h1 style="text-align: center;">OUR TEAM</h1>
+        <h1 class="title1" style="font-family: league_spartan; margin-top: 6.8%"></h1>
+        <!-- <h1 style="text-align: center;">OUR TEAM</h1> -->
         <h1 class="title">College Authorities</h1>
 
         <div id="app" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
                 linkedin-link="https://www.linkedin.com">
                 <h1 slot="header">Prof Sudhir Agashe</h1>
                 <p slot="content">Vice Chancellor</p>
@@ -186,58 +195,9 @@
         <h1 class="title">Faculty Advisors</h1>
         <div id="app1" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
-
-        </div>
-        <h1 class="title">Secretary</h1>
-        <div  id="app2" class="container">
-
-            <card data-aos="zoom-out-down" data-image="./images/team/Gaurav_Sonewane.jpg" whatsapp-link="https://wa.link/3z41zi"
-                linkedin-link="https://www.linkedin.com">
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
                 <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
@@ -248,14 +208,67 @@
                 </div>
             </card>
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
+                        target="_blank"></i>
+                </div>
+            </card>
+
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
+                <p slot="content"></p>
+                <div slot="social-icons" class="social-icons">
+                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
+                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
+                        target="_blank"></i>
+                </div>
+            </card>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
+                <p slot="content"></p>
+                <div slot="social-icons" class="social-icons">
+                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
+                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
+                        target="_blank"></i>
+                </div>
+            </card>
+
+        </div>
+        <h1 class="title">Secretary</h1>
+        <div id="app2" class="container">
+
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
+                <p slot="content"></p>
+                <div slot="social-icons" class="social-icons">
+                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
+                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
+                        target="_blank"></i>
+                </div>
+            </card>
+
+
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
+                <p slot="content"></p>
+                <div slot="social-icons" class="social-icons">
+                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
+                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
@@ -265,7 +278,7 @@
         <h1 class="title">Accounts and Documentation</h1>
         <div id="app3" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/eu7npw"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/eu7npw"
                 linkedin-link="https://www.linkedin.com/in/piyush-ladda-00767a183?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <h1 slot="header">Piyush Ladda</h1>
                 <p slot="content"></p>
@@ -276,95 +289,64 @@
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
+
 
         </div>
         <h1 class="title">Alumni Outreach Group</h1>
         <div id="app4" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
+
         </div>
 
         <h1 class="title">Design and VFX</h1>
 
         <div id="app5" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/1q9c5x"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/1q9c5x"
                 linkedin-link="https://www.linkedin.com/in/rupak-khandate-672057283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <h1 slot="header">Rupak Khandate</h1>
                 <p slot="content"></p>
@@ -375,39 +357,29 @@
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
+
 
         </div>
 
@@ -415,7 +387,7 @@
 
         <div id="app6" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/0422to"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/0422to"
                 linkedin-link="https://www.linkedin.com/in/varun-shetty">
                 <h1 slot="header">Varun Shetty </h1>
                 <p slot="content"></p>
@@ -426,39 +398,18 @@
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
+
 
         </div>
 
@@ -466,7 +417,7 @@
 
         <div id="app7" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/bujk8h"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/bujk8h"
                 linkedin-link="https://www.linkedin.com/in/samta-raka-a81375248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <h1 slot="header">Samta Raka </h1>
                 <p slot="content"></p>
@@ -477,39 +428,18 @@
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
+
 
         </div>
 
@@ -517,50 +447,29 @@
 
         <div id="app8" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
+
 
         </div>
 
@@ -568,7 +477,7 @@
 
         <div id="app9" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/rvv6vx"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/rvv6vx"
                 linkedin-link="https://www.linkedin.com/in/purva-khairkar-468aa1250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <h1 slot="header">Purva Khairkar </h1>
                 <p slot="content"></p>
@@ -579,7 +488,7 @@
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/0d2xb1"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/0d2xb1"
                 linkedin-link="https://www.linkedin.com/in/sanmeet-sawla-860952156?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
                 <h1 slot="header">Sanmeet Sawla</h1>
                 <p slot="content"></p>
@@ -590,28 +499,7 @@
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
+
 
         </div>
 
@@ -619,7 +507,7 @@
 
         <div id="app10" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/ahiwdy"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/ahiwdy"
                 linkedin-link="https://www.linkedin.com/in/sanika-d-kulkarni?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <h1 slot="header">Sanika Kulkarni </h1>
                 <p slot="content"></p>
@@ -630,46 +518,36 @@
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
+
         </div>
 
         <h1 class="title">Operations and Logistics</h1>
 
         <div id="app11" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/2a66t0"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/2a66t0"
                 linkedin-link="https://www.linkedin.com/in/harshwardhan-dixit-8537b5230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <h1 slot="header">Harshwardhan Dixit</h1>
                 <p slot="content"></p>
@@ -680,36 +558,36 @@
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
@@ -720,59 +598,38 @@
 
         <div id="app12" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
+
 
         </div>
 
-        
+
         <h1 class="title">Public Relations</h1>
 
         <div id="app13" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/gfd062"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/gfd062"
                 linkedin-link="https://www.linkedin.com/in/shreyashkokate">
                 <h1 slot="header">Shreyash Kokate </h1>
                 <p slot="content"></p>
@@ -783,48 +640,27 @@
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
+            <card data-aos="zoom-in" data-image="./images/team/Gaurav_Sonewane.jpg"
+                whatsapp-link="https://wa.link/3z41zi" linkedin-link="https://www.linkedin.com">
+                <h1 slot="header">Gaurav Sonewane</h1>
                 <p slot="content"></p>
                 <div slot="social-icons" class="social-icons">
                     <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
                     <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
+                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:secretary.psf@coeptech.ac.in')"
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://www.facebook.com"
-                linkedin-link="https://www.linkedin.com">
-                <h1 slot="header">Canyons</h1>
-                <p slot="content"></p>
-                <div slot="social-icons" class="social-icons">
-                    <i class="fab fa-whatsapp" @click="redirectToLink(whatsappLink)" target="_blank"></i>
-                    <i class="fab fa-linkedin" @click="redirectToLink(linkedinLink)" target="_blank"></i>
-                    <i class="fab fa-envelop" @click="redirectToEmail('mailto:vedangkhedekar07@gmail.com')"
-                        target="_blank"></i>
-                </div>
-            </card>
+
 
         </div>
 
-        
+
         <h1 class="title">WEB</h1>
 
         <div id="app14" class="container">
 
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/nd6m8z"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/nd6m8z"
                 linkedin-link="https://www.linkedin.com/in/vedang-khedekar-30571322a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <h1 slot="header">Vedang Khedekar</h1>
                 <p slot="content"></p>
@@ -835,7 +671,7 @@
                         target="_blank"></i>
                 </div>
             </card>
-            <card data-image="./images/feedback.png" whatsapp-link="https://wa.link/bi7knz"
+            <card data-aos="zoom-out-down" data-image="./images/feedback.png" whatsapp-link="https://wa.link/bi7knz"
                 linkedin-link="https://www.linkedin.com/in/vardhan-mundada-154278230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <h1 slot="header">Vardhan Mundada</h1>
                 <p slot="content"></p>
