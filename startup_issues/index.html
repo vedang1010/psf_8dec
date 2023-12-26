@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #202020;
+        }
+            .card {
+                display: flex;
+                flex-direction: column;
+                background: lightgrey;
+                width: fit-content;
+                justify-content: center;
+                margin: auto;
+                margin-top: 200px;
+            }
+
+            .red-btn {
+                width: 300px;
+                height: 150px;
+                margin: 15px;
+                background: rgb(255, 0, 0);
+                background: rgb(131, 58, 180);
+                background: linear-gradient(
+                90deg,
+                rgba(131, 58, 180, 1) 0%,
+                rgba(253, 29, 29, 1) 50%,
+                rgba(252, 176, 69, 1) 100%
+                );
+                color: white;
+                border: none;
+                border-radius: 0.625em;
+                font-size: 20px;
+                font-weight: bold;
+                cursor: pointer;
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+            }
+
+            .blue-btn {
+                width: 300px;
+                height: 150px;
+                margin: 15px;
+                background: rgb(0, 8, 144);
+                background: linear-gradient(
+                90deg,
+                rgba(0, 8, 144, 1) 0%,
+                rgba(16, 0, 255, 1) 22%,
+                rgba(86, 255, 247, 1) 100%
+                );
+                color: white;
+                border: none;
+                border-radius: 0.625em;
+                font-size: 20px;
+                font-weight: bold;
+                cursor: pointer;
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+            }
+
+            button:hover {
+                color: rgb(0, 0, 0);
+            }
+
+            button:after {
+                content: "";
+                background: white;
+                position: absolute;
+                z-index: -1;
+                left: -20%;
+                right: -20%;
+                top: 0;
+                bottom: 0;
+                transform: skewX(-45deg) scale(0, 1);
+                transition: all 0.5s;
+            }
+
+            button:hover:after {
+                transform: skewX(-45deg) scale(1, 1);
+                -webkit-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+
+
+    </style>
+</head>
+<body>
+
+    <!--
+    <p>Click on the links to go to different websites:</p>
+    
+    <a href="https://punestartupfest.in/startup_issues/startup_login.html" >Start Up</a>
+   
+    <a href="https://punestartupfest.in/startup_issues/ops_login.php" >Ops Teams</a>
+    -->
+    <div class="card">
+
+        <a href="https://punestartupfest.in/startup_issues/ops_login.php" >
+        <button class="red-btn"><h2>OPS TEAM</h2></button>
+        </a>
+      
+        <a href="https://punestartupfest.in/startup_issues/startup_login.html" >
+        <button class="blue-btn"><h2>START-UP</h2></button>
+        </a>
+
+    </div>
+      
+      
+</body>
+</html>
