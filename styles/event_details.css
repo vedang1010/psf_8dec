@@ -665,6 +665,7 @@ section {
     width: 100%;
     text-align: center;
     font-weight: 500;
+    overflow: visible;
   }
 
   .navigation ul li a .icon {
