@@ -106,7 +106,7 @@ $mail->Port = 587; // Use port 587 for TLS
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/navbarAndFooter/PSF + Marsh White1.png">
 
-    <title>PSF'24</title>
+    <title>Pune Startup Fest'24</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -204,7 +204,7 @@ $mail->Port = 587; // Use port 587 for TLS
                 <button class="dropbtn">OTHER <i class="fa-solid fa-caret-down"></i></button>
                 <div class="dropdown-content">
                     <a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
-                            style="padding-right: 0.5rem;"></i>INTERSHIP
+                            style="padding-right: 0.5rem;"></i>INTERNSHIP
                         PORTAL
                     </a>
                     <a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
@@ -218,7 +218,7 @@ $mail->Port = 587; // Use port 587 for TLS
                             style="padding-right: 0.5rem;"></i>Team</a>
                 </div>
             </div>
-            <li class="mobli"><a href="./intership_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
+            <li class="mobli"><a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
                         style="padding-right: 0.5rem;"></i>Internship
                     Portal</a></li>
             <li class="mobli"><a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
@@ -458,13 +458,13 @@ $mail->Port = 587; // Use port 587 for TLS
 				<span><img style="margin-left: 30%;max-width:40%;" src="./images/navbarAndFooter/PSF24 White.png" alt=""></span>
   
 				<p class="ftfooter-links">
-					<a href="#" class="ftlink-1">Home</a>
+					<a href="./main.html" class="ftlink-1">Home</a>
   
-					<a href="#">About US</a>
+					<a href="./aboutus.html" class="ftlink-1">Home</a>
   
-					<a href="#">Investors</a>
+					<a href="./investor.html">Investors</a>
   
-					<a href="#">Contact</a>
+					<a href="./contact.php">Contact</a>
 				</p>
   
 				<p class="ftfooter-company-name">PUNE STARTUP FEST</p>

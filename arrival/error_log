@@ -1,0 +1,289 @@
+[09-Oct-2023 13:29:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'punese3g_biec'@'localhost' to database 'punese3g_test' in /home1/punese3g/public_html/arrival/index.php:10
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/index.php(10): mysqli_connect('localhost', 'punese3g_biec', Object(SensitiveParameterValue), 'punese3g_test')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/index.php on line 10
+[09-Oct-2023 13:36:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'punese3g_biec'@'localhost' to database 'punese3g_test' in /home1/punese3g/public_html/arrival/index.php:10
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/index.php(10): mysqli_connect('localhost', 'punese3g_biec', Object(SensitiveParameterValue), 'punese3g_test')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/index.php on line 10
+[09-Oct-2023 13:38:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'punese3g_biec'@'localhost' to database 'punese3g_test' in /home1/punese3g/public_html/arrival/process_investor.php:10
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/process_investor.php(10): mysqli_connect('localhost', 'punese3g_biec', Object(SensitiveParameterValue), 'punese3g_test')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/process_investor.php on line 10
+[09-Oct-2023 13:42:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'punese3g_biec'@'localhost' to database 'punese3g_test' in /home1/punese3g/public_html/arrival/process_investor.php:10
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/process_investor.php(10): mysqli_connect('localhost', 'punese3g_biec', Object(SensitiveParameterValue), 'punese3g_test')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/process_investor.php on line 10
+[09-Oct-2023 13:43:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'punese3g_biec'@'localhost' to database 'punese3g_test' in /home1/punese3g/public_html/arrival/process_investor.php:10
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/process_investor.php(10): mysqli_connect('localhost', 'punese3g_biec', Object(SensitiveParameterValue), 'punese3g_test')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/process_investor.php on line 10
+[09-Oct-2023 14:05:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'punese3g_biec'@'localhost' to database 'punese3g_test' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:9
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(9): mysqli_connect('localhost', 'punese3g_biec', Object(SensitiveParameterValue), 'punese3g_test')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 9
+[09-Oct-2023 16:44:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'punese3g_biec'@'localhost' to database 'punese3g_test' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:9
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(9): mysqli_connect('localhost', 'punese3g_biec', Object(SensitiveParameterValue), 'punese3g_test')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 9
+[09-Oct-2023 16:44:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'punese3g_biec'@'localhost' to database 'punese3g_test' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:9
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(9): mysqli_connect('localhost', 'punese3g_biec', Object(SensitiveParameterValue), 'punese3g_test')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 9
+[09-Oct-2023 16:45:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'punese3g_biec'@'localhost' to database 'punese3g_test' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:9
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(9): mysqli_connect('localhost', 'punese3g_biec', Object(SensitiveParameterValue), 'punese3g_test')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 9
+[09-Oct-2023 16:45:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'punese3g_biec'@'localhost' to database 'punese3g_test' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:9
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(9): mysqli_connect('localhost', 'punese3g_biec', Object(SensitiveParameterValue), 'punese3g_test')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 9
+[09-Oct-2023 17:05:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:05:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:08:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:09:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:09:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:09:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:09:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:09:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:09:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:09:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:09:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:10:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:10:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:11:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/update_arrival.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/update_arrival.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/update_arrival.php on line 18
+[09-Oct-2023 17:14:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:14:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:17:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:17:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:20:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:21:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:23:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:18
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(18): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 18
+[09-Oct-2023 17:26:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:26:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:26:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:26:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:26:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:26:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:27:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:27:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:27:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:27:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:27:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:27:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[09-Oct-2023 17:27:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home1/punese3g/public_html/arrival/get_investor_arrivals.php:22
+Stack trace:
+#0 /home1/punese3g/public_html/arrival/get_investor_arrivals.php(22): mysqli_query(Object(mysqli), 'SELECT name, im...')
+#1 {main}
+  thrown in /home1/punese3g/public_html/arrival/get_investor_arrivals.php on line 22
+[12-Oct-2023 13:05:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/punese3g/public_html/arrival/process_investor.php:45) in /home1/punese3g/public_html/arrival/process_investor.php on line 49
+[12-Oct-2023 13:08:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/punese3g/public_html/arrival/process_investor.php:45) in /home1/punese3g/public_html/arrival/process_investor.php on line 49
+[12-Oct-2023 13:09:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/punese3g/public_html/arrival/process_investor.php:45) in /home1/punese3g/public_html/arrival/process_investor.php on line 49
+[12-Oct-2023 13:13:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/punese3g/public_html/arrival/process_investor.php:45) in /home1/punese3g/public_html/arrival/process_investor.php on line 48
