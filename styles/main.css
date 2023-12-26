@@ -213,8 +213,8 @@ body {
 
   .para-text .mobile {
     position: absolute;
-    margin-top: 13vh;
-    margin-left: 10vh;
+    /* margin-top: 13vh;
+    margin-left: 10vh; */
   }
 }
 
