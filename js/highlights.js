@@ -1,49 +1,46 @@
 
+ let valueDisplays = document.querySelectorAll(".num");
+let interval = 4000;
 
+function startCounterAnimation(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      let valueDisplay = entry.target;
+      let startValue = 0;
+      let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+      if(endValue===15000){
+        duration=12;
+        let counter = setInterval(function () {
+        startValue += 50;
+        valueDisplay.textContent = startValue;
+        if (startValue == endValue) {
+          clearInterval(counter);
+          observer.unobserve(valueDisplay);
+        }
+      }, duration);
+      }
+      else{
+        duration=Math.floor(interval/endValue);
+      
+      let counter = setInterval(function () {
+        startValue += 1;
+        valueDisplay.textContent = startValue;
+        if (startValue == endValue) {
+          clearInterval(counter);
+          observer.unobserve(valueDisplay);
+        }
+      }, duration);
+    }
+  }
+  });
+}
 
-    const counterfoot = document.querySelector(".counterfoot");
-    let count;
-    count=0;
-    setInterval(() => {
-      if (count == 15000) { 
-        clearInterval(count); 
-      } else {
-        count = count + 100;
-        counterfoot.textContent = count + "+";
-      }
-    }, 42);
+// Create an Intersection Observer
+let observer = new IntersectionObserver(startCounterAnimation, { threshold: 0.5 });
 
-    
-    const counterintern = document.querySelector(".counterintern");
-    let countt = 0;
-    setInterval(() => {
-      if (countt == 400) {
-        clearInterval(countt);
-      } else {
-        countt = countt + 5;
-        counterintern.textContent = countt + "+";
-      }
-    }, 42);
-    const counterinvest = document.querySelector(".counterinvest");
-    let counttt = 0;
-    setInterval(() => {
-      if (counttt == 120) {
-        clearInterval(counttt);
-      } else {
-        counttt = counttt + 1;
-        counterinvest.textContent = counttt + "+";
-      }
-    }, 42);
-    const counterstart = document.querySelector(".counterstart");
-    let countttt = 40;
-    setInterval(() => {
-      if (countttt == 170) {
-        clearInterval(countttt);
-      } else {
-        countttt = countttt + 1;
-        counterstart.textContent = countttt + "+";
-      }
-    }, 42);
+// Observe each .num element
+valueDisplays.forEach((valueDisplay) => {
+  observer.observe(valueDisplay);
+});
 
-    
 
