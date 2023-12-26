@@ -260,7 +260,7 @@ body {
   } */
 
 @media screen and (max-width: 500px) {
-  .theme .theme-child p {
+  .theme .what .what-block p {
     margin-top: 4rem;
     text-align: left;
     font-family: 'Quando', serif;
