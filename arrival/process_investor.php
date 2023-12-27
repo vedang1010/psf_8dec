@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // echo "Investor created successfully.";
         // sleep(3);
         // Redirect after the specified delay
-        header("Location: https://punestartupfest.in/arrival/create_investor.php");
+        header("Location: https://punestartupfest.in/arrival/create_investor");
         
 
     } else {

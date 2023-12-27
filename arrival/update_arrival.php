@@ -54,9 +54,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 "title" => "Investor Arrived: " . $investorDetails['name'],
                 // "title" => "Investor Arrived: " . $image_link,
                 "body" => "Investor has arrived!",
-                "icon" => "https://www.clipscutter.com/image/brand/brand-256.png",
+                "icon" => "https://punestartupfest.in/images/navbarAndFooter/PSF24%20White.png",
                 "image" => $image_link,
-                "click_action" => "https://punestartupfest.in/arrival/index.php",
+                "click_action" => "https://punestartupfest.in/arrival/long_polling",
                 // "name" => $investorDetails['name'],
                 // "image_url" => $investorDetails['image_url'],
             ),
@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         curl_close($curl);
 
         // Redirect after successful submission
-        header("Location: https://punestartupfest.in/arrival/long_polling");
+        header("Location: https://punestartupfest.in/arrival/markArrival.php");
         exit;
     } else {
         echo "Error: " . mysqli_error($conn);
