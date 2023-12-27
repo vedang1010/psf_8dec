@@ -38,6 +38,7 @@ section {
   float: left;
   width: 100%;
   padding-bottom: 3em;
+  z-index: 500;
 }
 h2 {
   color: #1a0e0e;
@@ -246,6 +247,7 @@ h2 span {
   display: flex;
   text-align: center;
   padding: 3rem;
+  justify-content: center;
 }
 
 .content-box img {
@@ -595,7 +597,7 @@ h2 span {
   }
 
   .platinum-tab .content-box{
-    display: block;
+    /* display: block; */
   }
 
   .item{
@@ -746,3 +748,40 @@ body {
     }
 
 } */
+
+.name-card {
+
+  /* font-size: 27px; */
+  margin: max(1rem, 3vw);
+  border: 3px solid rgb(220, 146, 56);
+  box-shadow: 0 0 1.5em rgba(4, 17, 4, 0.6);
+  border-radius: 10px;
+  width: 50%;
+
+}
+
+
+
+.name-cardinner {
+  text-align: center;
+  padding: 3vw;
+  font-size: 28px;
+  border: 1px solid rgb(190, 138, 76);
+  align-items: center;
+  justify-content: center;
+  height: 93%;
+  margin: 5px;
+}
+@media screen and (max-width:550px) {
+  .name-card {
+    font-size: 15px;
+  }
+  
+  
+  
+  .name-cardinner {
+    
+    font-size: 15px;
+    
+  }
+}
