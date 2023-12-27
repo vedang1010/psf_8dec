@@ -592,7 +592,7 @@ h2 span {
   }
 
   .content-box2{
-    display: block;
+    /* display: block; */
     margin : -5rem;
   }
 
