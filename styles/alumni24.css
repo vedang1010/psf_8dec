@@ -785,3 +785,16 @@ body {
     
   }
 }
+@media screen and (max-width:380px) {
+  .name-card {
+    font-size: 12px;
+  }
+  
+  
+  
+  .name-cardinner {
+    
+    font-size: 12px;
+    
+  }
+}
