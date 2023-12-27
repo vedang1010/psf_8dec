@@ -82,13 +82,13 @@ a.active,
     background: #072941;
     transition: .5s;
 } */
-a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
     position: relative;
     overflow: hidden;
 }
-a::before {
+nav ul li a::before {
     content: "";
     position: absolute;
     width: 0;
@@ -99,7 +99,7 @@ a::before {
     transform: translateX(-50%); /* Center it */
     transition: width 0.3s ease-in-out;
 }
-a:hover::before {
+nav ul li a:hover::before {
     width: 100%;
 }
 

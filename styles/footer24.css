@@ -581,3 +581,7 @@ a{
   grid-template-columns: auto auto;
   align-items: center;
 }
+.icons a:hover p{
+    text-decoration: none;
+    color: #2246b4;
+}
