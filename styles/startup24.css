@@ -968,3 +968,9 @@ body .containerr .carrd .box .content a:hover {
         width: 50%;
     }
 }
+@media (max-width: 500px) {
+    .carousel-wrapper {
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+}
