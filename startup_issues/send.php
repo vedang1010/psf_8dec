@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "body" => "Startup: " . $startupName . "\nStall No: " . $stallNo . "\nContact: " . $contact . "\nDescription: " . $description . "\nImage Link: " . $imageURL,
             "icon" => "https://images.unsplash.com/photo-1514473776127-61e2dc1dded3?w=871&q=80",
             "image" => $imageURL,
-            "click_action" => "https://punestartupfest.in/startup_issues/ops_login.php"
+            "click_action" => "https://punestartupfest.in/startup_issues/ops_login.html"
         ),
         "registration_ids" => $registrationIds, // Add the registration IDs from the database
     );

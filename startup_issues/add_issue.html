@@ -421,83 +421,84 @@
     >
       <!-- Can add content Here(Start) accorfing to need-->
 
+      <form
+      class="form"
+      action="process_issue.php"
+      method="POST"
+      enctype="multipart/form-data"
+      style="z-index: 500;"
+    >
+      <div class="title">
+        PSF'24<br />
+        <span>add_issue</span>
+      </div>
+
+      <input
+        placeholder="Startup Name"
+        type="text"
+        required
+        id="startup_name"
+        name="startup_name"
+        class="input"
+      />
+
+      <input
+        placeholder="Stall Number"
+        type="text"
+        required
+        id="stall_no"
+        name="stall_no"
+        class="input"
+      />
+
+      <br />
+      Upload Image (if any)
+      <input
+        placeholder="Image"
+        accept="image/*"
+        type="file"
+        id="image"
+        name="image"
+        class="input"
+      />
+
+      <input
+        placeholder="Contact"
+        type="text"
+        required="id"
+        ="contact"
+        name="contact"
+        class="input"
+      />
+      <input
+        placeholder="Issue"
+        type="text"
+        required
+        id="issue"
+        name="issue"
+        class="input"
+      />
+
+      <textarea
+        name="description"
+        placeholder="Description"
+        type="text"
+        id="description"
+        class="input"
+      ></textarea>
+
+      <input
+        class="button"
+        id="submit"
+        type="submit"
+        name="submit"
+        value="Submit"
+      />
+    </form>
+
       <!-- Can add content Here(End) -->
       <div class="w-full mx-auto px-4 md:px-6 py-24">
         <!-- Can add content Here(Start) accorfing to need-->
-
-        <form
-          class="form"
-          action="process_issue.php"
-          method="POST"
-          enctype="multipart/form-data"
-        >
-          <div class="title">
-            PSF'24<br />
-            <span>add_issue</span>
-          </div>
-
-          <input
-            placeholder="Startup Name"
-            type="text"
-            required
-            id="startup_name"
-            name="startup_name"
-            class="input"
-          />
-
-          <input
-            placeholder="Stall Number"
-            type="text"
-            required
-            id="stall_no"
-            name="stall_no"
-            class="input"
-          />
-
-          <br />
-          Upload Image (if any)
-          <input
-            placeholder="Image"
-            accept="image/*"
-            type="file"
-            id="image"
-            name="image"
-            class="input"
-          />
-
-          <input
-            placeholder="Contact"
-            type="text"
-            required="id"
-            ="contact"
-            name="contact"
-            class="input"
-          />
-          <input
-            placeholder="Issue"
-            type="text"
-            required
-            id="issue"
-            name="issue"
-            class="input"
-          />
-
-          <textarea
-            name="description"
-            placeholder="Description"
-            type="text"
-            id="description"
-            class="input"
-          ></textarea>
-
-          <input
-            class="button"
-            id="submit"
-            type="submit"
-            name="submit"
-            value="Submit"
-          />
-        </form>
 
         <!-- Can add content Here(End) -->
       </div>
