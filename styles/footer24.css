@@ -432,7 +432,7 @@ a{
   font-size: 18px;
 }
 .ftcontent b{
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 /* .content strong{
   font-weight: 500;
@@ -440,7 +440,7 @@ a{
   margin-top: 10px;
 } */
 .ftcontent p{
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
   color: #7a7a7a;
   margin: 4px 0px 10px 0px;
   cursor: pointer;
@@ -580,4 +580,8 @@ a{
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
+}
+.icons a:hover p{
+    text-decoration: none;
+    color: #2246b4;
 }

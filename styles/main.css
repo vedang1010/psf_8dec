@@ -1374,3 +1374,13 @@ body {
 
 /* PAST SPEAKER CSS */
 /* PAST SPEAKER CSS */
+/* <style> */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Farro:wght@500&display=swap');
+/* </style> */
+
+*{
+
+
+font-family: 'Bree Serif', serif;
+font-family: 'Farro', sans-serif;
+}

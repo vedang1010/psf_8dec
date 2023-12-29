@@ -64,14 +64,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         while ($row = mysqli_fetch_assoc($result)) {
             $registrationIds[] = $row['firebase_token'];
         }
+        $image_link="https://punestartupfest.in/startup_issues/".$imagePath;
 
         // Notification message
         $message = array(
             "data" => array(
                 "title" => "New Issue: " . $issue,
-                "body" => "Startup: " . $startupName . "\nStall No: " . $stall_no . "\nContact: " . $contact . "\nDescription: " . $description . "\nImage Link: " . $imageURL,
+                "body" => "Startup: " . $startupName . "\nStall No: " . $stall_no . "\nContact: " . $contact . "\nDescription: " . $description . "\nImage Link: " . $image_link,
                 "icon" => "https://www.clipscutter.com/image/brand/brand-256.png",
-                "image" => $imagePath,
+                "image" => $image_link,
                 "click_action" => "https://punestartupfest.in/startup_issues/ops_login.php"
             ),
             "registration_ids" => $registrationIds,

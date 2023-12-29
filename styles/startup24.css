@@ -414,7 +414,9 @@ header .arrow-down {
 .main .main-image-container {
     flex-wrap: wrap;
     flex: 60%;
-    margin-top: 4%;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 4%; */
 }
 
 .main .main-image-container .image {

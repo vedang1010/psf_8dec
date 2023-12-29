@@ -16,7 +16,7 @@ if (isset($_SESSION['username'])) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="../images/navbarAndFooter/PSF + Marsh White1.png">
+	<link rel="shortcut icon" href="../images/navbarAndFooter/PSF24 White.png">
 
 	<title>PSF'24</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -265,7 +265,7 @@ if (isset($_SESSION['username'])) {
 				<p class="ftfooter-links">
 					<a href="./main.html" class="ftlink-1">Home</a>
 
-					<a href="./aboutus.html" class="ftlink-1">About Us</a>
+					<a href="./aboutus.html">About Us</a>
 
 					<a href="./investor.html">Investors</a>
 
