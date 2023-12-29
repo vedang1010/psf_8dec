@@ -59,7 +59,7 @@
         <!-- <div class="loo"><img class="imgg" src="PSF + Marsh White1.png" alt=""></div> -->
 
         <!-- NAVBAR START -->
-        <nav style="position: fixed; z-index: 9999999; padding-top: 1rem;">
+        <nav style="position: fixed; z-index: 9999999; padding-top: 1rem;" class="color-change">
           <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
           <label for="checkbox3" class="checkbtn">
             <div class="hamburger hamburger3">
@@ -772,6 +772,22 @@
 
     setInterval(nextSlide, 5000); // Auto-scroll every 5 seconds
 
+  </script>
+
+
+
+
+
+  <script>
+    document.addEventListener('scroll', function () {
+      var scrollPosition = window.scrollY;
+  
+      if (scrollPosition >= 100 * window.innerHeight / 100) {
+        document.querySelector('.color-change').classList.add('scrolled');
+      } else {
+        document.querySelector('.color-change').classList.remove('scrolled');
+      }
+    });
   </script>
 </body>
 

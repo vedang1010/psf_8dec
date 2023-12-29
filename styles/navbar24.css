@@ -7,13 +7,15 @@
 }
 
 
+
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-color: #0b0430;
 }
 
 nav {
-    background:#10152B;
+    /* background:#10152B; */
+    background:transparent;
    
     height: 100px;
     width: 100%;
@@ -355,4 +357,8 @@ h1 {
 .dropdown:hover .dropdown-content {
     display: block;
     transition-delay: 5ms;
+}
+
+.scrolled{
+    background-color: #10152B;
 }
