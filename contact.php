@@ -552,6 +552,8 @@ $mail->Port = 587; // Use port 587 for TLS
             once: false,     // Animation only once on page load
         });
     </script>
+        <script src="https://kit.fontawesome.com/6fc46b33e7.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
