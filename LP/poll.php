@@ -503,7 +503,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <p class="ftfooter-links">
                     <a href="./main.html" class="ftlink-1">Home</a>
 
-                    <a href="./aboutus.html" class="ftlink-1">About Us</a>
+                    <a href="./aboutus.html">About Us</a>
 
                     <a href="./investor.html">Investors</a>
 

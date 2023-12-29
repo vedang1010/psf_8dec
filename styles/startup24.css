@@ -414,7 +414,9 @@ header .arrow-down {
 .main .main-image-container {
     flex-wrap: wrap;
     flex: 60%;
-    margin-top: 4%;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 4%; */
 }
 
 .main .main-image-container .image {
@@ -964,5 +966,11 @@ body .containerr .carrd .box .content a:hover {
 @media (max-width: 576px) {
     .pitchersValley-container a img {
         width: 50%;
+    }
+}
+@media (max-width: 500px) {
+    .carousel-wrapper {
+        margin: 0px;
+        margin-bottom: 30px;
     }
 }
