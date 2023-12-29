@@ -32,7 +32,7 @@ if (isset($_POST['login'])) {
         if ($password === $storedPassword) {
             $_SESSION['user_id'] = $row['id'];
             $_SESSION['username'] = $row['username'];
-                        header("Location: https://punestartupfest.in/startup_issues/add_issue.php");
+                        header("Location: https://punestartupfest.in/startup_issues/add_issue.html");
 
             // header("Location: welcome.php"); // Redirect to a welcome page on successful login
         } else {
