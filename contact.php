@@ -82,9 +82,9 @@ $mail->Port = 587; // Use port 587 for TLS
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/navbarAndFooter/PSF + Marsh White1.png">
+    <link rel="shortcut icon" href="./images/navbarAndFooter/PSF24 White.png">
 
-    <title>PSF'24</title>
+    <title>Pune Startup Fest'24</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -122,16 +122,117 @@ $mail->Port = 587; // Use port 587 for TLS
 
 
 
-  <!-- <link rel="stylesheet" href="./styles/footer.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
   <link rel='stylesheet' type='text/css' href='./styles/contact.css' />
   <link rel='stylesheet' type='text/css' href='./styles/footer24.css' />
+  <link rel='stylesheet' type='text/css' href='./styles/navbar24.css' />
+
 </head>
 
 <body>
+    <!-- NAVBAR START -->
+    <nav style="position: fixed; z-index: 9999999; padding-top: 1rem;">
+        <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+        <label for="checkbox3" class="checkbtn">
+            <div class="hamburger hamburger3">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
 
+            </div>
+        </label>
+
+        <!-- <input type="checkbox" id="check">
+  <label for="check" class="checkbtton">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    
+  </label> -->
+        <!-- <div class="imgg"><a href="./main"><img  class="imgg" src="PSF + Marsh White1.png" alt=""></a></div> -->
+
+        <ul>
+            <!-- <img class="imgg" src="PSF + Marsh White1.png" alt="PSF + Marsh White1.png"> -->
+
+            <li> <a href="./main.html"> <i id="icon" class="fa-solid fa-house icon" style="padding-right: 0.5rem;"></i>
+                    Home</a>
+            </li>
+            <li><a href="./aboutus.html"> <i id="icon" class="fa-regular fa-file-lines"
+                        style="padding-right: 0.5rem;"></i> About
+                    Us</a>
+            </li>
+
+            <li><a href="./events.html"> <i id="icon" class="fa-sharp fa-solid fa-puzzle-piece"
+                        style="padding-right: 0.5rem;"></i>Events</a></li>
+
+
+            <li><a href="./investor.html"><i id="icon" class="fa-solid fa-shoe-prints"
+                        style="padding-right: 0.5rem;"></i>Investors</a></li>
+            <li><a href="./partners.html"><i id="icon" class="fa-solid fa-envelope-open-text"
+                        style="padding-right: 0.5rem;"></i>Sponsors</a></li>
+
+            <div class="dropdown ">
+                <button class="dropbtn">OTHER <i class="fa-solid fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>INTERNSHIP
+                        PORTAL
+                    </a>
+                    <a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>Alumni
+                    </a>
+                    <a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
+                            style="padding-right: 0.5rem;"></i>STARTUP</a>
+                    <a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                            style="padding-right: 0.5rem;"></i>Registration</a>
+                    <a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                            style="padding-right: 0.5rem;"></i>Team</a>
+                </div>
+            </div>
+            <li class="mobli"><a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                        style="padding-right: 0.5rem;"></i>Internship
+                    Portal</a></li>
+            <li class="mobli"><a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                        style="padding-right: 0.5rem;"></i>Alumni
+                </a></li>
+            <li class="mobli"><a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
+                        style="padding-right: 0.5rem;"></i>STARTUP</a></li>
+            <li class="mobli"><a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                        style="padding-right: 0.5rem;"></i>Registration</a></li>
+            <li class="mobli"><a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                        style="padding-right: 0.5rem;"></i>Team</a></li>
+
+            <div class="dropdown">
+                <button class="dropbtn">FEEDBACK <i class="fa-solid fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="./startup_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>Startup
+                        Feedback
+                    </a>
+                    <a href="./investor_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>Investor
+                        Feedback
+                    </a>
+
+                </div>
+            </div>
+            <li class="mobli"><a href="./startup_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                        style="padding-right: 0.5rem;"></i>Startup
+                    Feedback</a></li>
+            <li class="mobli"><a href="./investor_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                        style="padding-right: 0.5rem;"></i>Investor
+                    Feedback</a></li>
+            <!-- <li><a href="#"> <i id="icon" class="fa-regular fa-handshake" style="padding-right: 0.5rem;"></i>Feedback </a></li> -->
+            <li><a href="./contact.php"><i id="icon" class="fa-solid fa-user-group"
+                        style="padding-right: 0.5rem;"></i>Contact
+                    Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- NAVBAR END -->
 
 
     <main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
@@ -330,13 +431,13 @@ $mail->Port = 587; // Use port 587 for TLS
 				<span><img style="margin-left: 30%;max-width:40%;" src="./images/navbarAndFooter/PSF24 White.png" alt=""></span>
   
 				<p class="ftfooter-links">
-					<a href="#" class="ftlink-1">Home</a>
+					<a href="./main.html" class="ftlink-1">Home</a>
   
-					<a href="#">About US</a>
+					<a href="./aboutus.html">About Us</a>
   
-					<a href="#">Investors</a>
+					<a href="./investor.html">Investors</a>
   
-					<a href="#">Contact</a>
+					<a href="./contact.php">Contact</a>
 				</p>
   
 				<p class="ftfooter-company-name">PUNE STARTUP FEST</p>

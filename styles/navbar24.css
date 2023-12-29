@@ -5,18 +5,15 @@
     list-style: none;
     box-sizing: border-box;
 }
-.loo{
-    position: fixed;
-   
-}
+
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background-color: #0d1b24;
+    background-color: #0b0430;
 }
 
 nav {
-    background:transparent;
+    /* background:black; */
    
     height: 60px;
     width: 100%;
@@ -58,7 +55,8 @@ ul{
 nav ul {
     /* float: right; */
     /* margin-top: 20px; */
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    /* background: black; */
 }
 
 nav ul li {
@@ -73,6 +71,7 @@ nav ul li a {
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 nav ul li a:hover{
     color: #fff;
@@ -83,13 +82,13 @@ a.active,
     background: #072941;
     transition: .5s;
 } */
-a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
     position: relative;
     overflow: hidden;
 }
-a::before {
+nav ul li a::before {
     content: "";
     position: absolute;
     width: 0;
@@ -100,7 +99,7 @@ a::before {
     transform: translateX(-50%); /* Center it */
     transition: width 0.3s ease-in-out;
 }
-a:hover::before {
+nav ul li a:hover::before {
     width: 100%;
 }
 
@@ -135,6 +134,12 @@ a:hover::before {
         }
 }
 @media (max-width: 1212px) {
+    nav{
+        background: transparent;
+    }
+    nav ul{
+        background: transparent;
+    }
     .checkbtn {
         display: block;
        
@@ -228,12 +233,8 @@ h1 {
     text-align: center;
 }
 
-.container {
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
+
+
 
 .hamburger {
     margin: 0 auto;

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solved Issues</title>
+    <style>
+        /* CSS styles for the table */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            /*display: flex;*/
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            /*transform: translateY(46rem);*/
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /*display:flex;*/
+            /*width: 600px; */
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Solved Issues</h1>
+        <table>
+            <thead>
+                <tr>
+                    <!--id	startup_name	image_url	stall_no	contact	issue	description	solved	-->
+
+                    <th>Image</th>
+                    <th>Startup Name</th>
+                    <th>Stall No.</th>
+                    <th>Contact</th>
+                    <th>Issue</th>
+
+                </tr>
+            </thead>
+            <tbody id="issueList">
+                <!-- Investor names and images will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function fetchIssue() {
+            // Send an AJAX request to the server to fetch updated data
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", "get_issue.php", true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    // Update the list of investor arrivals
+                    const issueList = document.getElementById("issueList");
+                    issueList.innerHTML = xhr.responseText;
+
+                    // Call the function again after a delay (long polling)
+                    setTimeout(fetchIssue, 5000); // 1-second interval
+                }
+            };
+            xhr.send();
+        }
+
+        // Start the long polling mechanism
+        fetchIssue();
+    </script>
+</body>
+</html>

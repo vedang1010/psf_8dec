@@ -1,12 +1,14 @@
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-body {
+  body {
     font-family: 'Manrope';
     font-weight: 400;
-    background-color: #121212; /* --background */
-    color: #fcfcfc; /* --text */
+    background-color: #121212;
+    /* --background */
+    color: #fcfcfc;
+    /* --text */
   }
-  
+
   .button {
     display: flex;
     flex-direction: column;
@@ -17,17 +19,24 @@ body {
     color: inherit;
     cursor: pointer;
     height: 50px;
-    width: 160px;
+    width: 260px;
+    /* margin: 100px; */
+    /* margin-top: 80px;
+    margin-bottom: 80px; */
     z-index: 9999;
   }
+
   button {
     height: 50px;
     width: 160px;
     border: none;
     border-radius: 13px;
-    background-color: #9ed; /* --primaryBg */
-    box-shadow: 0px -3px 15px 0px #7f9ed6 inset; /* --primaryHi */
-    color: #d9edf5; /* --primaryFg */
+    background-color: #9ed;
+    /* --primaryBg */
+    box-shadow: 0px -3px 15px 0px #7f9ed6 inset;
+    /* --primaryHi */
+    color: #d9edf5;
+    /* --primaryFg */
     font-family: "Manrope";
     font-size: 1rem;
     display: flex;
@@ -38,7 +47,7 @@ body {
     overflow: hidden;
     transition: all 0.2s ease;
   }
-  
+
   button:before {
     content: "";
     width: 100%;
@@ -50,78 +59,106 @@ body {
 
 
 
-button{
-  padding: 25px 30px;
-  background-color: #050801;
-  color: #03e9f4;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  letter-spacing: 4px;
-  overflow: hidden;
-  transition: 0.5s;
-  cursor: pointer;
-}
+  button {
+    padding: 25px 30px;
+    background-color: #050801;
+    color: #03e9f4;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    /* height: 300px; */
+    cursor: pointer;
+  }
 
-button:hover{
-    background: #03e9f4;
+button:hover {
+    background: #a6c9cb;
     color: #050801;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 200px #03e9f4;
-     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    box-shadow: 0 0 5px #74b4b7, 0 0 25px #589da1, 0 0 50px #58cdd3, 0 0 200px #3a9a9f;
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); */
 }
-  
   .span {
     width: 100px;
     height: 60px;
-    background-color: #7f9ed6; /* --primaryHi */
+    background-color: #7f9ed6;
+    /* --primaryHi */
     border-radius: 100%;
     filter: blur(20px);
     position: absolute;
     bottom: -50%;
     transition: all 0.2s ease;
   }
-  
+
 
   .b1 {
-    top: 12%;
+    top: 20%;
   }
+
   .b2 {
-    top: 18%;
+    top: 20%;
   }
+
   .b3 {
-    top: 24%;
+    top: 20%;
   }
+
   .b4 {
-    top: 30%;
+    top: 20%;
   }
+
   .b5 {
-    top: 36%;
+    top: 20%;
   }
+
   .b6 {
-    top: 42%;
+    top: 20%;
   }
+
   .b7 {
-    top: 48%;
+    top: 20%;
   }
+
   .b8 {
-    top: 54%;
+    top: 20%;
   }
+
   .b9 {
-    top: 60%;
+    top: 20%;
   }
+
   .b10 {
-    top: 66%;
+    top: 20%;
   }
-  
+  .b11 {
+    top: 20%;
+  }
+  .b12 {
+    top: 20%;
+  }
+  .b13 {
+    top: 20%;
+  }
+  .b14 {
+    top: 20%;
+  }
+  .b15 {
+    top: 20%;
+  }
+
   #pollForm {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   button:hover {
     transform: translateY(5px);
+  }
+  .button {
+    display: none;
+  }
+  .active{
+    display: flex;
   }

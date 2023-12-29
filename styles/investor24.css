@@ -173,7 +173,7 @@ h1{
 
 .wcard:hover .photo {
     transform: scale(0.8, 0.7) translateY(-65px);
-    border-radius: 25%;
+    border-radius: 5%;
     background-size: 150% 150%;
     background-position: center;
     box-shadow: 8px 8px #5b5b5be2;
@@ -361,4 +361,7 @@ h1{
   }
   
 
-  
+  .team-content{
+    font-weight: 500;
+    font-size: 20px;
+  }
