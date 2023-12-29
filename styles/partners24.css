@@ -1146,11 +1146,12 @@ body {
     width: 100%;
   }
   section h1 {
-    font-size: 80px;
+    font-size: 50px;
     margin: 0;
     z-index: 2;
     margin-top: 100px;
     position: relative;
+    font-weight: 600;
   }
   
   header {
