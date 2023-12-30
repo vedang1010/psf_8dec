@@ -177,18 +177,30 @@ p {
 
 } */
 .text p{
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }
 
-@media screen and (min-width:1034px){
+@media screen and (max-width:1250px){
     .inset{
         max-width: 55%;
+    }
+    .text p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:1150px){
+    .inset{
+        max-width: 55%;
+    }
+    .text p{
+        font-size: 0.80rem;
     }
 }
 
 @media screen and (max-width:1034px){
     .text p{
-        font-size: 0.73rem;
+        font-size: 0.77rem;
     }
     .inset{
         max-width: 65%;
@@ -197,18 +209,10 @@ p {
 @media screen and (max-width:900px) {
   
     .text p{
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     }
     .inset{
         max-width: 65%;
-    }
-}
-@media screen and (max-width:495px){
-    .text p{
-        font-size: 0.6rem;
-        }
-    .inset{
-        max-width: 70%;
     }
 }
 .wrap:hover .overlay {
