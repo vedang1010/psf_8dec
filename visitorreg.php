@@ -580,6 +580,7 @@ $mail->Port = 587; // Use port 587 for TLS
         });
     </script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/6fc46b33e7.js" crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,90 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pune Startup Fest'24</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <!-- css linking -->
-  <link rel="stylesheet" href="./styles/main.css">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/navbarAndFooter/PSF24 White.png">
 
-  <link rel="stylesheet" href="./styles/navbar24.css">
-  <link rel="stylesheet" href="./styles/footer24.css">
+    <title>Pune Startup Fest'24</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Nothing+You+Could+Do&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                        nycd: ['Nothing You Could Do', 'cursive'],
+                    },
+                },
+            },
+        };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles/footer24.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="./styles/navbar24.css">
 
+    <script defer src="https://modelviewer.dev/shared/model-viewer/webxr-viewer.js"></script>
 
-
-  <link href='https://fonts.googleapis.com/css?family=Exo:400,900' rel='stylesheet' type='text/css'>
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">   -->
-
-
-
-
-  <!-- <script src="https://cdn.tailwindcss.com"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" async></script> -->
-
-
-  <link rel="shortcut icon" href="./images/navbarAndFooter/PSF24 White.png">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
-  <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'> -->
-  <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'> -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
-  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js"></script>
-
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            inter: ['Inter', 'sans-serif'],
-          },
-        },
-      },
-    };
-  </script>
-
-  <script src="./js/smooth.js"></script>
-
-
-  <link media="all"
-    href="https://cruip.com/wp-content/cache/autoptimize/css/autoptimize_5135fdc87ac4f1636516844aaba4d884.css"
-    rel="stylesheet">
-
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      // Your JavaScript code here
-      const circleEls = document.querySelectorAll('.js-circle');
-      const circleTl = gsap.timeline({ repeat: -1, yoyo: true });
-
-      let circleSize = 1;
-      circleEls.forEach(circle => {
-        gsap.set(circle, { scale: circleSize });
-        circleSize += 0.4;
-      });
-
-      circleTl.from(circleEls, { scale: 1, stagger: 0.175, duration: 1.2, ease: Power3.inOut });
-    });
-  </script> -->
-  <style>
-    .max-w-6xl {
-      max-width: 100rem;
-  }
-  </style>
+    <script src="./js/smooth.js"></script>
+    <link rel="stylesheet" href="./styles/main.css">
 
 </head>
 
@@ -98,7 +59,7 @@
         <!-- <div class="loo"><img class="imgg" src="PSF + Marsh White1.png" alt=""></div> -->
 
         <!-- NAVBAR START -->
-        <nav style="position: fixed; z-index: 9999999; padding-top: 1rem;">
+        <nav style="position: fixed; z-index: 9999999; padding-top: 1rem;" class="color-change">
           <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
           <label for="checkbox3" class="checkbtn">
             <div class="hamburger hamburger3">
@@ -213,441 +174,508 @@
     </div>
   </div>
 
-  <main class="relative min-h-screen flex flex-col justify-center overflow-hidden " style="background-color: #040114;">
 
-    <div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
+    <main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
+        <!-- Can add content Here(Start) accorfing to need-->
 
-      <div id="particles-js" style="position: absolute; top: 0vh; width: 90vw; height: 500vh; margin-left: -100px; ">
-      </div>
-      <div class="count-particles"> <span class="js-count-particles"> </div>
-      <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-      <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
+       
 
+        <!-- Can add content Here(End) -->
+        <div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
 
-      <!-- THEME START -->
-
-      <div class="theme" style="z-index: 1;">
-        <div class="what">
-          <div class="what-block" style="text-align: center;">
-            <h1 class="question1" data-splitting data-aos="fade-up">What is Pune Startup Fest?</h1>
-            <p data-aos="fade-up">Pune Startup Fest is an annual startup festival organised by BHAU's I&E-Cell, COEP
-              Technological
-              University. It is a unique startup expo, which provides an excellent platform for numerous
-              students and startups to connect with this ever growing entrepreneurial world.
-              <br>A variety of events are organised during the fest. Keynote lectures and many speeches by
-              prominent
-              personalities are arranged to motivate aspiring entrepreneurs.<br>Startups and students are
-              given huge
-              opportunities to develop by giving them access to entrepreneurial resources and networks
-              throughout the
-              community.
-            </p>
-
-          </div>
-          <!-- <img s/rc="./images/about/about_psf.jpg" alt="" data-aos="zoom-in"> -->
-        </div>
-
-        <center>
-          <div class="theme-child">
-            <h1 class="question" style="text-align: center;">
-              <h1 class="neon" style="font-family: 'Farro', sans-serif;" data-aos="zoom-out">VENTURING THE INNOVERSE</h1>
-              <!-- <h1 class="theme-statment" style="font-family: 'Farro', sans-serif; text-align: center; color: lightblue;transform:translateY(-50px)" data-aos="zoom-out"> A Concerto of Innovators</h1> -->
-                <!-- <section class="splash">
-                    <div class="splash__bg">
-                      <span class="js-circle"></span>
-                      <span class="js-circle"></span>
-                      <span class="js-circle"></span>
-                      <span class="js-circle"></span>
-                      <span class="js-circle"></span>
-                      <span class="js-circle"></span>
+            <div id="particles-js" style="position: absolute; top: 0vh; width: 90vw; height: 500vh; margin-left: -100px; ">
+            </div>
+            <div class="count-particles"> <span class="js-count-particles"> </div>
+            <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+            <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
+      
+      
+            <!-- THEME START -->
+      
+            <div class="theme" style="z-index: 1;">
+              <div class="what">
+                <div class="what-block" style="text-align: center;">
+                  <h1 class="question1" data-splitting data-aos="fade-up">What is Pune Startup Fest?</h1>
+                  <p data-aos="fade-up">Pune Startup Fest is an annual startup festival organised by BHAU's I&E-Cell, COEP
+                    Technological
+                    University. It is a unique startup expo, which provides an excellent platform for numerous
+                    students and startups to connect with this ever growing entrepreneurial world.
+                    <br>A variety of events are organised during the fest. Keynote lectures and many speeches by
+                    prominent
+                    personalities are arranged to motivate aspiring entrepreneurs.<br>Startups and students are
+                    given huge
+                    opportunities to develop by giving them access to entrepreneurial resources and networks
+                    throughout the
+                    community.
+                  </p>
+      
+                </div>
+                <!-- <img s/rc="./images/about/about_psf.jpg" alt="" data-aos="zoom-in"> -->
+              </div>
+      
+              <center>
+                <div class="theme-child">
+                  <h1 class="question" style="text-align: center;">
+                    <h1 class="neon" style="font-family: 'Farro', sans-serif;" data-aos="zoom-out">VENTURING THE INNOVERSE</h1>
+                    <!-- <h1 class="theme-statment" style="font-family: 'Farro', sans-serif; text-align: center; color: lightblue;transform:translateY(-50px)" data-aos="zoom-out"> A Concerto of Innovators</h1> -->
+                      <!-- <section class="splash">
+                          <div class="splash__bg">
+                            <span class="js-circle"></span>
+                            <span class="js-circle"></span>
+                            <span class="js-circle"></span>
+                            <span class="js-circle"></span>
+                            <span class="js-circle"></span>
+                            <span class="js-circle"></span>
+                          </div>
+                        </section> -->
+                  </h1>
+                  <p class="theme-para"  data-aos="fade-out">
+                    Entrepreneurs strive for innovation; they strive for change. These aspects require the combined
+                    effort of many brilliant and motivated people, where collaboration and creativity are essential for
+                    success.<br>
+                    Our theme is a metaphor that describes the allied participation and creative
+                    efforts that are often required to bring about innovation and success in the startup and
+                    business world.<br>
+                    Much like a concerto, we emphasize the value of varied viewpoints and experiences in the startup
+                    and
+                    entrepreneurial environment. In this concept, each instrument or group of instruments brings
+                    about diverse
+                    perspectives and contributes to the overall composition.<br>From the founders and CXOs to the
+                    entry-level
+                    employees, this Concerto is about the allied efforts that all these stakeholders put in to make
+                    products/services that change lives.<br>Pune Startup Fest provides these entrepreneurs with a
+                    platform to
+                    achieve their objectives, where all the stakeholders contribute their unique skills,
+                    experiences, talents
+                    and expertise.
+                  </p>
+      
+                </div>
+        
+            </div>
+            </center>
+      
+            <!-- SLIDER START -->
+            <div class="slider">
+              <div class="slides">
+                <div class="slide"><img src="./images/main/PitcherValleySquare.png" alt="Slide 1"></div>
+                <div class="slide"><img src="./images/main/Ad Boost square-01.png" alt="Slide 2"></div>
+                <div class="slide"><img src="./images/main/Ad Boost Square pg 2.png" alt="Slide 3"></div>
+              </div>
+              <div class="navigation-dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+            <!-- SLIDER END -->
+      
+      
+      
+            <div class="parent" data-aos="fade-up">
+              <div class="play-body">
+                <div class="play-backdrop"></div>
+                <div class="play-button">
+      
+                  <div class="play-perspective">
+                    <button class="play-close"></button>
+      
+                    <div class="play-triangle">
+                      <div class="play-video">
+                        <!-- <iframe width="6000" height="4000" src="https://www.youtube.com/watch?v=dEesUqx3eHE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+                        <iframe width="600" height="400" src="https://www.youtube.com/embed/f-i4uwqHDr4"
+                          title="YouTube video player" frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen></iframe>
+                      </div>
                     </div>
-                  </section> -->
-            </h1>
-            <p class="theme-para"  data-aos="fade-out">
-              Entrepreneurs strive for innovation; they strive for change. These aspects require the combined
-              effort of many brilliant and motivated people, where collaboration and creativity are essential for
-              success.<br>
-              Our theme is a metaphor that describes the allied participation and creative
-              efforts that are often required to bring about innovation and success in the startup and
-              business world.<br>
-              Much like a concerto, we emphasize the value of varied viewpoints and experiences in the startup
-              and
-              entrepreneurial environment. In this concept, each instrument or group of instruments brings
-              about diverse
-              perspectives and contributes to the overall composition.<br>From the founders and CXOs to the
-              entry-level
-              employees, this Concerto is about the allied efforts that all these stakeholders put in to make
-              products/services that change lives.<br>Pune Startup Fest provides these entrepreneurs with a
-              platform to
-              achieve their objectives, where all the stakeholders contribute their unique skills,
-              experiences, talents
-              and expertise.
-            </p>
-
-          </div>
-  
-      </div>
-      </center>
-
-      <!-- SLIDER START -->
-      <div class="slider">
-        <div class="slides">
-          <div class="slide"><img src="./images/main/PitcherValleySquare.png" alt="Slide 1"></div>
-          <div class="slide"><img src="./images/main/Ad Boost square-01.png" alt="Slide 2"></div>
-          <div class="slide"><img src="./images/main/Ad Boost Square pg 2.png" alt="Slide 3"></div>
-        </div>
-        <div class="navigation-dots">
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-        </div>
-      </div>
-      <!-- SLIDER END -->
-
-
-
-      <div class="parent" data-aos="fade-up">
-        <div class="play-body">
-          <div class="play-backdrop"></div>
-          <div class="play-button">
-
-            <div class="play-perspective">
-              <button class="play-close"></button>
-
-              <div class="play-triangle">
-                <div class="play-video">
-                  <!-- <iframe width="6000" height="4000" src="https://www.youtube.com/watch?v=dEesUqx3eHE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-                  <iframe width="600" height="400" src="https://www.youtube.com/embed/f-i4uwqHDr4"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+      
+                  </div>
                 </div>
               </div>
-
             </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- THEME END -->
-
-
-
-
-
-      <!-- PAST SPEAKER START -->
-      <div class="container-team">
-
-        <!-- Start Header Section -->
-        <div class="row justify-content-center text-center">
-          <div class="col-md-8 col-lg-6">
-            <div class="header-section" style="overflow-x: visible;">
-              <h2 class="past-title" id="name1" style="overflow-x: visible;" data-aos="fade-out">Past Speakers</h2>
-            </div>
-          </div>
-        </div>
-        <!-- / End Header Section -->
-        <div class="container-speaker" data-aos="fade-up">
-          <div class="speaker-card">
-            <img src="./images/main/Baba Kalyani.jpg" alt="Speaker 1">
-            <h3>Baba Kalyani</h3>
-            <p>Chairman and Managing Director of Bharat Forge |Founder
-              and
-              Chairman of Kalyani Group</p>
-            <!-- <p> </p> -->
-          </div>
-          <div class="speaker-card">
-            <img src="./images/main/Prataprao Pawar.jpg" alt="Speaker 2">
-            <h3>Pratap Pawar</h3>
-            <p>Chairman, Sakal Media Group | Former President,
-              MCCIA</p>
-            <!-- <p>Published author and researcher</p> -->
-          </div>
-          <div class="speaker-card">
-            <img src="./images/main/Harsh Mariwala.jpg" alt="Speaker 2">
-            <h3>Harsh Mariwala</h3>
-            <p>AFounder &amp; Chairman, Marico ltd | Chairman &amp; MD, Kaya
-              ltd.</p>
-            <!-- <p>Published author and researcher</p> -->
-          </div>
-          <div class="speaker-card">
-            <img src="./images/main/Ashok Ramchandran.jpg" alt="Speaker 2">
-            <h3>Ashok Ramachandran</h3>
-            <p>CEO & President | Schindler India</p>
-            <!-- <p>Published author and researcher</p> -->
-          </div>
-          <div class="speaker-card">
-            <img src="./images/main/Aman Dhattarwal.jpg" alt="Speaker 2">
-            <h3>Aman Dhattarwal</h3>
-            <p>Founder, Apni Kaksha</p>
-            <!-- <p>Published author and researcher</p> -->
-          </div>
-          <div class="speaker-card">
-            <img src="./images/main/Abhi Niyu.jpg" alt="Speaker 2">
-            <h3>Abhi &amp; Niyu</h3>
-            <p>Content Creators, Following Love</p>
-            <!-- <p>Published author and researcher</p> -->
-          </div>
-          <div class="speaker-card">
-            <img src="./images/main/Amit Kalyani.jpg" alt="Speaker 2">
-            <h3>Amit Kalyani</h3>
-            <p>Deputy MD, Bharat Forge</p>
-            <!-- <p>Published author and researcher</p> -->
-          </div>
-          <div class="speaker-card">
-            <img src="./images/main/Abhijit Pawar.jpg" alt="Speaker 2">
-            <h3>Abhijit Pawar</h3>
-            <p>MD, Sakal Media Group</p>
-            <!-- <p>Published author and researcher</p> -->
-          </div>
-          <div class="speaker-card">
-            <img src="./images/main/Rachana Ranade.jpg" alt="Speaker 2">
-            <h3>Rachana Ranade</h3>
-            <!-- <p>AI and Machine Learning Specialist</p> -->
-            <p>Rachana Ranade and Associates | Youtube influencer</p>
-          </div>
-          <!-- Add more speaker cards here -->
-        </div>
-      </div>
-      <!-- PAST SPEAKER END -->
-
-
-      <!-- HIGHLIGHTS START -->
-      <div style="position: relative; padding-bottom: 7rem;">
-        <h1 class="past-title" style="text-align: center ; overflow-x: visible;">
-          HIGHLIGHTS
-        </h1>
-      </div>
-
-      <div class="wrapper-hg">
-        <div class="container-hg">
-          <i class="fas fa-users"></i>
-          <span class="num" data-val="15000">000</span>
-          <span class="text">Footfall</span>
-        </div>
-        <div class="container-hg">
-          <i class="fas fa-laptop"></i>
-          <span class="num" data-val="400">000</span>
-          <span class="text">Internships</span>
-        </div>
-        <div class="container-hg">
-          <i class="fas fa-money"></i>
-          <span class="num" data-val="120">000</span>
-          <span class="text">Investors</span>
-        </div>
-        <div class="container-hg">
-          <i class="fas fa-rocket"></i>
-          <span class="num" data-val="170">000</span>
-          <span class="text">Startups</span>
-        </div>
-      </div>
-      <!-- HIGHLIGHTS END-->
-
-    </div>
-
-  </main>
-
-  <!-- FOOTER START -->
-  <footer>
-    <div class="ftcardcontainer">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-            crossorigin="anonymous">
-
-        <!-- <h1 class="fth1-text">
-    <i class="ftfa fa-users" aria-hidden="true"></i>Team Members
-  </h1> -->
-        <div class="ftcontainer">
-            <div class="ftbox">
-                <div class="fttop-bar"></div>
-                <div class="ftcontent">
-                    <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-          alt=""> -->
-                    <b>Dr Vidya More</b>
-                    Faculty Advisor
-                    <p>vnm.extc@coep.ac.in</p>
+      
+            <!-- THEME END -->
+      
+      
+      
+      
+      
+            <!-- PAST SPEAKER START -->
+            <div class="container-team">
+      
+              <!-- Start Header Section -->
+              <div class="row justify-content-center text-center">
+                <div class="col-md-8 col-lg-6">
+                  <div class="header-section" style="overflow-x: visible;">
+                    <h2 class="past-title" id="name1" style="overflow-x: visible;" data-aos="fade-out">Past Speakers</h2>
+                  </div>
                 </div>
-
-            </div>
-            <div class="ftbox">
-                <div class="fttop-bar"></div>
-                <div class="fttop">
+              </div>
+              <!-- / End Header Section -->
+              <div class="container-speaker" data-aos="fade-up">
+                <div class="speaker-card">
+                  <img src="./images/main/Baba Kalyani.jpg" alt="Speaker 1">
+                  <h3>Baba Kalyani</h3>
+                  <p>Chairman and Managing Director of Bharat Forge |Founder
+                    and
+                    Chairman of Kalyani Group</p>
+                  <!-- <p> </p> -->
                 </div>
-                <div class="ftcontent">
-                    <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
-          alt=""> -->
-                    <b>Dr Rahul Adhao</b>
-                    Faculty Advisor
-                    <p>rba.comp@coep.ac.in</p>
+                <div class="speaker-card">
+                  <img src="./images/main/Prataprao Pawar.jpg" alt="Speaker 2">
+                  <h3>Pratap Pawar</h3>
+                  <p>Chairman, Sakal Media Group | Former President,
+                    MCCIA</p>
+                  <!-- <p>Published author and researcher</p> -->
                 </div>
-
+                <div class="speaker-card">
+                  <img src="./images/main/Harsh Mariwala.jpg" alt="Speaker 2">
+                  <h3>Harsh Mariwala</h3>
+                  <p>AFounder &amp; Chairman, Marico ltd | Chairman &amp; MD, Kaya
+                    ltd.</p>
+                  <!-- <p>Published author and researcher</p> -->
+                </div>
+                <div class="speaker-card">
+                  <img src="./images/main/Ashok Ramchandran.jpg" alt="Speaker 2">
+                  <h3>Ashok Ramachandran</h3>
+                  <p>CEO & President | Schindler India</p>
+                  <!-- <p>Published author and researcher</p> -->
+                </div>
+                <div class="speaker-card">
+                  <img src="./images/main/Aman Dhattarwal.jpg" alt="Speaker 2">
+                  <h3>Aman Dhattarwal</h3>
+                  <p>Founder, Apni Kaksha</p>
+                  <!-- <p>Published author and researcher</p> -->
+                </div>
+                <div class="speaker-card">
+                  <img src="./images/main/Abhi Niyu.jpg" alt="Speaker 2">
+                  <h3>Abhi &amp; Niyu</h3>
+                  <p>Content Creators, Following Love</p>
+                  <!-- <p>Published author and researcher</p> -->
+                </div>
+                <div class="speaker-card">
+                  <img src="./images/main/Amit Kalyani.jpg" alt="Speaker 2">
+                  <h3>Amit Kalyani</h3>
+                  <p>Deputy MD, Bharat Forge</p>
+                  <!-- <p>Published author and researcher</p> -->
+                </div>
+                <div class="speaker-card">
+                  <img src="./images/main/Abhijit Pawar.jpg" alt="Speaker 2">
+                  <h3>Abhijit Pawar</h3>
+                  <p>MD, Sakal Media Group</p>
+                  <!-- <p>Published author and researcher</p> -->
+                </div>
+                <div class="speaker-card">
+                  <img src="./images/main/Rachana Ranade.jpg" alt="Speaker 2">
+                  <h3>Rachana Ranade</h3>
+                  <!-- <p>AI and Machine Learning Specialist</p> -->
+                  <p>Rachana Ranade and Associates | Youtube influencer</p>
+                </div>
+                <!-- Add more speaker cards here -->
+              </div>
             </div>
-            <div class="ftbox">
-                <div class="fttop-bar"></div>
-                <div class="ftcontent">
-                    <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-          alt=""> -->
-                    <b>Gaurav Sonewane</b>
-                    Secretary
-                    <p>secretary.psf@coep.ac.in</p>
+            <!-- PAST SPEAKER END -->
+      
+      
+            <!-- HIGHLIGHTS START -->
+            <div style="position: relative; padding-bottom: 7rem;">
+              <h1 class="past-title" style="text-align: center ; overflow-x: visible;">
+                HIGHLIGHTS
+              </h1>
+            </div>
+      
+            <div class="wrapper-hg">
+              <div class="container-hg">
+                <i class="fas fa-users"></i>
+                <span class="num" data-val="15000">000</span>
+                <span class="text">Footfall</span>
+              </div>
+              <div class="container-hg">
+                <i class="fas fa-laptop"></i>
+                <span class="num" data-val="400">000</span>
+                <span class="text">Internships</span>
+              </div>
+              <div class="container-hg">
+                <i class="fas fa-money"></i>
+                <span class="num" data-val="120">000</span>
+                <span class="text">Investors</span>
+              </div>
+              <div class="container-hg">
+                <i class="fas fa-rocket"></i>
+                <span class="num" data-val="170">000</span>
+                <span class="text">Startups</span>
+              </div>
+            </div>
+            <!-- HIGHLIGHTS END-->
+      
+          </div>        <!-- Can add content Here(Start) accorfing to need-->
+
+       
+
+        <!-- Can add content Here(Start) accorfing to need-->
+
+
+
+
+        <!-- Can add content Here(End) -->
+
+        <div class="text-center">
+
+            <!-- Illustration #1 -->
+            <div class="absolute top-0 left-0 rotate-180 -translate-x-3/4 -scale-x-100 blur-3xl opacity-70 pointer-events-none"
+                aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+
+            <!-- Illustration #2 -->
+            <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+                aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+            <div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+                style="top: 90%;" aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+            <!-- Illustration #3 -->
+            <div class="absolute top-80 left-100 -translate-y-1 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+                aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+            <div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+                style="top: 90%;" aria-hidden="true">
+                <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+            </div>
+
+
+            <!-- Particles animation -->
+            <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+                <canvas data-particle-animation></canvas>
+            </div>
+            <div class="relative">
+            </div>
+        </div>
+        <!-- </div> -->
+
+        <!-- Ilusration #5 -->
+        <!-- <div class="absolute bottom-0 left-50 rotate-180 -translate-x-1 -scale-x-100 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
+		  <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration">
+	  </div> -->
+    </main>
+
+    <footer>
+        <div class="ftcardcontainer">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+                integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+                crossorigin="anonymous">
+    
+            <!-- <h1 class="fth1-text">
+        <i class="ftfa fa-users" aria-hidden="true"></i>Team Members
+      </h1> -->
+            <div class="ftcontainer">
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="ftcontent">
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              alt=""> -->
+                        <b>Dr Vidya More</b>
+                        Faculty Advisor
+                        <p>vnm.extc@coep.ac.in</p>
+                    </div>
+    
+                </div>
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="fttop">
+                    </div>
+                    <div class="ftcontent">
+                        <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+              alt=""> -->
+                        <b>Dr Rahul Adhao</b>
+                        Faculty Advisor
+                        <p>rba.comp@coep.ac.in</p>
+                    </div>
+    
+                </div>
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="ftcontent">
+                        <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+              alt=""> -->
+                        <b>Gaurav Sonewane</b>
+                        Secretary
+                        <p>secretary.psf@coep.ac.in</p>
+                    </div>
+                </div>
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="ftcontent">
+                        <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+              alt=""> -->
+                        <b>Samta Raka </b>
+                        Finance and Marketing Executive
+                        <p>finance.psf@coep.ac.in</p>
+                    </div>
+                </div>
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="ftcontent">
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              alt=""> -->
+                        <b>Sanmeet Sawla</b>
+                        Investor Relations Executive
+                        <p>ir.psf@coep.ac.in</p>
+                    </div>
+    
+                </div>
+                <div class="ftbox">
+                    <div class="fttop-bar"></div>
+                    <div class="ftcontent">
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              alt=""> -->
+                        <b>Varun Shetty</b>
+                        Events and Networking Executive
+                        <p>events.psf@coep.ac.in</p>
+                    </div>
+    
                 </div>
             </div>
-            <div class="ftbox">
-                <div class="fttop-bar"></div>
-                <div class="ftcontent">
-                    <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-          alt=""> -->
-                    <b>Samta Raka </b>
-                    Finance and Marketing Executive
-                    <p>finance.psf@coep.ac.in</p>
+        </div>
+        <footer class="ftfooter-distributed">
+    
+            <div class="ftfooter-left">
+    
+                <span><img style="margin-left: 30%;max-width:40%;" src="./images/navbarAndFooter/PSF24 White.png"
+                        alt=""></span>
+    
+                <p class="ftfooter-links">
+                    <a href="./main.html" class="ftlink-1">Home</a>
+    
+                    <a href="./aboutus.html">About Us</a>
+    
+                    <a href="./investor.html">Investors</a>
+    
+                    <a href="./contact.php">Contact</a>
+                </p>
+    
+                <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
+            </div>
+    
+            <div class="ftfooter-center">
+    
+                <div class="icons">
+                    <i class="fa fa-map-marker"></i>
+                    <a
+                        href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
+                        <p><span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005</p>
+                    </a>
                 </div>
-            </div>
-            <div class="ftbox">
-                <div class="fttop-bar"></div>
-                <div class="ftcontent">
-                    <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-          alt=""> -->
-                    <b>Sanmeet Sawla</b>
-                    Investor Relations Executive
-                    <p>ir.psf@coep.ac.in</p>
+    
+                <div class="icons">
+                    <i class="fa fa-phone"></i>
+                    <p><a href="">
+                            Contact us
+                        </a></p>
                 </div>
-
-            </div>
-            <div class="ftbox">
-                <div class="fttop-bar"></div>
-                <div class="ftcontent">
-                    <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-          alt=""> -->
-                    <b>Varun Shetty</b>
-                    Events and Networking Executive
-                    <p>events.psf@coep.ac.in</p>
+    
+                <div class="icons">
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:queries.psf@gmail.com">queries.psf@gmail.com</a></p>
                 </div>
-
+                <!-- <div class="ftCopyright">
+          <p>Copyright &copy; 2023, All Rights Reserved</p>
+        </div> -->
             </div>
-        </div>
-    </div>
-    <footer class="ftfooter-distributed">
-
-        <div class="ftfooter-left">
-
-            <span><img style="margin-left: 30%;max-width:40%;" src="./images/navbarAndFooter/PSF24 White.png"
-                    alt=""></span>
-
-            <p class="ftfooter-links">
-                <a href="./main.html" class="ftlink-1">Home</a>
-
-                <a href="./aboutus.html">About Us</a>
-
-                <a href="./investor.html">Investors</a>
-
-                <a href="./contact.php">Contact</a>
-            </p>
-
-            <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
-        </div>
-
-        <div class="ftfooter-center">
-
-            <div class="icons">
-                <i class="fa fa-map-marker"></i>
-                <a
-                    href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
-                    <p><span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005</p>
-                </a>
+    
+            <div class="ftfooter-right">
+    
+                <p class="ftfooter-company-about">
+                    <span>About Pune Startup Fest</span>
+                    Pune Startup Fest is an unique Startup Expo, which provides an excellent platform for numerous
+                    students and Start-ups to connect with this ever growing entrepreneurial world.
+                </p>
+    
+                <div class="ftfooter-icons">
+                    <!-- <h3>Follow Us:</h3> -->
+                    <a href="https://www.facebook.com/biec.coep/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/BIEC_COEP?t=UdnnunU2-JfVRhQ_SBoRBQ&s=08"><i
+                            class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/pune-startup-fest/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/biec_coep/?igshid=Yzg5MTU1MDY%3D"><i
+                            class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/c/BhausInnovationEntrepreneurshipCellCOEP2022"><i
+                            class="fa fa-youtube"></i></a>
+    
+                    <!-- <a class="ftglassIco" href="#"><i class="ftfab fa-facebook-f"></i></a>
+          <a class="ftglassIco" href="#"><i class="ftfab fa-instagram"></i></a>
+          <a class="ftglassIco" href="#"><i class="ftfab fa-linkedin-in"></i></a>
+          <a class="ftglassIco" href="#"><i class="ftfab fa-whatsapp"></i></a> -->
+    
+                </div>
+                <!-- <div class="ftcontainer1">
+          <div class="ftmenu">
+            <div class="ftnavigation">
+            <span style="--i:0; --x:-1; --y:0">
+              <ion-icon name="videocam-outline"></ion-icon>
+            </span>
+            <span style="--i:1; --x:1; --y:0">
+              <ion-icon name="flame-outline"></ion-icon>
+            </span>
+            <span style="--i:2; --x:0; --y:-1">
+              <ion-icon name="bulb-outline"></ion-icon>
+            </span>
+            <span style="--i:3; --x:0; --y:1">
+              <ion-icon name="build-outline"></ion-icon>
+            </span>
+            <span style="--i:4; --x:-1; --y:1">
+              <ion-icon name="thermometer-outline"></ion-icon>
+            </span>
+            <span style="--i:5; --x:-1; --y:-1">
+              <ion-icon name="water-outline"></ion-icon>
+            </span>
+            <span style="--i:6; --x:1; --y:-1">
+              <ion-icon name="alarm-outline"></ion-icon>
+            </span>
+            <span style="--i:7; --x:1; --y:1">
+              <ion-icon name="radio-outline"></ion-icon>
+            </span>
             </div>
-
-            <div class="icons">
-                <i class="fa fa-phone"></i>
-                <p><a href="">
-                        Contact us
-                    </a></p>
+            <div class="ftclose">
+            <ion-icon name="close-outline">X</ion-icon>
             </div>
-
-            <div class="icons">
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:queries.psf@gmail.com">queries.psf@gmail.com</a></p>
+          </div>
+          </div> -->
             </div>
-            <!-- <div class="ftCopyright">
-      <p>Copyright &copy; 2023, All Rights Reserved</p>
-    </div> -->
-        </div>
-
-        <div class="ftfooter-right">
-
-            <p class="ftfooter-company-about">
-                <span>About Pune Startup Fest</span>
-                Pune Startup Fest is an unique Startup Expo, which provides an excellent platform for numerous
-                students and Start-ups to connect with this ever growing entrepreneurial world.
-            </p>
-
-            <div class="ftfooter-icons">
-                <!-- <h3>Follow Us:</h3> -->
-                <a href="https://www.facebook.com/biec.coep/"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/BIEC_COEP?t=UdnnunU2-JfVRhQ_SBoRBQ&s=08"><i
-                        class="fa fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/company/pune-startup-fest/"><i class="fa fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/biec_coep/?igshid=Yzg5MTU1MDY%3D"><i
-                        class="fa fa-instagram"></i></a>
-                <a href="https://www.youtube.com/c/BhausInnovationEntrepreneurshipCellCOEP2022"><i
-                        class="fa fa-youtube"></i></a>
-
-                <!-- <a class="ftglassIco" href="#"><i class="ftfab fa-facebook-f"></i></a>
-      <a class="ftglassIco" href="#"><i class="ftfab fa-instagram"></i></a>
-      <a class="ftglassIco" href="#"><i class="ftfab fa-linkedin-in"></i></a>
-      <a class="ftglassIco" href="#"><i class="ftfab fa-whatsapp"></i></a> -->
-
+            <div class="ftCopyright">
+                <p>Copyright &copy; 2023, All Rights Reserved</p>
             </div>
-            <!-- <div class="ftcontainer1">
-      <div class="ftmenu">
-        <div class="ftnavigation">
-        <span style="--i:0; --x:-1; --y:0">
-          <ion-icon name="videocam-outline"></ion-icon>
-        </span>
-        <span style="--i:1; --x:1; --y:0">
-          <ion-icon name="flame-outline"></ion-icon>
-        </span>
-        <span style="--i:2; --x:0; --y:-1">
-          <ion-icon name="bulb-outline"></ion-icon>
-        </span>
-        <span style="--i:3; --x:0; --y:1">
-          <ion-icon name="build-outline"></ion-icon>
-        </span>
-        <span style="--i:4; --x:-1; --y:1">
-          <ion-icon name="thermometer-outline"></ion-icon>
-        </span>
-        <span style="--i:5; --x:-1; --y:-1">
-          <ion-icon name="water-outline"></ion-icon>
-        </span>
-        <span style="--i:6; --x:1; --y:-1">
-          <ion-icon name="alarm-outline"></ion-icon>
-        </span>
-        <span style="--i:7; --x:1; --y:1">
-          <ion-icon name="radio-outline"></ion-icon>
-        </span>
-        </div>
-        <div class="ftclose">
-        <ion-icon name="close-outline">X</ion-icon>
-        </div>
-      </div>
-      </div> -->
-        </div>
-        <div class="ftCopyright">
-            <p>Copyright &copy; 2023, All Rights Reserved</p>
-        </div>
-        <div class="ftCopyright designed" style="background-color: #1c335a;">
-            <p>DESIGNED BY WEB TEAM</p>
-        </div>
-
+            <div class="ftCopyright designed" style="background-color: #1c335a;">
+                <p>DESIGNED BY WEB TEAM</p>
+            </div>
+    
+        </footer>
     </footer>
-</footer>
-  <!-- FOOTER END -->
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="./js/particle-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000, // Animation duration in milliseconds
+            once: false,     // Animation only once on page load
+        });
+    </script>
 
 
 
 
   <script src="https://kit.fontawesome.com/6fc46b33e7.js" crossorigin="anonymous"></script>
   <script src="./js/highlights.js"></script>
-  <script src="./js/main-particle.js"></script>
+  <!-- <script src="./js/main-particle.js"></script> -->
   <script src="./js/typewriter.js"></script>
   <script src="./js/slider.js"></script>
 
@@ -744,6 +772,22 @@
 
     setInterval(nextSlide, 5000); // Auto-scroll every 5 seconds
 
+  </script>
+
+
+
+
+
+  <script>
+    document.addEventListener('scroll', function () {
+      var scrollPosition = window.scrollY;
+  
+      if (scrollPosition >= 100 * window.innerHeight / 100) {
+        document.querySelector('.color-change').classList.add('scrolled');
+      } else {
+        document.querySelector('.color-change').classList.remove('scrolled');
+      }
+    });
   </script>
 </body>
 

@@ -245,11 +245,14 @@ body {
   text-align: left;
   color: white;
   /* margin-left: 5%; */
-  width: 80%;
+  width: 100%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
   /* margin-top: 2%; */
   line-height: 1.5rem;
   z-index: 1;
+  align-items: center;
 }
 
 /* .theme h1 {
@@ -359,8 +362,8 @@ body {
     opacity: 1;
     font-weight: 900;
     padding-bottom: 1rem;
-    font-size: 3rem;
-    margin-left: -4rem;
+    font-size: 2.1rem;
+    /* margin-left: -4rem; */
     padding-top: 2rem;
   }
 
@@ -382,7 +385,7 @@ body {
 
   .theme .theme-child {
     width: 99vw;
-    margin-left: -17%;
+    /* margin-left: -17%; */
     position: relative;
     justify-content: center;
   }
@@ -392,6 +395,7 @@ body {
     text-align: left;
     max-width: 90%;
     margin-left: 4%;
+    margin-right: 4%;
   }
 
   .theme-child .theme-statment {
@@ -925,6 +929,12 @@ body {
   color: none;
 
 }
+@media screen and (max-width:500px) {
+  .past-title{
+    font-size: 2rem;
+
+  }
+}
 
 /* PastSpeaker End */
 
@@ -938,7 +948,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  padding: 80px 0;
 }
 
 .container-h {
@@ -963,6 +972,7 @@ body {
   display: flex;
   justify-content: space-around;
   gap: 10px;
+  z-index: 500;
 }
 
 .container-hg {
@@ -992,6 +1002,7 @@ body {
   place-items: center;
   font-weight: 600;
   font-size: 1.8em;
+  
 }
 
 .wrapper-hg span.text {
