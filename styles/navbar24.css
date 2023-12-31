@@ -14,11 +14,14 @@ body {
 }
 
 nav {
-    /* background:#10152B; */
-    background:transparent;
-   
+    background:#003747;
+    /* background:transparent; */
+    
     height: 100px;
     width: 100%;
+}
+.color-change{
+    background: transparent;
 }
 .mobli{
     display: none;
@@ -360,5 +363,5 @@ h1 {
 }
 
 .scrolled{
-    background-color: #10152B;
+    background-color: #003747;
 }
