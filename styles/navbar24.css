@@ -374,3 +374,8 @@ h1 {
 .scrolled{
     background-color: #003747;
 }
+@media screen and (max-width:1212px){
+    .scrolled{
+        background-color: transparent;
+    }
+}
