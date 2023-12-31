@@ -12,13 +12,20 @@ body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-color: #0b0430;
 }
-
 nav {
-    background:#003747;
-    /* background:transparent; */
-    
-    height: 100px;
+    background: #003747;
+    /* background: transparent; */
+    height: 62px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1212px) {
+    nav{
+        display: block;
+    }
 }
 .color-change{
     background: transparent;
@@ -53,11 +60,13 @@ label.logo {
 ul{
     text-align: center;
     /* margin-left: 15%; */
-    margin-top: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 }
 
 nav ul {
+    
     /* float: right; */
     /* margin-top: 20px; */
     /* margin-right: 20px; */

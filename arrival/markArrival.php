@@ -338,7 +338,7 @@ mysqli_close($conn);
 <body>
 
     <!-- NAVBAR START -->
-    <nav style="position: fixed; z-index: 9999999; padding-top: 1rem;">
+    <nav style="position: fixed; z-index: 9999999;">
         <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
         <label for="checkbox3" class="checkbtn">
             <div class="hamburger hamburger3">
