@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Nothing+You+Could+Do&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -47,7 +48,8 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
             text-decoration: none;
         }
 
@@ -73,7 +75,7 @@
         h2 {
             padding: 15% 0;
             text-align: center;
-            font-size: 38px;
+            font-size: 42px;
         }
 
         .verse4 {
@@ -123,12 +125,12 @@
         .stop p {
             color: hsl(0, 0%, 95%);
             font-size: 16px;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Roboto', sans-serif;
             line-height: 1.6
 		        }
 
         .section-title {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
             font-size: 20px;
             font-weight: bold;
             line-height: 1.125;
@@ -146,13 +148,18 @@
             color: aqua;
             text-align: center;
             width: 100%;
-            font-family: kanit;
+            font-family: 'Roboto', sans-serif;
             font-weight: 600;
         }
 
         .about-container1 {
             display: none;
         }
+
+        @media screen and (min-width:500px) {
+            b {
+                font-size: small;
+            }
 
        
         @media screen and (max-width:500px) {
