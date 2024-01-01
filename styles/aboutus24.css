@@ -177,7 +177,8 @@ p {
 
 } */
 .text p{
-    font-size: 0.85rem;
+    font-size: 16.5px;
+
 }
 
 @media screen and (max-width:1250px){

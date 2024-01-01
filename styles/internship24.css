@@ -17,6 +17,7 @@ body .containerr {
     /* max-width: 1200px; */
     margin: 40px 0;
     gap: 10px;
+    scale: 0.9;
 }
 
 body .containerr .carrd {

@@ -22,7 +22,7 @@ body {
 
 .title1 {
     font-size: 35px;
-    color: aqua;
+    color: #87CEEB;
     text-align: center;
     width: 100%;
     font-family: kanit;
@@ -30,7 +30,7 @@ body {
 }
 
 body .container {
-    width: 100%;
+    width: 79%;
     position: relative;
     display: flex;
     justify-content: space-between;
