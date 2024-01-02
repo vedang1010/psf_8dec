@@ -169,7 +169,7 @@ if (isset($_SESSION['username'])) {
 
 
 	<center>
-		<div style="margin-top: 3vh; font-size: 2rem; color: white;">
+		<div style="margin-top: 8vh; font-size: 1.7rem; color: white;">
 			<h1>Welcome,
 				<?php echo $username; ?>! Click a Startup Name to Vote
 			</h1>
