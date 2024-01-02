@@ -526,7 +526,7 @@ section {
   position: absolute;
   background: #f5af19;
   width: 80px;
-  height: 30px;
+  height: 40px;
   top: -15px;
   border-radius: 5px;
   display: flex;
@@ -630,7 +630,7 @@ section {
     height: 15vh;
     width: 100vw;
     /* background: #000000; */
-    margin-top: 15px;
+    margin-top: 65px;
   }
 
   .navigation {
