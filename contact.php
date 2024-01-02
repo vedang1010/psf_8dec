@@ -133,6 +133,7 @@ $mail->Port = 587; // Use port 587 for TLS
 
 <body>
     <!-- NAVBAR START -->
+    <!-- NAVBAR START -->
     <nav style="position: fixed; z-index: 9999999;">
         <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
         <label for="checkbox3" class="checkbtn">
@@ -181,10 +182,10 @@ $mail->Port = 587; // Use port 587 for TLS
                             style="padding-right: 0.5rem;"></i>INTERNSHIP
                         PORTAL
                     </a>
-                    <a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                    <a href="./alumni.html"> <i id="icon" class="fa-regular fa-people-group"
                             style="padding-right: 0.5rem;"></i>Alumni
                     </a>
-                    <a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
+                    <a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-stairs"
                             style="padding-right: 0.5rem;"></i>STARTUP</a>
                     <a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
                             style="padding-right: 0.5rem;"></i>Registration</a>
@@ -195,14 +196,14 @@ $mail->Port = 587; // Use port 587 for TLS
             <li class="mobli"><a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
                         style="padding-right: 0.5rem;"></i>Internship
                     Portal</a></li>
-            <li class="mobli"><a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+            <li class="mobli"><a href="./alumni.html"> <i id="icon" class="fa-solid fa-people-group"
                         style="padding-right: 0.5rem;"></i>Alumni
                 </a></li>
-            <li class="mobli"><a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
+            <li class="mobli"><a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-stairs"
                         style="padding-right: 0.5rem;"></i>STARTUP</a></li>
-            <li class="mobli"><a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+            <li class="mobli"><a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-shoe-prints"
                         style="padding-right: 0.5rem;"></i>Registration</a></li>
-            <li class="mobli"><a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+            <li class="mobli"><a href="./team.html"> <i id="icon" class="fa-solid fa-user-group"
                         style="padding-right: 0.5rem;"></i>Team</a></li>
 
             <div class="dropdown">
@@ -219,18 +220,20 @@ $mail->Port = 587; // Use port 587 for TLS
 
                 </div>
             </div>
-            <li class="mobli"><a href="./startup_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+            <li class="mobli"><a href="./startup_feedback.html"> <i id="icon" class="fa-solid fa-comments"
                         style="padding-right: 0.5rem;"></i>Startup
                     Feedback</a></li>
-            <li class="mobli"><a href="./investor_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+            <li class="mobli"><a href="./investor_feedback.html"> <i id="icon" class="fa-solid fa-comments"
                         style="padding-right: 0.5rem;"></i>Investor
                     Feedback</a></li>
             <!-- <li><a href="#"> <i id="icon" class="fa-regular fa-handshake" style="padding-right: 0.5rem;"></i>Feedback </a></li> -->
-            <li><a href="./contact.php"><i id="icon" class="fa-solid fa-user-group"
+            <li><a href="./contact.php"><i id="icon" class="fa-solid fa-envelope"
                         style="padding-right: 0.5rem;"></i>Contact
                     Us</a></li>
         </ul>
     </nav>
+
+    <!-- NAVBAR END -->
 
     <!-- NAVBAR END -->
 

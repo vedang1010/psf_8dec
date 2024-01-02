@@ -491,3 +491,7 @@ img {
 
 
 
+
+ .w-full{
+    z-index: 500;
+ }

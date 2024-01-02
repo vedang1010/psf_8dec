@@ -369,6 +369,7 @@ h1 {
 .dropdown:hover .dropdown-content {
     display: block;
     transition-delay: 5ms;
+    z-index: 600;
 }
 
 .scrolled{
