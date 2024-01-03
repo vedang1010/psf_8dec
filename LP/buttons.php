@@ -16,7 +16,7 @@ if (isset($_SESSION['username'])) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="../images/navbarAndFooter/PSF24 White.png">
+	<link rel="shortcut icon" href="../images/navbarAndFooter/PSF + Marsh White1.png">
 
 	<title>PSF'24</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,225 +55,124 @@ if (isset($_SESSION['username'])) {
 
 
 
-	<link rel="stylesheet" href="../buttons.css">
-	<link rel="stylesheet" href="../styles/navbar24.css">
+	<link rel="stylesheet" href="./buttons.css">
 
 </head>
 
 <body>
 
 
-	<!-- NAVBAR START -->
-	<nav style="position: fixed; z-index: 9999999;">
-		<input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
-		<label for="checkbox3" class="checkbtn">
-			<div class="hamburger hamburger3">
-				<span class="bar bar1"></span>
-				<span class="bar bar2"></span>
-				<span class="bar bar3"></span>
-				<span class="bar bar4"></span>
-
-			</div>
-		</label>
-
-		<!-- <input type="checkbox" id="check">
-  <label for="check" class="checkbtton">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-    
-  </label> -->
-		<!-- <div class="imgg"><a href="../main"><img  class="imgg" src="PSF + Marsh White1.png" alt=""></a></div> -->
-
-		<ul>
-			<!-- <img class="imgg" src="PSF + Marsh White1.png" alt="PSF + Marsh White1.png"> -->
-
-			<li> <a href="../main.html"> <i id="icon" class="fa-solid fa-house icon" style="padding-right: 0.5rem;"></i>
-					Home</a>
-			</li>
-			<li><a href="../aboutus.html"> <i id="icon" class="fa-regular fa-file-lines"
-						style="padding-right: 0.5rem;"></i> About
-					Us</a>
-			</li>
-
-			<li><a href="../events.html"> <i id="icon" class="fa-sharp fa-solid fa-puzzle-piece"
-						style="padding-right: 0.5rem;"></i>Events</a></li>
-
-
-			<li><a href="../investor.html"><i id="icon" class="fa-solid fa-shoe-prints"
-						style="padding-right: 0.5rem;"></i>Investors</a></li>
-			<li><a href="../partners.html"><i id="icon" class="fa-solid fa-envelope-open-text"
-						style="padding-right: 0.5rem;"></i>Sponsors</a></li>
-
-			<div class="dropdown ">
-				<button class="dropbtn">OTHER <i class="fa-solid fa-caret-down"></i></button>
-				<div class="dropdown-content">
-					<a href="../internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
-							style="padding-right: 0.5rem;"></i>INTERNSHIP
-						PORTAL
-					</a>
-					<a href="../alumni.html"> <i id="icon" class="fa-regular fa-people-group"
-							style="padding-right: 0.5rem;"></i>Alumni
-					</a>
-					<a href="../startupexpo.html"> <i id="icon" class="fa-solid fa-stairs"
-							style="padding-right: 0.5rem;"></i>STARTUP</a>
-					<a href="../visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
-							style="padding-right: 0.5rem;"></i>Registration</a>
-					<a href="../team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
-							style="padding-right: 0.5rem;"></i>Team</a>
-				</div>
-			</div>
-			<li class="mobli"><a href="../internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
-						style="padding-right: 0.5rem;"></i>Internship
-					Portal</a></li>
-			<li class="mobli"><a href="../alumni.html"> <i id="icon" class="fa-solid fa-people-group"
-						style="padding-right: 0.5rem;"></i>Alumni
-				</a></li>
-			<li class="mobli"><a href="../startupexpo.html"> <i id="icon" class="fa-solid fa-stairs"
-						style="padding-right: 0.5rem;"></i>STARTUP</a></li>
-			<li class="mobli"><a href="../visitorreg.php"> <i id="icon" class="fa-solid fa-shoe-prints"
-						style="padding-right: 0.5rem;"></i>Registration</a></li>
-			<li class="mobli"><a href="../team.html"> <i id="icon" class="fa-solid fa-user-group"
-						style="padding-right: 0.5rem;"></i>Team</a></li>
-
-			<div class="dropdown">
-				<button class="dropbtn">FEEDBACK <i class="fa-solid fa-caret-down"></i></button>
-				<div class="dropdown-content">
-					<a href="../startup_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
-							style="padding-right: 0.5rem;"></i>Startup
-						Feedback
-					</a>
-					<a href="../investor_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
-							style="padding-right: 0.5rem;"></i>Investor
-						Feedback
-					</a>
-
-				</div>
-			</div>
-			<li class="mobli"><a href="../startup_feedback.html"> <i id="icon" class="fa-solid fa-comments"
-						style="padding-right: 0.5rem;"></i>Startup
-					Feedback</a></li>
-			<li class="mobli"><a href="../investor_feedback.html"> <i id="icon" class="fa-solid fa-comments"
-						style="padding-right: 0.5rem;"></i>Investor
-					Feedback</a></li>
-			<!-- <li><a href="#"> <i id="icon" class="fa-regular fa-handshake" style="padding-right: 0.5rem;"></i>Feedback </a></li> -->
-			<li><a href="../contact.php"><i id="icon" class="fa-solid fa-envelope"
-						style="padding-right: 0.5rem;"></i>Contact
-					Us</a></li>
-		</ul>
-	</nav>
-	<!-- NAVBAR END -->
 
 	<main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
 		<!-- Can add content Here(Start) accorfing to need-->
 
 
-	<center>
-		<div style="margin-top: 8vh; font-size: 1.7rem; color: white;">
-			<h1>Welcome,
-				<?php echo $username; ?>! Click a Startup Name to Vote
-			</h1>
-		</div>
-	</center>
+		<center>
+			<div style="margin-top: 3vh; font-size: 2rem; color: white;">
+				<h1>Welcome,
+					<?php echo $username; ?>! Click a Startup Name to Vote
+				</h1>
+			</div>
+		</center>
 
-	<!-- Can add content Here(End) -->
-	<div class="w-full mx-auto px-4 md:px-6 py-24">
+		<!-- Can add content Here(End) -->
+		<div class="w-full mx-auto px-4 md:px-6 py-24">
+			<!-- Can add content Here(Start) accorfing to need-->
+
+
+			<main
+				class="relative min-h-screen flex flex-col justify-center overflow-hidden supports-[overflow:clip]:overflow-clip">
+				<div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
+
+					<form id="pollForm" action="send.php" method="post">
+						<input type="hidden" name="username" value="<?php echo $username; ?>">
+						<button type="submit" name="buttonValue" value="1" class="button b1 neon active">Startup Name
+							1<span class="span"></span></button>
+						<button type="submit" name="buttonValue" value="2" class="button b2 neon">Startup Name 2<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="3" class="button b3 neon">Startup Name 3<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="4" class="button b4 neon">Startup Name 4<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="5" class="button b5 neon">Startup Name 5<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="6" class="button b6 neon">Startup Name 6<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="7" class="button b7 neon">Startup Name 7<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="8" class="button b8 neon">Startup Name 8<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="9" class="button b9 neon">Startup Name 9<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="10" class="button b10 neon">Startup Name 10<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="11" class="button b11 neon">Startup Name 11<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="12" class="button b12 neon">Startup Name 12<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="13" class="button b13 neon">Startup Name 13<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="14" class="button b14 neon">Startup Name 14<span
+								class="span"></span></button>
+						<button type="submit" name="buttonValue" value="15" class="button b15 neon">Startup Name 15<span
+								class="span"></span></button>
+
+
+					</form>
+
+				</div>
+
+			</main>
+
+
+			<!-- Can add content Here(End) -->
+		</div>
 		<!-- Can add content Here(Start) accorfing to need-->
 
 
-		<main
-			class="relative min-h-screen flex flex-col justify-center overflow-hidden supports-[overflow:clip]:overflow-clip">
-			<div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
-
-				<form id="pollForm" action="send.php" method="post">
-					<input type="hidden" name="username" value="<?php echo $username; ?>">
-					<button type="submit" name="buttonValue" value="1" class="button b1 neon active">Startup Name
-						1<span class="span"></span></button>
-					<button type="submit" name="buttonValue" value="2" class="button b2 neon">Startup Name 2<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="3" class="button b3 neon">Startup Name 3<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="4" class="button b4 neon">Startup Name 4<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="5" class="button b5 neon">Startup Name 5<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="6" class="button b6 neon">Startup Name 6<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="7" class="button b7 neon">Startup Name 7<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="8" class="button b8 neon">Startup Name 8<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="9" class="button b9 neon">Startup Name 9<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="10" class="button b10 neon">Startup Name 10<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="11" class="button b11 neon">Startup Name 11<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="12" class="button b12 neon">Startup Name 12<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="13" class="button b13 neon">Startup Name 13<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="14" class="button b14 neon">Startup Name 14<span
-							class="span"></span></button>
-					<button type="submit" name="buttonValue" value="15" class="button b15 neon">Startup Name 15<span
-							class="span"></span></button>
-
-
-				</form>
-
-			</div>
-
-		</main>
 
 
 		<!-- Can add content Here(End) -->
-	</div>
-	<!-- Can add content Here(Start) accorfing to need-->
+
+		<div class="text-center">
+
+			<!-- Illustration #1 -->
+			<div class="absolute top-0 left-0 rotate-180 -translate-x-3/4 -scale-x-100 blur-3xl opacity-70 pointer-events-none"
+				aria-hidden="true">
+				<img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			</div>
+
+			<!-- Illustration #2 -->
+			<div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+				aria-hidden="true">
+				<img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			</div>
+			<div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+				style="top: 90%;" aria-hidden="true">
+				<img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			</div>
+			<!-- Illustration #3 -->
+			<div class="absolute top-80 left-100 -translate-y-1 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
+				aria-hidden="true">
+				<img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			</div>
+			<div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
+				style="top: 90%;" aria-hidden="true">
+				<img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			</div>
 
 
-
-
-	<!-- Can add content Here(End) -->
-
-	<div class="text-center">
-
-		<!-- Illustration #1 -->
-		<div class="absolute top-0 left-0 rotate-180 -translate-x-3/4 -scale-x-100 blur-3xl opacity-70 pointer-events-none"
-			aria-hidden="true">
-			<img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
+			<!-- Particles animation -->
+			<div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+				<canvas data-particle-animation></canvas>
+			</div>
+			<div class="relative">
+			</div>
 		</div>
+		<!-- </div> -->
 
-		<!-- Illustration #2 -->
-		<div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
-			aria-hidden="true">
-			<img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
-		</div>
-		<div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
-			style="top: 90%;" aria-hidden="true">
-			<img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
-		</div>
-		<!-- Illustration #3 -->
-		<div class="absolute top-80 left-100 -translate-y-1 translate-x-1/4 blur-3xl opacity-70 pointer-events-none"
-			aria-hidden="true">
-			<img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
-		</div>
-		<div class="absolute left-50 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-60 pointer-events-none"
-			style="top: 90%;" aria-hidden="true">
-			<img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration" />
-		</div>
-
-
-		<!-- Particles animation -->
-		<div class="absolute inset-0 pointer-events-none" aria-hidden="true">
-			<canvas data-particle-animation></canvas>
-		</div>
-		<div class="relative">
-		</div>
-	</div>
-	<!-- </div> -->
-
-	<!-- Ilusration #5 -->
-	<!-- <div class="absolute bottom-0 left-50 rotate-180 -translate-x-1 -scale-x-100 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
+		<!-- Ilusration #5 -->
+		<!-- <div class="absolute bottom-0 left-50 rotate-180 -translate-x-1 -scale-x-100 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
 		  <img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration">
 	  </div> -->
 	</main>
@@ -364,13 +263,13 @@ if (isset($_SESSION['username'])) {
 						alt=""></span>
 
 				<p class="ftfooter-links">
-					<a href="../main.html" class="ftlink-1">Home</a>
+					<a href="#" class="ftlink-1">Home</a>
 
-					<a href="../aboutus.html">About Us</a>
+					<a href="#">About US</a>
 
-					<a href="../investor.html">Investors</a>
+					<a href="#">Investors</a>
 
-					<a href="../contact.php">Contact</a>
+					<a href="#">Contact</a>
 				</p>
 
 				<p class="ftfooter-company-name">PUNE STARTUP FEST</p>
@@ -380,11 +279,10 @@ if (isset($_SESSION['username'])) {
 
 				<div class="icons">
 					<i class="fa fa-map-marker"></i>
-					<p><a
-							href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
-							<span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005
-						</a>
-					</p>
+					<a
+						href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
+						<p><span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005</p>
+					</a>
 				</div>
 
 				<div class="icons">
@@ -505,8 +403,8 @@ if (isset($_SESSION['username'])) {
 					console.log("Returned variable:", responseData);
 
 					// Update the list of investor arrivals
-					// 	const investorList = document.getElementById("investorList");
-					// 	investorList.innerHTML = responseData;
+				// 	const investorList = document.getElementById("investorList");
+				// 	investorList.innerHTML = responseData;
 
 					// Call the function again after a delay (long polling)
 					setTimeout(fetchActiveButton, 5000); // 5-second interval

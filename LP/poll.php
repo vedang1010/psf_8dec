@@ -22,9 +22,6 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
     <title>PSF'24</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Nothing+You+Could+Do&display=swap"
         rel="stylesheet">
@@ -106,9 +103,9 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
         }
 
         .button {
-
+            background-color: white;
             color: #33cfff;
-            border: 1px solid white;
+            border: 4px solid white;
             border-radius: 1000px;
 
             font-size: 30px;
@@ -164,22 +161,22 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
 
         .button.shown {
             opacity: 1;
-            font-size: 6vw;
-
+            font-size: 40px;
+            background-color: white;
             color: black;
         }
 
         .button.shown:hover {
             opacity: 1;
-            font-size: 6vw;
+            font-size: 40px;
             background: transparent;
         }
 
         .tr.active {
             font-weight: bold;
-            background-color: rgba(108, 185, 195, 0.5);
+            background-color: black;
 
-            transform: scale(1.05);
+            transform: scale(1.1);
         }
 
         .tr.active i::before {
@@ -309,242 +306,15 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
         .star-rating-widget--with-emojis .star-rating-widget__btn--selected .star-rating-widget__emoji {
             animation: 1s ease-in normal EmojiIn;
         }
-
-        .box-lid {
-            
-
-
-
-            color: #1c335a;
-            border: 2px solid #eceff133;
-            border-radius: 15px;
-            padding-top: 40px;
-            padding-bottom: 40px;
-            width: 80vw;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: rgb(14 38 88 / 40%);
-            box-shadow: inset -5px -5px 10px 5px rgba(5, 218, 250, 0.5);
-            
-
-        }
-        @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Noto+Sans:wght@600&display=swap');
-
-        .p {font-family: 'Inknut Antiqua', serif;
-    
-
-            font-size: 3vw;
-            color: #08ca25;
-        }
-            
-            
-
-        #timer {
-            font-size: 3.5vw;
-        }
-
-        #question {
-            color: #33cfff;
-        }
-
-
-        /* Variables */
-        :root {
-            --fuschia: #c02cae;;
-            --button-bg: var(--fuschia);
-            --button-text-color: #fff;
-            --baby-blue: #f8faff;
-        }
-
-        /* Body Styles */
-
-
-        /* Button Styles */
-        .bubbly-button {
-            font-family: 'Helvetica', 'Arial', sans-serif;
-            display: inline-block;
-            font-size: 1.6em;
-            padding: 0.5em 1em;
-            margin-top: 50px;
-
-            -webkit-appearance: none;
-            appearance: none;
-            background-color: var(--button-bg);
-            color: var(--button-text-color);
-            border-radius: 22px;
-            border: none;
-            cursor: pointer;
-            position: relative;
-            transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
-            box-shadow: 0 2px 25px rgba(236, 61, 224, 0.5);
-        }
-
-        .bubbly-button:focus {
-            outline: 0;
-        }
-
-        .bubbly-button:active {
-            transform: scale(0.9);
-            background-color: darken(var(--button-bg), 5%);
-            box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
-        }
-
-        /* Animation */
-        .bubbly-button.animate:before,
-        .bubbly-button.animate:after {
-            display: block;
-        }
-
-        @keyframes topBubbles {
-            0% {
-                background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
-            }
-
-            50% {
-                background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
-            }
-
-            100% {
-                background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
-                background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-            }
-        }
-
-        @keyframes bottomBubbles {
-            0% {
-                background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
-            }
-
-            50% {
-                background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
-            }
-
-            100% {
-                background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
-                background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-            }
-        }
     </style>
 </head>
 
 <body>
 
-    <!-- NAVBAR START -->
-    <nav style="position: fixed; z-index: 9999999;">
-        <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
-        <label for="checkbox3" class="checkbtn">
-            <div class="hamburger hamburger3">
-                <span class="bar bar1"></span>
-                <span class="bar bar2"></span>
-                <span class="bar bar3"></span>
-                <span class="bar bar4"></span>
-  
-            </div>
-        </label>
-  
-        <!-- <input type="checkbox" id="check">
-  <label for="check" class="checkbtton">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-    
-  </label> -->
-        <!-- <div class="imgg"><a href="../main"><img  class="imgg" src="PSF + Marsh White1.png" alt=""></a></div> -->
-  
-        <ul>
-            <!-- <img class="imgg" src="PSF + Marsh White1.png" alt="PSF + Marsh White1.png"> -->
-  
-            <li> <a href="../main.html"> <i id="icon" class="fa-solid fa-house icon" style="padding-right: 0.5rem;"></i>
-                    Home</a>
-            </li>
-            <li><a href="../aboutus.html"> <i id="icon" class="fa-regular fa-file-lines"
-                        style="padding-right: 0.5rem;"></i> About
-                    Us</a>
-            </li>
-  
-            <li><a href="../events.html"> <i id="icon" class="fa-sharp fa-solid fa-puzzle-piece"
-                        style="padding-right: 0.5rem;"></i>Events</a></li>
-  
-  
-            <li><a href="../investor.html"><i id="icon" class="fa-solid fa-shoe-prints"
-                        style="padding-right: 0.5rem;"></i>Investors</a></li>
-            <li><a href="../partners.html"><i id="icon" class="fa-solid fa-envelope-open-text"
-                        style="padding-right: 0.5rem;"></i>Sponsors</a></li>
-  
-            <div class="dropdown ">
-                <button class="dropbtn">OTHER <i class="fa-solid fa-caret-down"></i></button>
-                <div class="dropdown-content">
-                    <a href="../internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
-                            style="padding-right: 0.5rem;"></i>INTERNSHIP
-                        PORTAL
-                    </a>
-                    <a href="../alumni.html"> <i id="icon" class="fa-regular fa-people-group"
-                            style="padding-right: 0.5rem;"></i>Alumni
-                    </a>
-                    <a href="../startupexpo.html"> <i id="icon" class="fa-solid fa-stairs"
-                            style="padding-right: 0.5rem;"></i>STARTUP</a>
-                    <a href="../visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
-                            style="padding-right: 0.5rem;"></i>Registration</a>
-                    <a href="../team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
-                            style="padding-right: 0.5rem;"></i>Team</a>
-                </div>
-            </div>
-            <li class="mobli"><a href="../internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
-                        style="padding-right: 0.5rem;"></i>Internship
-                    Portal</a></li>
-            <li class="mobli"><a href="../alumni.html"> <i id="icon" class="fa-solid fa-people-group"
-                        style="padding-right: 0.5rem;"></i>Alumni
-                </a></li>
-            <li class="mobli"><a href="../startupexpo.html"> <i id="icon" class="fa-solid fa-stairs"
-                        style="padding-right: 0.5rem;"></i>STARTUP</a></li>
-            <li class="mobli"><a href="../visitorreg.php"> <i id="icon" class="fa-solid fa-shoe-prints"
-                        style="padding-right: 0.5rem;"></i>Registration</a></li>
-            <li class="mobli"><a href="../team.html"> <i id="icon" class="fa-solid fa-user-group"
-                        style="padding-right: 0.5rem;"></i>Team</a></li>
-  
-            <div class="dropdown">
-                <button class="dropbtn">FEEDBACK <i class="fa-solid fa-caret-down"></i></button>
-                <div class="dropdown-content">
-                    <a href="../startup_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
-                            style="padding-right: 0.5rem;"></i>Startup
-                        Feedback
-                    </a>
-                    <a href="../investor_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
-                            style="padding-right: 0.5rem;"></i>Investor
-                        Feedback
-                    </a>
-  
-                </div>
-            </div>
-            <li class="mobli"><a href="../startup_feedback.html"> <i id="icon" class="fa-solid fa-comments"
-                        style="padding-right: 0.5rem;"></i>Startup
-                    Feedback</a></li>
-            <li class="mobli"><a href="../investor_feedback.html"> <i id="icon" class="fa-solid fa-comments"
-                        style="padding-right: 0.5rem;"></i>Investor
-                    Feedback</a></li>
-            <!-- <li><a href="#"> <i id="icon" class="fa-regular fa-handshake" style="padding-right: 0.5rem;"></i>Feedback </a></li> -->
-            <li><a href="../contact.php"><i id="icon" class="fa-solid fa-envelope"
-  style="padding-right: 0.5rem;"></i>Contact
-Us</a></li>
-<!-- <li><a href="../arrival/"><i id="icon" class="fa-solid fa-briefcase"
-                      style="padding-right: 0.5rem;"></i>Arrival</a></li>
-          <li><a href="../startup_issues/add_issue.html"><i id="icon" class="fa-solid fa-exclamation-circle"
-                      style="padding-right: 0.5rem;"></i>Startup Issues</a></li> -->
-        </ul>
-    </nav>
-    <!-- NAVBAR END -->
+
 
     <main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
-        <div style="text-align:center;z-index:500;font-size:larger;">
-            <h2 style="    text-decoration: underline;
-            font-family: 'Inknut Antiqua', serif;
-            color: steelblue;
-            font-size: 5vw;
-            font-weight: bold;
-            padding-top:5vh;
-            ">RATE STARTUP</h2>
-        </div>
+        <div style="text-align:center;z-index:500;font-size:larger;"><h2>Rate Startup</h2></div>
         <!-- Can add content Here(Start) accorfing to need-->
         <div style="display: flex; justify-content:center; height:15vh;">
             <div class="widget" style="align-self: center;">
@@ -553,23 +323,31 @@ Us</a></li>
 
         </div>
 
-        <div class="box-lid" id="content">
+        <div id="content">
             <!-- Display the selected username and button number -->
-            <p class="p">Selected Username:
+            <p>Selected Username:
                 <?php echo $username; ?>
             </p>
-            <p class="p">Selected Button Number:
+            <p>Selected Button Number:
                 <?php echo $buttonNo; ?>
             </p>
-            <h1 id="question" style="font-size: 4vw; font-family: 'Inknut Antiqua', serif;"></h1>
+            <h1 id="question" style="font-size:larger;"></h1>
 
-            <div style="color: #e43a0b;" id="timer">Time remaining: 3:00</div>
+            <div id="timer">Time remaining: 3:00</div>
 
 
             <div class="table" id="table"></div>
 
-            <button id="vote" class="bubbly-button" style=""><span class="text">Vote</span><i
-                    class='fas fa-circle-notch fa-spin'></i></button>
+            <button id="vote" class="" style="    
+      color: #33cfff;
+      border: 4px solid white;
+      border-radius: 1000px;
+      font-size: 30px;
+      padding: 10px 30px;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: all 300ms, transform 100ms;
+      "><span class="text">Vote</span><i class='fas fa-circle-notch fa-spin'></i></button>
         </div>
 
         <div style="display: flex; justify-content:center; ">
@@ -723,13 +501,13 @@ Us</a></li>
                         alt=""></span>
 
                 <p class="ftfooter-links">
-                    <a href="./main.html" class="ftlink-1">Home</a>
+                    <a href="#" class="ftlink-1">Home</a>
 
-                    <a href="./aboutus.html" class="ftlink-1">About Us</a>
+                    <a href="#">About US</a>
 
-                    <a href="./investor.html">Investors</a>
+                    <a href="#">Investors</a>
 
-                    <a href="./contact.php">Contact</a>
+                    <a href="#">Contact</a>
                 </p>
 
                 <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
@@ -739,11 +517,10 @@ Us</a></li>
 
                 <div class="icons">
                     <i class="fa fa-map-marker"></i>
-                    <p><a
+                    <a
                         href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
-                        <span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005
+                        <p><span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005</p>
                     </a>
-                  </p>
                 </div>
 
                 <div class="icons">
@@ -845,9 +622,9 @@ Us</a></li>
             once: false,     // Animation only once on page load
         });
     </script>
-
+    
     <script>
-        var rate;
+    var  rate;
         function starRatingWidget(
             appendTo,
             maxStars = 5,
@@ -899,8 +676,8 @@ Us</a></li>
                     }
                 });
                 console.log(rating);
-                rate = rating;
-                console.log(rate);
+                rate =rating;
+                                console.log(rate);
 
                 function handleSubmittedText() {
                     const widgetWrapper = document.querySelector('.star-rating-widget');
@@ -964,7 +741,7 @@ Us</a></li>
     </script>
 
     <script>
-        var rate;
+        var  rate;
         function starRatingWidget(
             appendTo,
             maxStars = 5,
@@ -1016,8 +793,8 @@ Us</a></li>
                     }
                 });
                 console.log(rating);
-                rate = rating;
-                console.log(rate);
+                rate =rating;
+                                console.log(rate);
 
                 function handleSubmittedText() {
                     const widgetWrapper = document.querySelector('.star-rating-widget');
@@ -1078,12 +855,12 @@ Us</a></li>
             starRatingWidget('.widget');
         })();
 
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
         var possibleStuff = [
             {
                 question: "How many Investors will invest?",
@@ -1169,16 +946,16 @@ Us</a></li>
                 if (xhr.readyState === 4 && xhr.status === 200) {
                     var response = JSON.parse(xhr.responseText);
                     if (response.status === 'success') {
-                        // Successful vote, update content or redirect if needed
-                        contentElement.innerHTML = `<h2>Thank you for voting!</h2><button class="shown button"><a href="buttons.php">Vote for next Pitch </a><i class='fas fa-arrow-left'></i></button>`;
+    // Successful vote, update content or redirect if needed
+    contentElement.innerHTML = `<h2>Thank you for voting!</h2><button class="shown button"><a href="buttons.php">Vote for next Pitch </a><i class='fas fa-arrow-left'></i></button>`;
 
-                        // Hide the widget with class 'widget'
-                        const widgetElement = document.querySelector('.widget');
-                        if (widgetElement) {
-                            widgetElement.style.display = 'none';
-                        }
-                    }
-                    else if (response.status === 'error') {
+    // Hide the widget with class 'widget'
+    const widgetElement = document.querySelector('.widget');
+    if (widgetElement) {
+        widgetElement.style.display = 'none';
+    }
+}
+ else if (response.status === 'error') {
                         // Display an alert if the user has already voted
                         alert(response.message);
                     }
@@ -1186,124 +963,122 @@ Us</a></li>
             };
 
             // Include the username and buttonNo in the data sent to submit_vote.php
-            xhr.send('option=' + choiceValue + '&username=' + encodeURIComponent(username) + '&buttonNo=' + encodeURIComponent(buttonNo) + '&rate=' + encodeURIComponent(rate));
+            xhr.send('option=' + choiceValue + '&username=' + encodeURIComponent(username) + '&buttonNo=' + encodeURIComponent(buttonNo)+ '&rate=' + encodeURIComponent(rate));
             setTimeout(() => {
                 document.getElementById("content").innerHTML = `<h2>Thank you for voting!</h2><button class="button shown"><a href="buttons.php">Vote for next Pitch </a><i class='fas fa-arrow-left'></i></button>`;
             }, 1000);
         })
     </script>
+    
+    
+<!--Vardhan-->
+<!--Vardhan-->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- Include your other dependencies and stylesheets here -->
+
+<script>
+    $(document).ready(function () {
+        var username = '<?php echo isset($_SESSION['username']) ? $_SESSION['username'] : ""; ?>';
+        var buttonNo = '<?php echo isset($_SESSION['buttonNo']) ? $_SESSION['buttonNo'] : ""; ?>';
+
+        var rate;
+
+        // Fetch the end time from the server
+        function fetchEndTime() {
+            $.ajax({
+                type: 'POST',
+                url: 'get_end_time.php',
+                dataType: 'json',
+                success: function (response) {
+                    if (!isNaN(response.end_time)) {
+                        var endTime = parseInt(response.end_time, 10);
+
+                        // Calculate remaining time and start the timer
+                        calculateRemainingTime(endTime);
+                    } else {
+                        console.error('Invalid end time received from the server:', response);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error('AJAX Error:', status, error);
+                }
+            });
+        }
+
+        // Function to calculate remaining time
+        function calculateRemainingTime(endTime) {
+            var timerInterval = setInterval(function () {
+                var currentTime = Math.floor(Date.now() / 1000);
+                var remainingTime = Math.max(endTime - currentTime, 0);
+                updateTimerDisplay(remainingTime);
+
+                if (remainingTime === 0) {
+                    // Stop the timer interval
+                    clearInterval(timerInterval);
+
+                    // Time is up, submit the rating and the selected option
+                    submitRatingAndOption();
+                }
+            }, 1000);
+        }
+
+        // Function to update the timer display
+        function updateTimerDisplay(remainingTime) {
+            var minutes = Math.floor(remainingTime / 60);
+            var seconds = remainingTime % 60;
+            $('#timer').text('Time remaining: ' + minutes + ':' + (seconds < 10 ? '0' : '') + seconds);
+        }
+
+        // Function to submit the rating and the selected option
+        function submitRatingAndOption() {
+            $('#vote').addClass('loading');
+
+            var choiceElement = $('.tr.active .td:nth-child(2)');
+            var choiceValue = choiceElement.attr('data-value');
+
+            // Now you have both the display text and the value of the selected option
+            console.log("Selected Option Text: ", choiceElement.text());
+            console.log("Selected Option Value: ", choiceValue);
+            console.log("Selected Rating Value: ", rate);
+
+            // Include the username and buttonNo in the data sent to submit_vote.php
+            $.ajax({
+                type: 'POST',
+                url: 'submit_vote.php',
+                data: {
+                    option: choiceValue,
+                    username: encodeURIComponent(username),
+                    buttonNo: encodeURIComponent(buttonNo),
+                    rate: rate
+                },
+                success: function (response) {
+                    var parsedResponse = JSON.parse(response);
+                    if (parsedResponse.status === 'success') {
+                        // Successful vote, update content or redirect if needed
+                        $('#content').html('<h2>Thank you for voting!</h2><button class="shown"><a href="buttons.php">Vote for next Pitch </a><i class="fas fa-arrow-left"></i></button>');
+                    } else if (parsedResponse.status === 'error') {
+                        alert(parsedResponse.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    // Handle the error
+                    console.error('AJAX Error:', status, error);
+                }
+            });
+        }
+
+        // Call fetchEndTime when the document is ready
+        fetchEndTime();
+    });
+</script>
+
+<!-- Your existing rating and option submission script -->
+<script>
+    // ... (Your existing starRatingWidget and options selection script)
+</script>
 
 
-    <!--Vardhan-->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-    <!-- Include your other dependencies and stylesheets here -->
-
-    <script>
-        $(document).ready(function () {
-            var username = '<?php echo isset($_SESSION['username']) ? $_SESSION['username'] : ""; ?>';
-            var buttonNo = '<?php echo isset($_SESSION['buttonNo']) ? $_SESSION['buttonNo'] : ""; ?>';
-
-            // Fetch remaining time from the database
-            // function fetchRemainingTime() {
-            //     $.ajax({
-            //         type: 'POST',
-            //         url: 'get_remaining_time.php', // Replace with the actual endpoint to fetch time from the database
-            //         data: {
-            //             username: encodeURIComponent(username),
-            //             buttonNo: encodeURIComponent(buttonNo)
-            //         },
-            //         success: function (response) {
-            //             var remainingTime = parseInt(response); // Assuming the response is the remaining time in seconds
-
-            //             // Start the timer with the fetched remaining time
-            //             startTimer(remainingTime);
-            //         },
-            //         error: function (xhr, status, error) {
-            //             console.error('AJAX Error:', status, error);
-            //         }
-            //     });
-            // }
-
-            // Function to update the timer display
-            // function updateTimerDisplay(minutes, seconds) {
-            //     $('#timer').text('Time remaining: ' + minutes + ':' + (seconds < 10 ? '0' : '') + seconds);
-            // }
-
-            // Function to start the timer
-            // function startTimer(totalSeconds) {
-            //     var minutes = Math.floor(totalSeconds / 60);
-            //     var seconds = totalSeconds % 60;
-
-            //     // Update the timer display initially
-            //     updateTimerDisplay(minutes, seconds);
-
-            //     // Function to decrement the timer
-            //     function decrementTimer() {
-            //         if (minutes === 0 && seconds === 0) {
-            //             // Submit vote when the timer reaches zero
-            //             // submitVote();
-            //         } else {
-            //             if (seconds === 0) {
-            //                 minutes--;
-            //                 seconds = 59;
-            //             } else {
-            //                 seconds--;
-            //             }
-
-            //             // Update the timer display
-            //             updateTimerDisplay(minutes, seconds);
-            //         }
-            //     }
-
-            //     // Set an interval to decrement the timer every second
-            //     var timerInterval = setInterval(decrementTimer, 1000);
-
-            //     // Function to submit the vote
-            //     function submitVote() {
-            //         $('#vote').addClass('loading');
-
-            //         var choiceElement = $('.tr.active .td:nth-child(2)');
-            //         var choiceValue = choiceElement.attr('data-value');
-
-            //         $.ajax({
-            //             type: 'POST',
-            //             url: 'submit_vote.php',
-            //             data: {
-            //                 option: choiceValue,
-            //                 username: encodeURIComponent(username),
-            //                 buttonNo: encodeURIComponent(buttonNo)
-            //             },
-            //             success: function (response) {
-            //                 var parsedResponse = JSON.parse(response);
-            //                 if (parsedResponse.status === 'success') {
-            //                     // Successful vote, update content or redirect if needed
-            //                     $('#content').html('<h2>Thank you for voting!</h2><button class="shown"><a href="buttons.php">Vote for next Pitch </a><i class="fas fa-arrow-left"></i></button>');
-            //                 } else if (parsedResponse.status === 'error') {
-            //                     alert(parsedResponse.message);
-            //                 }
-            //             },
-            //             error: function (xhr, status, error) {
-            //                 // Handle the error
-            //                 console.error('AJAX Error:', status, error);
-            //             },
-            //             complete: function () {
-            //                 // Stop the timer interval
-            //                 clearInterval(timerInterval);
-            //             }
-            //         });
-            //     }
-
-            //     // Attach the submitVote function to the vote button click event
-            //     $('#vote').click(function () {
-            //         submitVote();
-            //     });
-            // }
-
-            // Fetch the remaining time when the document is ready
-            // fetchRemainingTime();
-        });
-    </script>
 
 </body>
 
