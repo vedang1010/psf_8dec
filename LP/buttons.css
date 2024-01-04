@@ -1,164 +1,258 @@
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
-  body {
-    font-family: 'Manrope';
-    font-weight: 400;
-    background-color: #121212;
-    /* --background */
-    color: #fcfcfc;
-    /* --text */
-  }
+body {
+  font-family: "Manrope";
+  font-weight: 400;
+  background-color: #121212;
+  /* --background */
+  color: #fcfcfc;
+  /* --text */
+}
 
-  .button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    height: 50px;
-    width: 260px;
-    /* margin: 100px; */
-    /* margin-top: 80px;
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  height: 50px;
+  width: 260px;
+  /* margin: 100px; */
+  /* margin-top: 80px;
     margin-bottom: 80px; */
-    z-index: 9999;
-  }
+  z-index: 9999;
+  margin-top: 5rem;
+  padding-top: 10px;
+}
 
-  button {
-    height: 50px;
-    width: 160px;
-    border: none;
-    border-radius: 13px;
-    background-color: #9ed;
-    /* --primaryBg */
-    box-shadow: 0px -3px 15px 0px #7f9ed6 inset;
-    /* --primaryHi */
-    color: #d9edf5;
-    /* --primaryFg */
-    font-family: "Manrope";
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    overflow: hidden;
-    transition: all 0.2s ease;
-  }
+button {
+  height: 50px;
+  width: 160px;
+  border: none;
+  border-radius: 13px;
+  background-color: #9ed;
+  /* --primaryBg */
+  box-shadow: 0px -3px 15px 0px #7f9ed6 inset;
+  /* --primaryHi */
+  color: #d9edf5;
+  /* --primaryFg */
+  font-family: "Manrope";
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
 
-  button:before {
-    content: "";
-    width: 100%;
-    border-radius: 13px;
-    transform: translateY(0px);
-    transition: all 0.2s ease;
-  }
+button:before {
+  content: "";
+  width: 100%;
+  border-radius: 13px;
+  transform: translateY(0px);
+  transition: all 0.2s ease;
+}
 
-
-
-
-  button {
-    padding: 25px 30px;
-    background-color: #050801;
-    color: #03e9f4;
-    font-weight: bold;
-    border: none;
-    border-radius: 30px;
-    letter-spacing: 4px;
-    overflow: hidden;
-    transition: 0.5s;
-    /* height: 300px; */
-    cursor: pointer;
-  }
+button {
+  padding: 25px 30px;
+  background-color: #050801;
+  color: #03e9f4;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  /* height: 300px; */
+  cursor: pointer;
+  margin-top: 7rem;
+}
 
 button:hover {
-    background: #a6c9cb;
-    color: #050801;
-    box-shadow: 0 0 5px #74b4b7, 0 0 25px #589da1, 0 0 50px #58cdd3, 0 0 200px #3a9a9f;
-    /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); */
+  background: #a6c9cb;
+  color: #050801;
+  box-shadow: 0 0 5px #74b4b7, 0 0 25px #589da1, 0 0 50px #58cdd3,
+    0 0 200px #3a9a9f;
+  /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); */
 }
-  .span {
-    width: 100px;
-    height: 60px;
-    background-color: #7f9ed6;
-    /* --primaryHi */
-    border-radius: 100%;
-    filter: blur(20px);
-    position: absolute;
-    bottom: -50%;
-    transition: all 0.2s ease;
-  }
+.span {
+  width: 100px;
+  height: 60px;
+  background-color: #7f9ed6;
+  /* --primaryHi */
+  border-radius: 100%;
+  filter: blur(20px);
+  position: absolute;
+  bottom: -50%;
+  transition: all 0.2s ease;
+}
 
+.b1 {
+  top: 60%;
+}
 
-  .b1 {
-    top: 20%;
-  }
+.b2 {
+  top: 60%;
+}
 
-  .b2 {
-    top: 20%;
-  }
+.b3 {
+  top: 60%;
+}
 
-  .b3 {
-    top: 20%;
-  }
+.b4 {
+  top: 20%;
+}
 
-  .b4 {
-    top: 20%;
-  }
+.b5 {
+  top: 20%;
+}
 
-  .b5 {
-    top: 20%;
-  }
+.b6 {
+  top: 60%;
+}
 
-  .b6 {
-    top: 20%;
-  }
+.b7 {
+  top: 60%;
+}
 
-  .b7 {
-    top: 20%;
-  }
+.b8 {
+  top: 60%;
+}
 
-  .b8 {
-    top: 20%;
-  }
+.b9 {
+  top: 60%;
+}
 
-  .b9 {
-    top: 20%;
-  }
+.b10 {
+  top: 60%;
+}
+.b11 {
+  top: 60%;
+}
+.b12 {
+  top: 60%;
+}
+.b13 {
+  top: 60%;
+}
+.b14 {
+  top: 60%;
+}
+.b15 {
+  top: 60%;
+}
 
-  .b10 {
-    top: 20%;
-  }
-  .b11 {
-    top: 20%;
-  }
-  .b12 {
-    top: 20%;
-  }
-  .b13 {
-    top: 20%;
-  }
-  .b14 {
-    top: 20%;
-  }
-  .b15 {
-    top: 20%;
-  }
+#pollForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  #pollForm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+button:hover {
+  transform: translateY(5px);
+}
+.button {
+  display: none;
+}
+.active {
+  display: flex;
+}
 
-  button:hover {
-    transform: translateY(5px);
-  }
-  .button {
-    display: none;
-  }
-  .active{
-    display: flex;
-  }
+.card {
+  padding: 15px;
+  width: 350px;
+  background: rgb(25, 57, 71);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+  user-select: none;
+  height: 30rem;
+  margin: auto;
+  display : none;
+}
+
+.active{
+  display: block;
+}
+
+.cover-photo {
+  position: relative;
+  background: url("../images/events/AdVenture.jpg");
+  background-size: cover;
+  height: 180px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.profile {
+  position: absolute;
+  width: 120px;
+  bottom: -50px;
+  left: 15px;
+  border-radius: 50%;
+  border: 2px solid #222;
+  background: #222;
+  padding: 5px;
+}
+
+.profile-name {
+  font-size: 20px;
+  margin: 25px 0 0 0px;
+  color: #fff;
+}
+
+.about {
+  margin-top: 30px;
+  line-height: 1.6;
+}
+
+.btn {
+  margin: 30px 15px;
+  background: #7ce3ff;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 1px solid #7ce3ff;
+  font-weight: bold;
+  font-family: Montserrat;
+  cursor: pointer;
+  color: #222;
+  transition: 0.2s;
+}
+
+.btn:last-of-type {
+  background: transparent;
+  border-color: #7ce3ff;
+  color: #7ce3ff;
+}
+
+.btn:hover {
+  background: #7ce3ff;
+  color: #222;
+}
+
+.icons {
+  width: 180px;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.icons i {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.icons i:hover {
+  color: #7ce3ff;
+}
+
+.container h3 {
+  margin-top: 2rem;
+}
