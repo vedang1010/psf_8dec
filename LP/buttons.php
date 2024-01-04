@@ -75,11 +75,6 @@ if (isset($_SESSION['username'])) {
 			</div>
 		</label>
 
-		<!-- <input type="checkbox" id="check">
-  <label for="check" class="checkbtton">
-	<div class="line"></div>
-	<div class="line"></div>
-	<div class="line"></div>
 	
   </label> -->
 		<!-- <div class="imgg"><a href="../main"><img  class="imgg" src="PSF + Marsh White1.png" alt=""></a></div> -->

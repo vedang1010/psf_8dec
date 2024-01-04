@@ -4,9 +4,9 @@
     font-family: 'Manrope';
     font-weight: 400;
     background-color: #121212;
-    /* --background */
+
     color: #fcfcfc;
-    /* --text */
+
   }
 
   .button {
@@ -20,9 +20,7 @@
     cursor: pointer;
     height: 50px;
     width: 260px;
-    /* margin: 100px; */
-    /* margin-top: 80px;
-    margin-bottom: 80px; */
+
     z-index: 9999;
   }
 
