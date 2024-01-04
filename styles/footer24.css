@@ -25,7 +25,7 @@
   width: 100%;
   text-align: left;
   font: bold 16px sans-serif;
-  padding: 10px 50px;
+  /* padding: 10px 50px; */
 }
 
 .ftfooter-distributed .ftfooter-left,
@@ -58,7 +58,7 @@
 
 .ftfooter-distributed .ftfooter-links{
   color:  #ffffff;
-  margin: 60px 0 12px;
+  margin: 12px 0 12px;
   padding: 0;
 }
 .ftfooter-distributed .ftfooter-links a:hover{
@@ -88,7 +88,7 @@
 
 .ftfooter-distributed .ftfooter-center{
   width: 30%;
-  
+  padding-top: 20px;
 }
 
 .ftfooter-distributed .ftfooter-center i{
@@ -577,11 +577,20 @@ a{
   } */
 
 .icons{
-  display: grid;
+  display: flex;
   grid-template-columns: auto auto;
   align-items: center;
+  text-align: left;
+  justify-content: center;
 }
 .icons a:hover p{
     text-decoration: none;
     color: #2246b4;
 }
+
+.icons p {
+  width: 50%;
+}
+/* .icons a {
+  width: 50%;
+} */

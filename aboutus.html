@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Nothing+You+Could+Do&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -43,11 +44,12 @@
     <link rel="stylesheet" href="./styles/navbar24.css">
 
     <style>
-        * {
+        *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
             text-decoration: none;
         }
 
@@ -73,11 +75,19 @@
         h2 {
             padding: 15% 0;
             text-align: center;
-            font-size: 38px;
+            font-size: 42px;
         }
 
         .verse4 {
             background: url("https://punestartupfest.in/images/about/about_pv.JPG") no-repeat center center;
+            min-height: 70%;
+            background-size: contain;
+            background-attachment: fixed;
+            height: 70vh;
+
+        }
+        .verse5 {
+            background: url("https://punestartupfest.in/images/about/about_launchpad.jpg") no-repeat center center;
             min-height: 70%;
             background-size: contain;
             background-attachment: fixed;
@@ -116,19 +126,21 @@
             background-size: contain;
             background-attachment: fixed;
         }
-		.verse1 .section-title{
-			transform: translateY(-1.9rem);
-		}
+
+        .verse1 .section-title {
+            transform: translateY(-1.9rem);
+        }
 
         .stop p {
             color: hsl(0, 0%, 95%);
-            font-size: 15px;
-            font-family: 'Lato', sans-serif;
-            line-height: 1.5
-		        }
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6
+        }
+
 
         .section-title {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
             font-size: 20px;
             font-weight: bold;
             line-height: 1.125;
@@ -142,23 +154,28 @@
     }
      */
         .title1 {
-    font-size: 35px;
-    color: #87CEEB;
-    text-align: center;
-    width: 100%;
-    font-family: kanit;
-    font-weight: 600;
-}
+            font-size: 35px;
+            color: #87CEEB;
+            text-align: center;
+            width: 100%;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+        }
 
         .about-container1 {
             display: none;
+            z-index: 500;
+        }
+        .about-container2 {
+            z-index: 500;
         }
 
-       
         @media screen and (max-width:500px) {
+            
             .about-container2 {
-                display: none;
+                   display: none;
             }
+
             .about-container1 {
                 display: block;
             }
@@ -218,10 +235,10 @@
                             style="padding-right: 0.5rem;"></i>INTERNSHIP
                         PORTAL
                     </a>
-                    <a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                    <a href="./alumni.html"> <i id="icon" class="fa-regular fa-people-group"
                             style="padding-right: 0.5rem;"></i>Alumni
                     </a>
-                    <a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
+                    <a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-stairs"
                             style="padding-right: 0.5rem;"></i>STARTUP</a>
                     <a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
                             style="padding-right: 0.5rem;"></i>Registration</a>
@@ -232,14 +249,14 @@
             <li class="mobli"><a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
                         style="padding-right: 0.5rem;"></i>Internship
                     Portal</a></li>
-            <li class="mobli"><a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+            <li class="mobli"><a href="./alumni.html"> <i id="icon" class="fa-solid fa-people-group"
                         style="padding-right: 0.5rem;"></i>Alumni
                 </a></li>
-            <li class="mobli"><a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
+            <li class="mobli"><a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-stairs"
                         style="padding-right: 0.5rem;"></i>STARTUP</a></li>
-            <li class="mobli"><a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+            <li class="mobli"><a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-shoe-prints"
                         style="padding-right: 0.5rem;"></i>Registration</a></li>
-            <li class="mobli"><a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+            <li class="mobli"><a href="./team.html"> <i id="icon" class="fa-solid fa-user-group"
                         style="padding-right: 0.5rem;"></i>Team</a></li>
 
             <div class="dropdown">
@@ -256,16 +273,20 @@
 
                 </div>
             </div>
-            <li class="mobli"><a href="./startup_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+            <li class="mobli"><a href="./startup_feedback.html"> <i id="icon" class="fa-solid fa-comments"
                         style="padding-right: 0.5rem;"></i>Startup
                     Feedback</a></li>
-            <li class="mobli"><a href="./investor_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+            <li class="mobli"><a href="./investor_feedback.html"> <i id="icon" class="fa-solid fa-comments"
                         style="padding-right: 0.5rem;"></i>Investor
                     Feedback</a></li>
             <!-- <li><a href="#"> <i id="icon" class="fa-regular fa-handshake" style="padding-right: 0.5rem;"></i>Feedback </a></li> -->
-            <li><a href="./contact.php"><i id="icon" class="fa-solid fa-user-group"
-                        style="padding-right: 0.5rem;"></i>Contact
-                    Us</a></li>
+            <li><a href="./contact.php"><i id="icon" class="fa-solid fa-envelope"
+                      style="padding-right: 0.5rem;"></i>Contact
+                  Us</a></li>
+          <!-- <li><a href="./arrival/"><i id="icon" class="fa-solid fa-briefcase"
+                      style="padding-right: 0.5rem;"></i>Arrival</a></li>
+          <li><a href="./startup_issues/add_issue.html"><i id="icon" class="fa-solid fa-exclamation-circle"
+                      style="padding-right: 0.5rem;"></i>Startup Issues</a></li> -->
         </ul>
     </nav>
 
@@ -342,6 +363,12 @@
                     was
                     deployed as a capital investment.</p>
             </section>
+            <section class="verse5">
+                <h2 class="section-title">PSF's Launchpad</h2>
+            </section>
+            <section class="stop">
+                <p>     Embark on a journey of innovation at Pune Startup Fest'23 Launchpad, where <b> 170+</b> startups converge to showcase cutting-edge products and services. This flagship event attracts a diverse audience, from investors and mentors to industry experts and potential customers. With zones dedicated to student startups, technical marvels, and social initiatives, Launchpad caters to a spectrum of interests. It's not just an expo; it's an opportunity hub for inspiration, collaboration, and investment. Join us at Pune Startup Fest's Launch Pad Expo, where the future of entrepreneurship unfolds—don't miss out on witnessing the next big thing in the startup world!</p>
+            </section>
 
         </div>
 
@@ -357,7 +384,7 @@
                             <!-- Section #1 -->
                             <section x-intersect.margin.-70%.0.-30%.0="entered = '0'" class="[--i:0]"
                                 :class="'[--e:'+entered+']'">
-                                <div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[3]"
+                                <div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[4]"
                                     :class="entered >= 0 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
                                     <div class="wrap animate pop">
                                         <div class="overlay">
@@ -400,7 +427,7 @@
                             <!-- Section #2 -->
                             <section x-intersect.margin.-70%.0.-30%.0="entered = '1'" class="[--i:1]"
                                 :class="'[--e:'+entered+']'">
-                                <div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[2]"
+                                <div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[3]"
                                     :class="entered >= 1 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
                                     <div class="wrap animate pop">
                                         <div class="overlay">
@@ -444,7 +471,7 @@
                             <!-- Section #3 -->
                             <section x-intersect.margin.-70%.0.-30%.0="entered = '2'" class="[--i:2]"
                                 :class="'[--e:'+entered+']'">
-                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-[1]"
+                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-[2]"
                                     :class="entered >= 2 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
                                     <div class="wrap animate pop">
                                         <div class="overlay">
@@ -497,7 +524,7 @@
                             <!-- Section #4 -->
                             <section x-intersect.margin.-70%.0.-30%.0="entered = '3'" class="[--i:3]"
                                 :class="'[--e:'+entered+']'">
-                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-0"
+                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-[1]"
                                     :class="entered >= 3 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
                                     <div class="wrap animate pop">
                                         <div class="overlay">
@@ -518,7 +545,7 @@
                                             </div>
                                         </div>
                                         <div class="text">
-                                            <img class="inset" src="./images/about/about_psf23.jpeg" alt="" />
+                                            <img class="inset" src="./images/about/about_pv.JPG" alt="" />
                                             <p>Pitcher's Valley is an exhilarating live pitching event, where registered
                                                 startups undergo rigorous scrutiny
                                                 based on their pitch deck, out of which, around <b> 10 exceptional
@@ -530,6 +557,36 @@
                                                 infusion of <b> INR 5 crore</b>
                                                 was
                                                 deployed as a capital investment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Section #5 -->
+                            <section x-intersect.margin.-70%.0.-30%.0="entered = '4'" class="[--i:4]"
+                                :class="'[--e:'+entered+']'">
+                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-0"
+                                    :class="entered >= 4 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
+                                    <div class="wrap animate pop">
+                                        <div class="overlay">
+                                            <div class="overlay-content animate slide-left delay-2"
+                                                style="color: white;">
+                                                <p class="animate slide-left pop delay-4" style="color: white;">
+                                                    PSF's Launchpad
+                                                    </p>
+                                                <p class="animate slide-left pop delay-5"
+                                                    style="color: white; margin-bottom: 2.5rem;"> Event of Pune
+                                                    Startup Fest</p>
+                                            </div>
+                                            <div class="image-content animate slide delay-5"></div>
+                                            <div class="dots animate">
+                                                <div class="dot animate slide-up delay-6"></div>
+                                                <div class="dot animate slide-up delay-7"></div>
+                                                <div class="dot animate slide-up delay-8"></div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <img class="inset" src="./images/about/about_launchpad.jpg" alt="" />
+                                            <p>     Embark on a journey of innovation at Pune Startup Fest'23 Launchpad, where <b> 170+</b> startups converge to showcase cutting-edge products and services. This flagship event attracts a diverse audience, from investors and mentors to industry experts and potential customers. With zones dedicated to student startups, technical marvels, and social initiatives, Launchpad caters to a spectrum of interests. It's not just an expo; it's an opportunity hub for inspiration, collaboration, and investment. Join us at Pune Startup Fest's Launch Pad Expo, where the future of entrepreneurship unfolds—don't miss out on witnessing the next big thing in the startup world!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -703,10 +760,11 @@
 
                 <div class="icons">
                     <i class="fa fa-map-marker"></i>
-                    <a
-                        href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
-                        <p><span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005</p>
-                    </a>
+                    <p><a
+                            href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
+                            <span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005
+                        </a>
+                    </p>
                 </div>
 
                 <div class="icons">

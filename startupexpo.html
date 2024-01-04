@@ -14,6 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Nothing+You+Could+Do&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">  
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -139,107 +140,110 @@
 </head>
 
 <body>
-        <!-- NAVBAR START -->
-        <nav style="position: sticky;top:0; z-index: 9999999; ">
-            <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
-            <label for="checkbox3" class="checkbtn">
-                <div class="hamburger hamburger3">
-                    <span class="bar bar1"></span>
-                    <span class="bar bar2"></span>
-                    <span class="bar bar3"></span>
-                    <span class="bar bar4"></span>
+    <!-- NAVBAR START -->
+    <nav style="z-index: 9999999;">
+        <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+        <label for="checkbox3" class="checkbtn">
+            <div class="hamburger hamburger3">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
+  
+            </div>
+        </label>
+  
+        <!-- <input type="checkbox" id="check">
+  <label for="check" class="checkbtton">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
     
-                </div>
-            </label>
-    
-            <!-- <input type="checkbox" id="check">
-      <label for="check" class="checkbtton">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        
-      </label> -->
-            <!-- <div class="imgg"><a href="./main"><img  class="imgg" src="PSF + Marsh White1.png" alt=""></a></div> -->
-    
-            <ul>
-                <!-- <img class="imgg" src="PSF + Marsh White1.png" alt="PSF + Marsh White1.png"> -->
-    
-                <li> <a href="./main.html"> <i id="icon" class="fa-solid fa-house icon" style="padding-right: 0.5rem;"></i>
-                        Home</a>
-                </li>
-                <li><a href="./aboutus.html"> <i id="icon" class="fa-regular fa-file-lines"
-                            style="padding-right: 0.5rem;"></i> About
-                        Us</a>
-                </li>
-    
-                <li><a href="./events.html"> <i id="icon" class="fa-sharp fa-solid fa-puzzle-piece"
-                            style="padding-right: 0.5rem;"></i>Events</a></li>
-    
-    
-                <li><a href="./investor.html"><i id="icon" class="fa-solid fa-shoe-prints"
-                            style="padding-right: 0.5rem;"></i>Investors</a></li>
-                <li><a href="./partners.html"><i id="icon" class="fa-solid fa-envelope-open-text"
-                            style="padding-right: 0.5rem;"></i>Sponsors</a></li>
-    
-                <div class="dropdown ">
-                    <button class="dropbtn">OTHER <i class="fa-solid fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                        <a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
-                                style="padding-right: 0.5rem;"></i>INTERNSHIP
-                            PORTAL
-                        </a>
-                        <a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
-                                style="padding-right: 0.5rem;"></i>Alumni
-                        </a>
-                        <a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
-                                style="padding-right: 0.5rem;"></i>STARTUP</a>
-                        <a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
-                                style="padding-right: 0.5rem;"></i>Registration</a>
-                        <a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
-                                style="padding-right: 0.5rem;"></i>Team</a>
-                    </div>
-                </div>
-                <li class="mobli"><a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
-                            style="padding-right: 0.5rem;"></i>Internship
-                        Portal</a></li>
-                <li class="mobli"><a href="./alumni.html"> <i id="icon" class="fa-regular fa-calendar-days"
+  </label> -->
+        <!-- <div class="imgg"><a href="./main"><img  class="imgg" src="PSF + Marsh White1.png" alt=""></a></div> -->
+  
+        <ul>
+            <!-- <img class="imgg" src="PSF + Marsh White1.png" alt="PSF + Marsh White1.png"> -->
+  
+            <li> <a href="./main.html"> <i id="icon" class="fa-solid fa-house icon" style="padding-right: 0.5rem;"></i>
+                    Home</a>
+            </li>
+            <li><a href="./aboutus.html"> <i id="icon" class="fa-regular fa-file-lines"
+                        style="padding-right: 0.5rem;"></i> About
+                    Us</a>
+            </li>
+  
+            <li><a href="./events.html"> <i id="icon" class="fa-sharp fa-solid fa-puzzle-piece"
+                        style="padding-right: 0.5rem;"></i>Events</a></li>
+  
+  
+            <li><a href="./investor.html"><i id="icon" class="fa-solid fa-shoe-prints"
+                        style="padding-right: 0.5rem;"></i>Investors</a></li>
+            <li><a href="./partners.html"><i id="icon" class="fa-solid fa-envelope-open-text"
+                        style="padding-right: 0.5rem;"></i>Sponsors</a></li>
+  
+            <div class="dropdown ">
+                <button class="dropbtn">OTHER <i class="fa-solid fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                            style="padding-right: 0.5rem;"></i>INTERNSHIP
+                        PORTAL
+                    </a>
+                    <a href="./alumni.html"> <i id="icon" class="fa-regular fa-people-group"
                             style="padding-right: 0.5rem;"></i>Alumni
-                    </a></li>
-                <li class="mobli"><a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-people-group"
-                            style="padding-right: 0.5rem;"></i>STARTUP</a></li>
-                <li class="mobli"><a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
-                            style="padding-right: 0.5rem;"></i>Registration</a></li>
-                <li class="mobli"><a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
-                            style="padding-right: 0.5rem;"></i>Team</a></li>
-    
-                <div class="dropdown">
-                    <button class="dropbtn">FEEDBACK <i class="fa-solid fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                        <a href="./startup_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
-                                style="padding-right: 0.5rem;"></i>Startup
-                            Feedback
-                        </a>
-                        <a href="./investor_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
-                                style="padding-right: 0.5rem;"></i>Investor
-                            Feedback
-                        </a>
-    
-                    </div>
+                    </a>
+                    <a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-stairs"
+                            style="padding-right: 0.5rem;"></i>STARTUP</a>
+                    <a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                            style="padding-right: 0.5rem;"></i>Registration</a>
+                    <a href="./team.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                            style="padding-right: 0.5rem;"></i>Team</a>
                 </div>
-                <li class="mobli"><a href="./startup_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+            </div>
+            <li class="mobli"><a href="./internship_portal.html"> <i id="icon" class="fa-regular fa-calendar-days"
+                        style="padding-right: 0.5rem;"></i>Internship
+                    Portal</a></li>
+            <li class="mobli"><a href="./alumni.html"> <i id="icon" class="fa-solid fa-people-group"
+                        style="padding-right: 0.5rem;"></i>Alumni
+                </a></li>
+            <li class="mobli"><a href="./startupexpo.html"> <i id="icon" class="fa-solid fa-stairs"
+                        style="padding-right: 0.5rem;"></i>STARTUP</a></li>
+            <li class="mobli"><a href="./visitorreg.php"> <i id="icon" class="fa-solid fa-shoe-prints"
+                        style="padding-right: 0.5rem;"></i>Registration</a></li>
+            <li class="mobli"><a href="./team.html"> <i id="icon" class="fa-solid fa-user-group"
+                        style="padding-right: 0.5rem;"></i>Team</a></li>
+  
+            <div class="dropdown">
+                <button class="dropbtn">FEEDBACK <i class="fa-solid fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="./startup_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
                             style="padding-right: 0.5rem;"></i>Startup
-                        Feedback</a></li>
-                <li class="mobli"><a href="./investor_feedback.html"> <i id="icon" class="fa-solid fa-hand-holding-dollar"
+                        Feedback
+                    </a>
+                    <a href="./investor_feedback.html"> <i id="icon" class="fa-regular fa-calendar-days"
                             style="padding-right: 0.5rem;"></i>Investor
-                        Feedback</a></li>
-                <!-- <li><a href="#"> <i id="icon" class="fa-regular fa-handshake" style="padding-right: 0.5rem;"></i>Feedback </a></li> -->
-                <li><a href="./contact.php"><i id="icon" class="fa-solid fa-user-group"
-                            style="padding-right: 0.5rem;"></i>Contact
-                        Us</a></li>
-            </ul>
-        </nav>
-    
-        <!-- NAVBAR END -->
+                        Feedback
+                    </a>
+  
+                </div>
+            </div>
+            <li class="mobli"><a href="./startup_feedback.html"> <i id="icon" class="fa-solid fa-comments"
+                        style="padding-right: 0.5rem;"></i>Startup
+                    Feedback</a></li>
+            <li class="mobli"><a href="./investor_feedback.html"> <i id="icon" class="fa-solid fa-comments"
+                        style="padding-right: 0.5rem;"></i>Investor
+                    Feedback</a></li>
+            <!-- <li><a href="#"> <i id="icon" class="fa-regular fa-handshake" style="padding-right: 0.5rem;"></i>Feedback </a></li> -->
+            <li><a href="./contact.php"><i id="icon" class="fa-solid fa-envelope"
+                      style="padding-right: 0.5rem;"></i>Contact
+                  Us</a></li>
+          <!-- <li><a href="./arrival/"><i id="icon" class="fa-solid fa-briefcase"
+                      style="padding-right: 0.5rem;"></i>Arrival</a></li>
+          <li><a href="./startup_issues/add_issue.html"><i id="icon" class="fa-solid fa-exclamation-circle"
+                      style="padding-right: 0.5rem;"></i>Startup Issues</a></li> -->
+        </ul>
+    </nav>
+    <!-- NAVBAR END -->
     <main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
         <!-- Can add content Here(Start) accorfing to need-->
 
@@ -270,7 +274,7 @@
                     <h2 class="top" id="about1" style="font-family: league_spartan; color: aqua;">ABOUT STARTUP EXPO</h2>
                     <!-- <p class="se" style="font-family: league_spartan; color: whitesmoke;"></p> -->
                     <hr style="border-top-width:5px;">
-                    <p style="font-family: metropolis; text-align: left;">The Startup Expo is one of the key highlights
+                    <p style="font-family: 'Roboto', sans-serif; font-size: 16px; text-align: left;">The Startup Expo is one of the key highlights
                         of Pune
                         Startup Fest. The Expo
                         is
@@ -393,40 +397,40 @@
                         STARTUP
                         EXPO</h3> -->
                     <hr style="border-top-width:5px;">
-                    <ul style="text-align: left;">
+                    <ul style="text-align: left; font-family: 'Roboto', sans-serif; font-size: 16px;">
                         <li>
-                            <p style="font-family: metropolis;">&#8594; 100 startup exhibitors from various sectors in
+                            <p>&#8594; 100 startup exhibitors from various sectors in
                                 hybrid
                                 mode.</p>
                         </li>
                         <li>
-                            <p style="font-family: metropolis;">&#8594; 20 startup exhibits in offline mode.</p>
+                            <p>&#8594; 20 startup exhibits in offline mode.</p>
                         </li>
                         <li>
-                            <p style="font-family: metropolis;">&#8594; A footfall of over 3000 people.</p>
+                            <p>&#8594; A footfall of over 3000 people.</p>
                         </li>
                         <li>
-                            <p style="font-family: metropolis;">&#8594; More than 75 investors, mentors, and industry
+                            <p>&#8594; More than 75 investors, mentors, and industry
                                 experts.
                             </p>
                         </li>
                         <li>
-                            <p style="font-family: metropolis;">&#8594; A prize pool of Rs. 70,000 was awarded for 7
+                            <p>&#8594; A prize pool of Rs. 70,000 was awarded for 7
                                 competitions
                                 organised during PSF'22.</p>
                         </li>
                         <li>
-                            <p style="font-family: metropolis;">&#8594; A dedicated "Student Startup Zone" for enabling
+                            <p>&#8594; A dedicated "Student Startup Zone" for enabling
                                 opportunities for
                                 young entrepreneurs.</p>
                         </li>
                         <li>
-                            <p style="font-family: metropolis;">&#8594; "Student Internships" - to help students find
+                            <p>&#8594; "Student Internships" - to help students find
                                 internships in
                                 startups.</p>
                         </li>
                         <li>
-                            <p style="font-family: metropolis;">&#8594; Rs. 5.5 cr were invested into startups over the
+                            <p>&#8594; Rs. 5.5 cr were invested into startups over the
                                 last 4
                                 years.</p>
                         </li>
@@ -466,122 +470,125 @@
                         <div class="containerr"
                             style="filter: drop-shadow(8px 8px 10px rgb(8, 6, 6)); align-items:center">
 
-                            <div data-aos="zoom-in">
-                                <div class="carrd">
-                                    <div class="box">
-                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                            <a href="/internship_portal/social_startups.html">
+                                <div class="containerr" style="filter: drop-shadow(8px 8px 10px rgb(8, 6, 6));">
+                                  <div data-aos="zoom-in">
+                                    <div class="carrd">
+                                      <div class="box">
+                                         <video autoplay muted loop src="./video/startup-cards.mp4"></video>
                                         <div class="content">
-                                            <h3>SOCIAL STARTUPS</h3>
-                                            <hr class="cardline">
-                                            <p>Features startups emphasizing on solution to a social problem to create
-                                                change.</p>
+                                          <h3>SOCIAL ZONE INTERNSHIPS</h3>
+                                          <hr class="cardline">
+                                          <p>Features internships emphasizing on solution to a social problem to create change.</p>
                                         </div>
+                                      </div>
                                     </div>
-                                </div>
-
-                            </div>
-
-
-                            <div data-aos="zoom-in">
-                                <div class="carrd">
+                                  </div>
+                              </a>
+                        
+                              <a href="/internship_portal/agro_startups.html">
+                                <div data-aos="zoom-in">
+                                  <div class="carrd">
                                     <div class="box">
-                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
-                                        <div class="content">
-                                            <h3> AGRO STARTUPS</h3>
-                                            <hr class="cardline">
-                                            <p>Features startups that help enhance traditional farming ways or develop
-                                                new
-                                                ones.</p>
-                                        </div>
+                                       <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                      <div class="content">
+                                        <h3> AGRO ZONE INTERNSHIPS</h3>
+                                        <hr class="cardline">
+                                        <p>Features internships that help enhance traditional farming ways or develop new ones.</p>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-
-                            </div>
-
-                            <div data-aos="zoom-in">
-                                <div class="carrd">
+                              </a>
+                        
+                              <a href="/internship_portal/technical_startups.html">
+                                <div data-aos="zoom-in">
+                                  <div class="carrd">
                                     <div class="box">
-                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
-                                        <div class="content">
-                                            <h3>TECHNICAL STARTUPS</h3>
-                                            <hr class="cardline">
-                                            <p>Features products and services of startups which leverages technology.
-                                            </p>
-                                        </div>
+                                       <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                      <div class="content">
+                                        <h3>TECHNICAL ZONE INTERNSHIPS</h3>
+                                        <hr class="cardline">
+                                        <p>Features internships and services of startups which leverages technology.</p>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                            </div>
-
-                            <div data-aos="zoom-in">
-                                <div class="carrd">
+                              </a>
+                              <a href="/internship_portal/health_lifestyle_startups.html">
+                                <div data-aos="zoom-in">
+                                  <div class="carrd">
                                     <div class="box">
-                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
-                                        <div class="content">
-                                            <h3>HEALTH & LIFESTYLE STARTUPS</h3>
-                                            <hr class="cardline">
-                                            <p>Features startups that aim to rejuvenate human life.</p>
-                                        </div>
+                                       <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                      <div class="content">
+                                        <h3>HEALTH & LIFESTYLE ZONE INTERNSHIPS</h3>
+                                        <hr class="cardline">
+                                        <p>Features internships that aim to rejuvenate human life.</p>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                            </div>
-
-                            <div data-aos="zoom-in">
-                                <div class="carrd">
+                              </a>
+                        
+                              <a href="/internship_portal/green_startups.html">
+                                <div data-aos="zoom-in">
+                                  <div class="carrd">
                                     <div class="box">
-                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
-                                        <div class="content">
-                                            <h3>STUDENT STARTUPS</h3>
-                                            <hr class="cardline">
-                                            <p>Features Young entrepeneurs striving to create a difference</p>
-                                        </div>
+                                       <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                      <div class="content">
+                                        <h3>GREEN ZONE INTERNSHIPS</h3>
+                                        <hr class="cardline">
+                                        <p>Incubators, accelerators, financial institutions and coworking spaces.</p>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                            </div>
-
-                            <div data-aos="zoom-in">
-                                <div class="carrd">
+                              </a>
+                        
+                              <a href="/internship_portal/innovation_zone_startup.html">
+                                <div data-aos="zoom-in">
+                                  <div class="carrd">
                                     <div class="box">
-                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
-                                        <div class="content">
-                                            <h3>GREEN STARTUPS</h3>
-                                            <hr class="cardline">
-                                            <p>Incubators, accelerators, financial institutions and coworking spaces.
-                                            </p>
-                                        </div>
+                                       <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                      <div class="content">
+                                        <h3>INNOVATION ZONE INTERNSHIPS</h3>
+                                        <hr class="cardline">
+                                        <p>Featuring creations of the innovators with IPR and/or patents with the sole aim of solving
+                                          widespread problems</p>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                            </div>
-
-                            <div data-aos="zoom-in">
-                                <div class="carrd">
+                              </a>
+                              <a href="/internship_portal/education_zone_startup.html">
+                                <div data-aos="zoom-in">
+                                  <div class="carrd">
                                     <div class="box">
-                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
-                                        <div class="content">
-                                            <h3>INNOVATION ZONE STARTUP</h3>
-                                            <hr class="cardline">
-                                            <p>Featuring creations of the innovators with IPR and/or patents with the
-                                                sole
-                                                aim of
-                                                solving
-                                                widespread problems</p>
-                                        </div>
+                                       <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                      <div class="content">
+                                        <h3>EDUCATION ZONE INTERNSHIPS</h3>
+                                        <hr class="cardline">
+                                        <p>Features internships that aim to innovate and revolutionize the education sector.</p>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                            </div>
-
-                            <div data-aos="zoom-in">
-                                <div class="carrd">
+                              </a>
+                              
+                                <a href="/internship_portal/student_startups.html">
+                                <div data-aos="zoom-in">
+                                  <div class="carrd">
                                     <div class="box">
-                                        <video autoplay muted loop src="./video/startup-cards.mp4"></video>
-                                        <div class="content">
-                                            <h3>EDUCATION ZONE STARTUP</h3>
-                                            <hr class="cardline">
-                                            <p>Features startups that aim to innovate and revolutionize the education
-                                                sector.</p>
-                                        </div>
+                                       <video autoplay muted loop src="./video/startup-cards.mp4"></video>
+                                      <div class="content">
+                                        <h3>STUDENT ZONE INTERNSHIPS</h3>
+                                        <hr class="cardline">
+                                        <p>Features Young entrepeneurs striving to create a difference</p>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                            </div>
+                              </a>
                         </div>
                     </center>
 
@@ -595,7 +602,7 @@
                 <div class="text" data-aos="fade-right">
                     <h2 class="zone" style="font-family: league_spartan; color: aqua;">INVESTOR ZONE</h2>
                     <hr>
-                    <p>Amalgamation of Investors/Mentors from different domains of works coming together to network,
+                    <p style="font-family: 'Roboto', sans-serif; font-size: 16px;">Amalgamation of Investors/Mentors from different domains of works coming together to network,
                         interact,
                         evaluate and mentor at Startup Expo sets up the premises of Investor Zone at Pune Startup Fest.
                         <br><br>
@@ -784,10 +791,11 @@
   
 				<div class="icons">
 					<i class="fa fa-map-marker"></i>
-					<a
-						href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
-						<p><span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005</p>
-					</a>
+					<p><a
+                        href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
+                        <span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005
+                    </a>
+                  </p>
 				</div>
   
 				<div class="icons">

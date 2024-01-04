@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lobster&family=Mochiy+Pop+One&family=Roboto+Slab&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *,
 *::before,
 *::after {
@@ -9,7 +8,7 @@
 }
 
 body {
-  font: normal 16px/1.5 "Titillium Web", sans-serif;
+  /* font: normal 16px/1.5 "Titillium Web", sans-serif; */
   color: #3c3f64;
   overflow-x: hidden;
   padding-bottom: 50px;
@@ -28,6 +27,10 @@ section {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.information-content{
+  font-size: 16px;
 }
 
 /* .heading{
@@ -349,9 +352,9 @@ section {
   font-family: 'Mochiy Pop One', sans-serif;
 }
 
-.information_section .information p {
+/* .information_section .information p {
   font-family: 'Roboto Slab', serif;
-}
+} */
 
 /* .information_section .information p{
   font-size: 20px;
@@ -776,7 +779,7 @@ section {
 }
 
 @media screen and (max-width: 650px) {
-    .information_section {
+  .information_section {
     flex-direction: column;
   }
 

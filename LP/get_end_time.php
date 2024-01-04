@@ -7,14 +7,15 @@ if ($conn->connect_error) {
 }
 
 // Fetch remaining time from the database
-$sql = "SELECT remaining_time FROM timer_table"; // Assuming your timer data is in a table named 'timer_table' with 'remaining_time' column
+$sql = "SELECT remaining_time FROM timer_table"; // Modify this query based on your table structure
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
-    echo $row['remaining_time'];
+    $remainingTime = $row['remaining_time']; // Use the same name as in the JSON response
+    echo json_encode(['end_time' => $remainingTime]);
 } else {
-    echo "0"; // Return 0 if no data found (or handle it as per your requirement)
+    echo json_encode(['end_time' => 0]);
 }
 
 $conn->close();
