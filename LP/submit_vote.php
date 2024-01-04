@@ -10,12 +10,12 @@ if ($conn->connect_error) {
 
 // Retrieve values from the AJAX request
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
     $selectedOption = isset($_POST['option']) ? $_POST['option'] : null;
     $username = isset($_POST['username']) ? urldecode($_POST['username']) : null;
     $buttonNo = isset($_POST['buttonNo']) ? $_POST['buttonNo'] : null;
+    $rate = isset($_POST['rate']) ? $_POST['rate'] : null;
 
-    if ($selectedOption !== null && $username !== null) {
+    if ($selectedOption !== null && $username !== null && $rate !== null) {
         // Check if the username already exists in the database
         $checkQuery = "SELECT pitch$buttonNo FROM LP_audience_database WHERE username = '$username'";
         $checkResult = mysqli_query($conn, $checkQuery);
@@ -29,11 +29,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // If the pitch$buttonNo value is not 0, the user has already voted
             } else {
                 // If the pitch$buttonNo value is 0, proceed with the vote
-                $updateQuery = "UPDATE LP_audience_database SET pitch$buttonNo = '$selectedOption' WHERE username = '$username'";
+                $updateQuery = "UPDATE LP_audience_database SET pitch$buttonNo = '$selectedOption', rating$buttonNo = '$rate' WHERE username = '$username'";
 
                 if (mysqli_query($conn, $updateQuery)) {
                     // Successful database update
-                    $resultMessage = "Vote updated: Option $selectedOption, Username: $username";
+                    $resultMessage = "Vote updated: Option $selectedOption, Rating: $rate, Username: $username";
                     echo json_encode(['status' => 'success', 'message' => $resultMessage]);
                     // You can remove the alert, as it won't work in an AJAX context
                 } else {
@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo json_encode(['status' => 'error', 'message' => 'Error querying the database']);
         }
     } else {
-        // Handle the case where either $selectedOption or $username is not set
+        // Handle the case where either $selectedOption, $username, or $rate is not set
         echo json_encode(['status' => 'error', 'message' => 'Invalid data received']);
     }
 } else {

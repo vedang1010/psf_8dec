@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="./styles/navbar24.css">
 
     <style>
-        * {
+        *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -80,6 +80,14 @@
 
         .verse4 {
             background: url("https://punestartupfest.in/images/about/about_pv.JPG") no-repeat center center;
+            min-height: 70%;
+            background-size: contain;
+            background-attachment: fixed;
+            height: 70vh;
+
+        }
+        .verse5 {
+            background: url("https://punestartupfest.in/images/about/about_launchpad.jpg") no-repeat center center;
             min-height: 70%;
             background-size: contain;
             background-attachment: fixed;
@@ -128,7 +136,7 @@
             font-size: 16px;
             font-family: 'Roboto', sans-serif;
             line-height: 1.6
-		        }
+        }
 
 
         .section-title {
@@ -156,17 +164,16 @@
 
         .about-container1 {
             display: none;
+            z-index: 500;
+        }
+        .about-container2 {
+            z-index: 500;
         }
 
-        @media screen and (min-width:500px) {
-            b {
-                font-size: small;
-            }
-
-
         @media screen and (max-width:500px) {
+            
             .about-container2 {
-                display: none;
+                   display: none;
             }
 
             .about-container1 {
@@ -274,8 +281,12 @@
                     Feedback</a></li>
             <!-- <li><a href="#"> <i id="icon" class="fa-regular fa-handshake" style="padding-right: 0.5rem;"></i>Feedback </a></li> -->
             <li><a href="./contact.php"><i id="icon" class="fa-solid fa-envelope"
-                        style="padding-right: 0.5rem;"></i>Contact
-                    Us</a></li>
+                      style="padding-right: 0.5rem;"></i>Contact
+                  Us</a></li>
+          <!-- <li><a href="./arrival/"><i id="icon" class="fa-solid fa-briefcase"
+                      style="padding-right: 0.5rem;"></i>Arrival</a></li>
+          <li><a href="./startup_issues/add_issue.html"><i id="icon" class="fa-solid fa-exclamation-circle"
+                      style="padding-right: 0.5rem;"></i>Startup Issues</a></li> -->
         </ul>
     </nav>
 
@@ -352,6 +363,12 @@
                     was
                     deployed as a capital investment.</p>
             </section>
+            <section class="verse5">
+                <h2 class="section-title">PSF's Launchpad</h2>
+            </section>
+            <section class="stop">
+                <p>     Embark on a journey of innovation at Pune Startup Fest'23 Launchpad, where <b> 170+</b> startups converge to showcase cutting-edge products and services. This flagship event attracts a diverse audience, from investors and mentors to industry experts and potential customers. With zones dedicated to student startups, technical marvels, and social initiatives, Launchpad caters to a spectrum of interests. It's not just an expo; it's an opportunity hub for inspiration, collaboration, and investment. Join us at Pune Startup Fest's Launch Pad Expo, where the future of entrepreneurship unfolds—don't miss out on witnessing the next big thing in the startup world!</p>
+            </section>
 
         </div>
 
@@ -367,7 +384,7 @@
                             <!-- Section #1 -->
                             <section x-intersect.margin.-70%.0.-30%.0="entered = '0'" class="[--i:0]"
                                 :class="'[--e:'+entered+']'">
-                                <div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[3]"
+                                <div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[4]"
                                     :class="entered >= 0 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
                                     <div class="wrap animate pop">
                                         <div class="overlay">
@@ -410,7 +427,7 @@
                             <!-- Section #2 -->
                             <section x-intersect.margin.-70%.0.-30%.0="entered = '1'" class="[--i:1]"
                                 :class="'[--e:'+entered+']'">
-                                <div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[2]"
+                                <div class="relative bg-slate-800 rounded-2xl border-slate-700 overflow-hidden transition-transform duration-700 ease-in-out z-[3]"
                                     :class="entered >= 1 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
                                     <div class="wrap animate pop">
                                         <div class="overlay">
@@ -454,7 +471,7 @@
                             <!-- Section #3 -->
                             <section x-intersect.margin.-70%.0.-30%.0="entered = '2'" class="[--i:2]"
                                 :class="'[--e:'+entered+']'">
-                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-[1]"
+                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-[2]"
                                     :class="entered >= 2 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
                                     <div class="wrap animate pop">
                                         <div class="overlay">
@@ -507,7 +524,7 @@
                             <!-- Section #4 -->
                             <section x-intersect.margin.-70%.0.-30%.0="entered = '3'" class="[--i:3]"
                                 :class="'[--e:'+entered+']'">
-                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-0"
+                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-[1]"
                                     :class="entered >= 3 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
                                     <div class="wrap animate pop">
                                         <div class="overlay">
@@ -528,7 +545,7 @@
                                             </div>
                                         </div>
                                         <div class="text">
-                                            <img class="inset" src="./images/about/about_psf23.jpeg" alt="" />
+                                            <img class="inset" src="./images/about/about_pv.JPG" alt="" />
                                             <p>Pitcher's Valley is an exhilarating live pitching event, where registered
                                                 startups undergo rigorous scrutiny
                                                 based on their pitch deck, out of which, around <b> 10 exceptional
@@ -540,6 +557,36 @@
                                                 infusion of <b> INR 5 crore</b>
                                                 was
                                                 deployed as a capital investment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Section #5 -->
+                            <section x-intersect.margin.-70%.0.-30%.0="entered = '4'" class="[--i:4]"
+                                :class="'[--e:'+entered+']'">
+                                <div class="relative bg-slate-800 rounded-2xl overflow-hidden transition-transform duration-700 ease-in-out z-0"
+                                    :class="entered >= 4 ? 'translate-y-0' : '-translate-y-[calc(100%*(var(--i)-var(--e)))]'">
+                                    <div class="wrap animate pop">
+                                        <div class="overlay">
+                                            <div class="overlay-content animate slide-left delay-2"
+                                                style="color: white;">
+                                                <p class="animate slide-left pop delay-4" style="color: white;">
+                                                    PSF's Launchpad
+                                                    </p>
+                                                <p class="animate slide-left pop delay-5"
+                                                    style="color: white; margin-bottom: 2.5rem;"> Event of Pune
+                                                    Startup Fest</p>
+                                            </div>
+                                            <div class="image-content animate slide delay-5"></div>
+                                            <div class="dots animate">
+                                                <div class="dot animate slide-up delay-6"></div>
+                                                <div class="dot animate slide-up delay-7"></div>
+                                                <div class="dot animate slide-up delay-8"></div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <img class="inset" src="./images/about/about_launchpad.jpg" alt="" />
+                                            <p>     Embark on a journey of innovation at Pune Startup Fest'23 Launchpad, where <b> 170+</b> startups converge to showcase cutting-edge products and services. This flagship event attracts a diverse audience, from investors and mentors to industry experts and potential customers. With zones dedicated to student startups, technical marvels, and social initiatives, Launchpad caters to a spectrum of interests. It's not just an expo; it's an opportunity hub for inspiration, collaboration, and investment. Join us at Pune Startup Fest's Launch Pad Expo, where the future of entrepreneurship unfolds—don't miss out on witnessing the next big thing in the startup world!</p>
                                         </div>
                                     </div>
                                 </div>
