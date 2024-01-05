@@ -27,9 +27,10 @@
       },
     };
   </script>
+ 
+  
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
@@ -87,11 +88,109 @@
       font-family: kanit;
       font-weight: 600;
     }
+
+    #loading {
+      position: fixed;
+      margin: auto;
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+
+      background-color: #0a0c26;
+      z-index: 999999999999;
+    }
+
+    .loader-container {
+      top: 45vh;
+      margin: auto;
+      position: relative;
+      width: 100px;
+      height: 100px;
+      animation: scaleAnimation 2s ease-in-out infinite;
+    }
+
+    .loader {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .loader-container {
+      -webkit-box-reflect: below 15px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.1)));
+    }
+
+    .loader:before,
+    .loader:after,
+    .reflection {
+      content: '';
+      border-radius: 50%;
+      position: absolute;
+      inset: 0;
+      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
+    }
+
+    .loader:after {
+      box-shadow: 0px 3px 15px 1px #094b69 inset;
+      animation: rotate 2s linear infinite;
+    }
+
+    .reflection {
+      transform: scaleY(-1);
+      opacity: 0.5;
+    }
+
+    .image {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.8);
+      width: 80%;
+      height: 80%;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes scaleAnimation {
+
+      0%,
+      100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.2);
+      }
+    }
   </style>
 </head>
 
 <body>
-
+  
+ <!-- PAGE LOADER -->
+  <div id="loading">
+    <div class="loader-container">
+      <div class="loader">
+        <img class="image" src="./images/navbarAndFooter/PSF24 White.png" alt="Your Image">
+      </div>
+    </div>
+  </div>
+  <script>var loader = document.getElementById("loading");
+    window.addEventListener("load", function () {
+      setTimeout(function() {
+        $('#loading').hide();
+      }, 2000);
+    }) </script>
+    
+<!-- PAGE LOADER END -->
   <!-- NAVBAR START -->
   <nav style="position: fixed; z-index: 9999999; padding-top: 1rem;">
     <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
@@ -666,7 +765,24 @@
 
         </div>
       </div>
-    
+    </div>
+    <footer class="ftfooter-distributed">
+
+      <div class="ftfooter-left">
+
+        <span><img style="margin-left: 30%;max-width:40%;" src="./images/navbarAndFooter/PSF24 White.png" alt=""></span>
+
+        <p class="ftfooter-links">
+          <a href="./main.html" class="ftlink-1">Home</a>
+
+          <a href="./aboutus.html" class="ftlink-1">About Us</a>
+
+          <a href="./investor.html">Investors</a>
+
+          <a href="./contact.php">Contact</a>
+        </p>
+
+        <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
       </div>
 
       <div class="ftfooter-center">
@@ -677,24 +793,6 @@
             href="https://www.google.com/maps/dir//COEP+Technological+University,+Wellesley+Rd,+Shivajinagar,+Pune,+Maharashtra+411005/@18.5160113,73.8198323,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c0883858b873:0x1d68fbf2cac75519!2m2!1d73.856541!2d18.5293825?entry=ttu">
             <p><span>Bhau's I&E Cell, COEP TECH</span> Shivajinagar, Pune-411005</p>
           </a>
-
-      <footer class="ftfooter-distributed">
-    
-        <div class="ftfooter-left">
-    
-          <span><img style="margin-left: 30%;max-width:40%;" src="./images/navbarAndFooter/PSF24 White.png" alt=""></span>
-    
-          <p class="ftfooter-links">
-            <a href="./main.html" class="ftlink-1">Home</a>
-    
-            <a href="./aboutus.html">About Us</a>
-    
-            <a href="./investor.html">Investors</a>
-    
-            <a href="./contact.php">Contact</a>
-          </p>
-    
-          <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
         </div>
 
         <div class="icons">
@@ -785,10 +883,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
   <script src="./js/particle-animation.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-
-
-
-
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({
