@@ -88,9 +88,32 @@
     <link rel="stylesheet" href="../styles/bt8.css" />
     <link rel="stylesheet" href="../styles/style8.css" />
     <link rel="stylesheet" href="../styles/navbar24.css">
-  </head>
+    <link rel="stylesheet" href="../styles/preloader.css">
+</head>
 
-  <body>
+  <body>  
+  <!-- PAGE LOADER -->
+    <div id="loading">
+      <div class="loader-container">
+          <!-- Outer rings -->
+          <div class="outer-ring1"></div>
+          <div class="outer-ring2"></div>
+          <div class="outer-ring3"></div>
+          
+          <div class="loader">
+              <img class="image" src="../images/navbarAndFooter/PSF24 White.png" alt="PSF'24 LOGO">
+          </div>
+      </div>
+  </div>
+  <script>
+      var loader = document.getElementById("loading");
+      window.addEventListener("load", function () {
+          setTimeout(function() {
+              $('#loading').hide();
+          }, 2000);
+      })
+  </script>
+  <!-- PAGE LOADER END -->
     <!-- NAVBAR START -->
     <nav style="position: fixed; z-index: 9999999;">
       <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
@@ -510,7 +533,7 @@ Us</a></li>
           aria-hidden="true"
         >
           <img
-            src="./svg/shape.svg"
+            src="../svg/shape.svg"
             class="max-w-none"
             width="852"
             height="582"
@@ -524,7 +547,7 @@ Us</a></li>
           aria-hidden="true"
         >
           <img
-            src="./svg/shape.svg"
+            src="../svg/shape.svg"
             class="max-w-none"
             width="852"
             height="582"
@@ -537,7 +560,7 @@ Us</a></li>
           aria-hidden="true"
         >
           <img
-            src="./svg/shape.svg"
+            src="../svg/shape.svg"
             class="max-w-none"
             width="852"
             height="582"
@@ -550,7 +573,7 @@ Us</a></li>
           aria-hidden="true"
         >
           <img
-            src="./svg/shape.svg"
+            src="../svg/shape.svg"
             class="max-w-none"
             width="852"
             height="582"
@@ -563,7 +586,7 @@ Us</a></li>
           aria-hidden="true"
         >
           <img
-            src="./svg/shape.svg"
+            src="../svg/shape.svg"
             class="max-w-none"
             width="852"
             height="582"
@@ -581,7 +604,7 @@ Us</a></li>
 
       <!-- Ilusration #5 -->
       <!-- <div class="absolute bottom-0 left-50 rotate-180 -translate-x-1 -scale-x-100 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
-		  <img src="./svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration">
+		  <img src="../svg/shape.svg" class="max-w-none" width="852" height="582" alt="Illustration">
 	  </div> -->
     </main>
 
@@ -671,13 +694,13 @@ Us</a></li>
           /></span>
 
           <p class="ftfooter-links">
-            <a href="./main.html" class="ftlink-1">Home</a>
+            <a href="../main.html" class="ftlink-1">Home</a>
 
-            <a href="./aboutus.html">About Us</a>
+            <a href="../aboutus.html">About Us</a>
 
-            <a href="./investor.html">Investors</a>
+            <a href="../investor.html">Investors</a>
 
-            <a href="./contact.php">Contact</a>
+            <a href="../contact.php">Contact</a>
           </p>
 
           <p class="ftfooter-company-name">PUNE STARTUP FEST</p>

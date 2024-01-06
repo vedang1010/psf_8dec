@@ -11,8 +11,31 @@
             color: #fff; /* White text color as an example */
         }
     </style>
+  <link rel="stylesheet" href="../styles/preloader.css">
 </head>
-<body>
+<body>  
+  <!-- PAGE LOADER -->
+    <div id="loading">
+      <div class="loader-container">
+          <!-- Outer rings -->
+          <div class="outer-ring1"></div>
+          <div class="outer-ring2"></div>
+          <div class="outer-ring3"></div>
+          
+          <div class="loader">
+              <img class="image" src="../images/navbarAndFooter/PSF24 White.png" alt="PSF'24 LOGO">
+          </div>
+      </div>
+  </div>
+  <script>
+      var loader = document.getElementById("loading");
+      window.addEventListener("load", function () {
+          setTimeout(function() {
+              $('#loading').hide();
+          }, 2000);
+      })
+  </script>
+  <!-- PAGE LOADER END -->
 
 <h2>Select an Option:</h2>
 

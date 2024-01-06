@@ -83,7 +83,8 @@ if (isset($_SESSION['username'])) {
             color: #08ca25;
         }
     </style>
-  </head>
+    <link rel="stylesheet" href="../styles/preloader.css">
+</head>
 
   <body>
     <main
@@ -641,13 +642,13 @@ if (isset($_SESSION['username'])) {
           /></span>
 
           <p class="ftfooter-links">
-            <a href="./main.html" class="ftlink-1">Home</a>
+            <a href="../main.html" class="ftlink-1">Home</a>
 
-            <a href="./aboutus.html">About Us</a>
+            <a href="../aboutus.html">About Us</a>
 
-            <a href="./investor.html">Investors</a>
+            <a href="../investor.html">Investors</a>
 
-            <a href="./contact.php">Contact</a>
+            <a href="../contact.php">Contact</a>
           </p>
 
           <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
