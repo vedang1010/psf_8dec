@@ -92,60 +92,6 @@ button:hover {
   transition: all 0.2s ease;
 }
 
-.b1 {
-  top: 60%;
-}
-
-.b2 {
-  top: 60%;
-}
-
-.b3 {
-  top: 60%;
-}
-
-.b4 {
-  top: 20%;
-}
-
-.b5 {
-  top: 20%;
-}
-
-.b6 {
-  top: 60%;
-}
-
-.b7 {
-  top: 60%;
-}
-
-.b8 {
-  top: 60%;
-}
-
-.b9 {
-  top: 60%;
-}
-
-.b10 {
-  top: 60%;
-}
-.b11 {
-  top: 60%;
-}
-.b12 {
-  top: 60%;
-}
-.b13 {
-  top: 60%;
-}
-.b14 {
-  top: 60%;
-}
-.b15 {
-  top: 60%;
-}
 
 #pollForm {
   display: flex;
@@ -156,13 +102,13 @@ button:hover {
 button:hover {
   transform: translateY(5px);
 }
-.button {
-  display: none;
-}
+/*.button {*/
+/*  display: none;*/
+/*}*/
+
 .active {
   display: flex;
 }
-
 .card {
   padding: 15px;
   width: 350px;
@@ -172,13 +118,20 @@ button:hover {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
   user-select: none;
   height: 30rem;
+  display:flex;
   margin: auto;
-  display : none;
 }
 
-.active{
+.card{
+      display : none;
+
+}
+.active {
   display: block;
 }
+/*.active{*/
+/*  display: block;*/
+/*}*/
 
 .cover-photo {
   position: relative;
