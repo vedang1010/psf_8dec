@@ -118,8 +118,8 @@ p {
     right: 0;
     width: 60vmin;
     height: 50%;
-    /* background-image: url("https://assets.codepen.io/4787486/trees.png"); */
-    /* background-image: url(logo.jpg); */
+    /* background-image: url("https://assets.codepen.io/4787486/trees.webp"); */
+    /* background-image: url(logo.webp); */
     background-size: contain;
     transition: .3s ease-in-out;
     /* border: 1px solid green; */

@@ -17,7 +17,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/navbarAndFooter/PSF + Marsh White1.png">
+    <link rel="shortcut icon" href="../images/navbarAndFooter/PSF + Marsh White1.webp">
 
     <title>PSF'24</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -320,7 +320,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
           <div class="outer-ring3"></div>
           
           <div class="loader">
-              <img class="image" src="../images/navbarAndFooter/PSF24 White.png" alt="PSF'24 LOGO">
+              <img class="image" src="../images/navbarAndFooter/PSF24 White.webp" alt="PSF'24 LOGO">
           </div>
       </div>
   </div>
@@ -451,7 +451,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <div class="ftbox">
                     <div class="fttop-bar"></div>
                     <div class="ftcontent">
-                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
                         <b>Dr Vidya More</b>
                         Faculty Advisor
@@ -464,7 +464,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                     <div class="fttop">
                     </div>
                     <div class="ftcontent">
-                        <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+                        <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
 							alt=""> -->
                         <b>Dr Rahul Adhao</b>
                         Faculty Advisor
@@ -475,7 +475,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <div class="ftbox">
                     <div class="fttop-bar"></div>
                     <div class="ftcontent">
-                        <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                        <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.webp?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 							alt=""> -->
                         <b>Gaurav Sonewane</b>
                         Secretary
@@ -485,7 +485,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <div class="ftbox">
                     <div class="fttop-bar"></div>
                     <div class="ftcontent">
-                        <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                        <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.webp?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 							alt=""> -->
                         <b>Samta Raka </b>
                         Finance and Marketing Executive
@@ -495,7 +495,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <div class="ftbox">
                     <div class="fttop-bar"></div>
                     <div class="ftcontent">
-                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
                         <b>Sanmeet Sawla</b>
                         Investor Relations Executive
@@ -506,7 +506,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <div class="ftbox">
                     <div class="fttop-bar"></div>
                     <div class="ftcontent">
-                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
                         <b>Varun Shetty</b>
                         Events and Networking Executive
@@ -520,7 +520,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
 
             <div class="ftfooter-left">
 
-                <span><img style="margin-left: 30%;max-width:40%;" src="../images/navbarAndFooter/PSF24 White.png"
+                <span><img style="margin-left: 30%;max-width:40%;" src="../images/navbarAndFooter/PSF24 White.webp"
                         alt=""></span>
 
                 <p class="ftfooter-links">

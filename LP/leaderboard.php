@@ -79,7 +79,7 @@ $result = $conn->query($sql);
           <div class="outer-ring3"></div>
           
           <div class="loader">
-              <img class="image" src="../images/navbarAndFooter/PSF24 White.png" alt="PSF'24 LOGO">
+              <img class="image" src="../images/navbarAndFooter/PSF24 White.webp" alt="PSF'24 LOGO">
           </div>
       </div>
   </div>

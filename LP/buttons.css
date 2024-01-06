@@ -135,7 +135,7 @@ button:hover {
 
 .cover-photo {
   position: relative;
-  background: url("../images/events/AdVenture.jpg");
+  background: url("../images/events/AdVenture.webp");
   background-size: cover;
   height: 180px;
   border-radius: 15px 15px 15px 15px;
