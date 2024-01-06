@@ -7,7 +7,7 @@
     <title>Send to Buttons</title>
 </head>
 
-<body>
+<body>  
     <script>
         function sendIdToButtonsPhp(id) {
             var xhr = new XMLHttpRequest();
