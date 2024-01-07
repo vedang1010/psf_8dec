@@ -5,7 +5,7 @@ mysqli_select_db($conn, 'u331863597_event');
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-}
+} 
 
 // SQL query to fetch top scorers based on total_points
 $sql = "SELECT username, total_points FROM LP_audience_database ORDER BY total_points DESC LIMIT 10"; // Change 'your_table_name' to your actual table name
