@@ -1,11 +1,10 @@
 .foot-container {
     width: 100%;
     height: auto;
-    max-height: 420px;
     display: grid;
-    grid-template-columns: 7fr 2fr 3fr;
+    grid-template-columns: 4fr 4fr 4fr;
     background: rgb(13,5,56);
-    background: linear-gradient(90deg, rgba(13,5,56,1) 50%, rgba(20,155,181,1) 100%);
+    background: linear-gradient(90deg, rgba(13,5,56,1) 50%, rgb(20, 95, 181) 100%);
 
 }
 
@@ -39,7 +38,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
 
 }
 
@@ -96,12 +95,12 @@
 
 .ft-designed {
     background-color: #003747;
+    grid-column: span 12;
     color: antiquewhite;
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-weight: 600;
-    margin: 5px;
 
 }
 
@@ -259,18 +258,41 @@
   /* media query */ 
 
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
 
     .foot-container {
+        height: auto;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        justify-content: center;
+        background: rgb(50,48,146);
+        background: linear-gradient(0deg, rgba(50,48,146,1) 0%, rgba(13,5,56,1) 60%);
     }
 
     .footbox-center {
-        width: 60vw;
+        width: 90vw;
         text-align: center;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
 
+    }
+
+  }
+
+
+  @media (max-width: 600px) {
+
+    .footbox-center {
+        width: 80vw
+        padding: 10px;
+    }
+
+    .foot-detail-cards {
+      margin: 10px;
     }
 
   }
