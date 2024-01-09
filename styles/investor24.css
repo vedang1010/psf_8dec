@@ -109,52 +109,52 @@ h1{
 }
 
 .photo1{
-  background-image: url("/images/PastPartners/Venture Capitals/Indian Angel Network-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/indian_angle_network-01.webp");
 }
 .photo2{
-  background-image: url("/images/PastPartners/Venture Capitals/Mumbai network-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/mumbair_angles_network-01.webp");
 }
 .photo3{
-  background-image: url("/images/PastPartners/Venture Capitals/Ah ventures-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/ahventures-01.webp");
 }
 .photo4{
-  background-image: url("/images/PastPartners/Venture Capitals/Better-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/better-01.webp");
 }
 .photo5{
-  background-image: url("/images/PastPartners/Venture Capitals/BFC-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/bif-01.webp");
 }
 .photo6{
-  background-image: url("/images/PastPartners/Venture Capitals/Campus fund-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/campus_fund-01.webp");
 }
 .photo7{
-  background-image: url("/images/PastPartners/Venture Capitals/Dexter Angels-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/dexter_angles-01.webp");
 }
 .photo8{
-  background-image: url("/images/PastPartners/Venture Capitals/Eagle wings-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/eaglewings-01.webp");
 }
 .photo9{
-  background-image: url("/images/PastPartners/Venture Capitals/Ethiqual-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/ethiqual-01.webp");
 }
 .photo10{
-  background-image: url("/images/PastPartners/Venture Capitals/iiA-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/iia-01.webp");
 }
 .photo11{
-  background-image: url("/images/PastPartners/Venture Capitals/Inflexor-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/inflexor-01.webp");
 }
 .photo12{
-  background-image: url("/images/PastPartners/Venture Capitals/Inflextion-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/inflection-01.webp");
 }
 .photo13{
-  background-image: url("/images/PastPartners/Venture Capitals/Sea fund-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/sea_fund-01.webp");
 }
 .photo14{
-  background-image: url("/images/PastPartners/Venture Capitals/WFC-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/wfc-01.webp");
 }
 .photo15{
-  background-image: url("/images/PastPartners/Venture Capitals/100X-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/100X-01.webp");
 }
 .photo16{
-  background-image: url("/images/PastPartners/Venture Capitals/Windrose-01.png");
+  background-image: url("https://punestartupfest.in/images/PastPartners/Venture Capitals/windrose-01.webp");
 }
 
 .photo {
@@ -364,4 +364,131 @@ h1{
   .team-content{
     font-weight: 500;
     font-size: 20px;
+  }
+
+
+
+
+    
+  html .carousel2,
+  body .carousel2 {
+    padding-top: 125px;
+  }
+
+  .carousel2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .carousel__prev,
+  .carousel__next {
+    position: absolute;
+    bottom: -15%;
+    transition: transform 0.25s ease;
+  }
+
+  .carousel__prev i,
+  .carousel__next i {
+    font-size: 60px;
+    color: var(--box-border);
+    cursor: pointer;
+  }
+
+  .carousel__prev:hover,
+  .carousel__next:hover {
+    transform: scale(1.25);
+  }
+
+  .carousel__prev {
+    left: 40%;
+  }
+
+  .carousel__next {
+    right: 40%;
+  }
+
+  .carousel__body {
+    width: 100%;
+    padding: 20px 0 50px 0;
+    overflow: hidden;
+  }
+
+  .carousel__body .carousel__slider {
+    position: relative;
+    transition: transform 1s ease-in-out;
+    background: var(--crsl-bg);
+  }
+
+  .carousel__body .carousel__slider__item {
+    position: relative;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .carousel__body .carousel__slider__item .item__3d-frame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .carousel__body .carousel__slider__item .item__3d-frame:after {
+    content: "";
+    position: absolute;
+    bottom: -15%;
+    width: 100%;
+    height: 40px;
+    background: var(--box-shadow);
+    box-shadow: 0px 0px 5px 5px var(--box-shadow);
+    transform: rotateX(90deg) translate3d(0px, -20px, 0px);
+    opacity: 0.85;
+  }
+
+  .carousel__body .carousel__slider__item .item__3d-frame__box {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-color: var(--box-border);
+    background: var(--box-bg);
+    border-width: 3px;
+    border-style: solid;
+  }
+
+  .carousel__body .carousel__slider__item .item__3d-frame__box h1 {
+    font-size: 7em;
+    width: 100%;
+    color: var(--box-border);
+  }
+
+  .carousel__body .carousel__slider__item .item__3d-frame__box--right,
+  .carousel__body .carousel__slider__item .item__3d-frame__box--left {
+    top: 0;
+    width: 40px;
+    backface-visibility: hidden;
+  }
+
+  .carousel__body .carousel__slider__item .item__3d-frame__box--left {
+    left: 0;
+    border-left-width: 5px;
+    transform: translate3d(1px, 0, -40px) rotateY(-90deg);
+    transform-origin: 0%;
+  }
+
+  .carousel__body .carousel__slider__item .item__3d-frame__box--right {
+    right: 0;
+    border-right-width: 5px;
+    transform: translate3d(-1px, 0, -40px) rotateY(90deg);
+    transform-origin: 100%;
   }

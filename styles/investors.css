@@ -299,7 +299,7 @@
 
 .subContainer .title1 {
     font-size: 35px;
-    color: aqua;
+    color: #87CEEB;
     text-align: center;
     width: 100%;
     font-family: kanit;
@@ -902,3 +902,4 @@ animation: none;
 .super-container{
     box-sizing:border-box;height:fit-content; width:auto;margin: 2%;padding: 2%;
 }
+

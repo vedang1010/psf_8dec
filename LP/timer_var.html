@@ -1,44 +1,39 @@
-<!-- timer.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timer Page</title>
+    <title>Timer Control</title>
+    <style>
+    #startTimerBtn{
+        position: relative;
+        margin: 5% 5%;
+        padding: 1.5rem;
+    }
+</style>
 </head>
-<body>
+<body>  
 
-<h1>Timer Page</h1>
+    <button id="startTimerBtn">Start Timer</button>
 
-<button id="startTimer">Start Timer</button>
+    <script>
+        document.getElementById('startTimerBtn').addEventListener('click', function() {
+            // Send an AJAX request to update the database with the current time + 3 minutes
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'timer.php', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    console.log('Timer updated successfully.');
+                }
+            };
 
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $('#startTimer').click(function () {
-            startTimer();
+            // Calculate the end time (current time + 3 minutes) in seconds
+            const endTime = Math.floor(Date.now() / 1000) + 180;
+
+            // Send the endTime as a parameter to the server
+            xhr.send('endTime=' + endTime);
         });
-
-        function startTimer() {
-            // Call timer.php every second to decrement the timer in the database
-            var timerInterval = setInterval(function () {
-                $.ajax({
-                    type: 'GET',
-                    url: 'timer.php',
-                    success: function () {
-                        // Display a message or perform other actions if needed
-                        console.log('Timer decremented successfully.');
-                    },
-                    error: function (xhr, status, error) {
-                        console.error('Error decrementing timer:', status, error);
-                    }
-                });
-            }, 1000);
-        }
-    });
-</script>
-
+    </script>
 </body>
 </html>

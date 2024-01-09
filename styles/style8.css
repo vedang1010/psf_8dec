@@ -376,7 +376,7 @@ img {
          padding: 0;
      }
      .navigation.navbar-dark .navbar-toggler-icon {
-         background: url(../images/menu_icon.png);
+         background: url(../images/menu_icon.webp);
          background-repeat: no-repeat;
      }
      .margin_bottom1 {
@@ -482,7 +482,7 @@ img {
          padding: 0px 19px 40px 20px;
      }
      .navigation.navbar-dark .navbar-toggler-icon {
-         background: url(../images/menu_icon.png);
+         background: url(../images/menu_icon.webp);
          background-repeat: no-repeat;
      }
  }
@@ -491,3 +491,7 @@ img {
 
 
 
+
+ .w-full{
+    z-index: 500;
+ }

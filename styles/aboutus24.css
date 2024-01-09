@@ -71,21 +71,62 @@ p {
     z-index: 1;
 }
 
+.overlay-content p{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:503px){
+    .overlay-content p{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:440px){
+    .overlay-content p{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:410px){
+    .overlay-content p{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width:375px){
+    .overlay-content p{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width:340px){
+    .overlay-content p{
+        font-size: 0.45rem;
+        padding: 0.5rem 0 0 0;
+    }
+}
+
+@media screen and (max-width:315px){
+    .overlay-content p{
+        display: none;
+    }
+}
+
 .image-content {
     position: absolute;
     top: 0;
     right: 0;
     width: 60vmin;
     height: 50%;
-    /* background-image: url("https://assets.codepen.io/4787486/trees.png"); */
-    /* background-image: url(logo.jpg); */
+    /* background-image: url("https://assets.codepen.io/4787486/trees.webp"); */
+    /* background-image: url(logo.webp); */
     background-size: contain;
     transition: .3s ease-in-out;
     /* border: 1px solid green; */
 }
 
 .inset {
-    max-width: 40%;
+    max-width: 45%;
     margin: 0.25em 1em 1em 0;
     border-radius: 0.25em;
     float: left;
@@ -93,7 +134,6 @@ p {
 @media screen and (max-width:900px) {
     .inset {
         max-width: 50%;
-       
     }
 
 }
@@ -133,14 +173,47 @@ p {
     box-shadow: inset 1px 1px 15px 0 rgba(0 0 0 / .4);
     /* overflow-y: scroll; */
 }
-.text p{
-    font-size: 0.95rem;
+/* .animate .slide-left .pop p{
 
+} */
+.text p{
+    font-size: 16.5px;
+
+}
+
+@media screen and (max-width:1250px){
+    .inset{
+        max-width: 55%;
+    }
+    .text p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:1150px){
+    .inset{
+        max-width: 55%;
+    }
+    .text p{
+        font-size: 0.80rem;
+    }
+}
+
+@media screen and (max-width:1034px){
+    .text p{
+        font-size: 0.77rem;
+    }
+    .inset{
+        max-width: 65%;
+    }
 }
 @media screen and (max-width:900px) {
   
     .text p{
-    font-size: 0.95rem;
+    font-size: 0.75rem;
+    }
+    .inset{
+        max-width: 65%;
     }
 }
 .wrap:hover .overlay {
@@ -270,7 +343,4 @@ p {
 
 .delay-8 {
     animation-delay: 2.4s;
-}
-b{
-    /* color: #e0e0ea; */
 }

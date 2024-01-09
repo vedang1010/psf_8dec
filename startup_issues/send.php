@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Check if an image is uploaded
     $image = isset($_FILES['image']) ? $_FILES['image'] : null;
-    $imageURL = "https://www.clipscutter.com/image/brand/brand-256.png"; // Default image URL
+    $imageURL = "https://www.clipscutter.com/image/brand/brand-256.webp"; // Default image URL
 
     if ($image && $image['error'] == UPLOAD_ERR_OK) {
         $uploadDir = "https://punestartupfest.in/startup_issues/issues_images"; // Set your upload directory on the server
@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "body" => "Startup: " . $startupName . "\nStall No: " . $stallNo . "\nContact: " . $contact . "\nDescription: " . $description . "\nImage Link: " . $imageURL,
             "icon" => "https://images.unsplash.com/photo-1514473776127-61e2dc1dded3?w=871&q=80",
             "image" => $imageURL,
-            "click_action" => "https://punestartupfest.in/startup_issues/ops_login.php"
+            "click_action" => "https://punestartupfest.in/startup_issues/ops_login.html"
         ),
         "registration_ids" => $registrationIds, // Add the registration IDs from the database
     );

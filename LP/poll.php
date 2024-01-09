@@ -17,7 +17,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/navbarAndFooter/PSF24 White.png">
+    <link rel="shortcut icon" href="../images/navbarAndFooter/PSF + Marsh White1.webp">
 
     <title>PSF'24</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -307,9 +307,32 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
             animation: 1s ease-in normal EmojiIn;
         }
     </style>
+  <link rel="stylesheet" href="../styles/preloader.css">
 </head>
 
-<body>
+<body>  
+  <!-- PAGE LOADER -->
+    <div id="loading">
+      <div class="loader-container">
+          <!-- Outer rings -->
+          <div class="outer-ring1"></div>
+          <div class="outer-ring2"></div>
+          <div class="outer-ring3"></div>
+          
+          <div class="loader">
+              <img class="image" src="../images/navbarAndFooter/PSF24 White.webp" alt="PSF'24 LOGO">
+          </div>
+      </div>
+  </div>
+  <script>
+      var loader = document.getElementById("loading");
+      window.addEventListener("load", function () {
+          setTimeout(function() {
+              $('#loading').hide();
+          }, 2000);
+      })
+  </script>
+  <!-- PAGE LOADER END -->
 
 
 
@@ -428,7 +451,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <div class="ftbox">
                     <div class="fttop-bar"></div>
                     <div class="ftcontent">
-                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
                         <b>Dr Vidya More</b>
                         Faculty Advisor
@@ -441,7 +464,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                     <div class="fttop">
                     </div>
                     <div class="ftcontent">
-                        <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+                        <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
 							alt=""> -->
                         <b>Dr Rahul Adhao</b>
                         Faculty Advisor
@@ -452,7 +475,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <div class="ftbox">
                     <div class="fttop-bar"></div>
                     <div class="ftcontent">
-                        <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                        <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.webp?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 							alt=""> -->
                         <b>Gaurav Sonewane</b>
                         Secretary
@@ -462,7 +485,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <div class="ftbox">
                     <div class="fttop-bar"></div>
                     <div class="ftcontent">
-                        <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                        <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.webp?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 							alt=""> -->
                         <b>Samta Raka </b>
                         Finance and Marketing Executive
@@ -472,7 +495,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <div class="ftbox">
                     <div class="fttop-bar"></div>
                     <div class="ftcontent">
-                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
                         <b>Sanmeet Sawla</b>
                         Investor Relations Executive
@@ -483,7 +506,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                 <div class="ftbox">
                     <div class="fttop-bar"></div>
                     <div class="ftcontent">
-                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                        <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
                         <b>Varun Shetty</b>
                         Events and Networking Executive
@@ -497,17 +520,17 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
 
             <div class="ftfooter-left">
 
-                <span><img style="margin-left: 30%;max-width:40%;" src="../images/navbarAndFooter/PSF24 White.png"
+                <span><img style="margin-left: 30%;max-width:40%;" src="../images/navbarAndFooter/PSF24 White.webp"
                         alt=""></span>
 
                 <p class="ftfooter-links">
-                    <a href="./main.html" class="ftlink-1">Home</a>
+                    <a href="#" class="ftlink-1">Home</a>
 
-                    <a href="./aboutus.html">About Us</a>
+                    <a href="#">About US</a>
 
-                    <a href="./investor.html">Investors</a>
+                    <a href="#">Investors</a>
 
-                    <a href="./contact.php">Contact</a>
+                    <a href="#">Contact</a>
                 </p>
 
                 <p class="ftfooter-company-name">PUNE STARTUP FEST</p>
@@ -535,7 +558,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
                     <p><a href="mailto:queries.psf@gmail.com">queries.psf@gmail.com</a></p>
                 </div>
                 <!-- <div class="ftCopyright">
-					<p>Copyright &copy; 2023, All Rights Reserved</p>
+					<p>Copyright &copy; 2024, All Rights Reserved</p>
 				</div> -->
             </div>
 
@@ -599,7 +622,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
 				  </div> -->
             </div>
             <div class="ftCopyright">
-                <p>Copyright &copy; 2023, All Rights Reserved</p>
+                <p>Copyright &copy; 2024, All Rights Reserved</p>
             </div>
             <div class="ftCopyright designed" style="background-color: #1c335a;">
                 <p>DESIGNED BY WEB TEAM</p>
@@ -969,117 +992,116 @@ if (isset($_SESSION['username']) && isset($_SESSION['buttonNo'])) {
             }, 1000);
         })
     </script>
+    
+    
+<!--Vardhan-->
+<!--Vardhan-->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
-    <!--Vardhan-->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<!-- Include your other dependencies and stylesheets here -->
 
-    <!-- Include your other dependencies and stylesheets here -->
+<script>
+    $(document).ready(function () {
+        var username = '<?php echo isset($_SESSION['username']) ? $_SESSION['username'] : ""; ?>';
+        var buttonNo = '<?php echo isset($_SESSION['buttonNo']) ? $_SESSION['buttonNo'] : ""; ?>';
 
-    <script>
-        $(document).ready(function () {
-            var username = '<?php echo isset($_SESSION['username']) ? $_SESSION['username'] : ""; ?>';
-            var buttonNo = '<?php echo isset($_SESSION['buttonNo']) ? $_SESSION['buttonNo'] : ""; ?>';
+        var rate;
 
-            // Fetch remaining time from the database
-            // function fetchRemainingTime() {
-            //     $.ajax({
-            //         type: 'POST',
-            //         url: 'get_remaining_time.php', // Replace with the actual endpoint to fetch time from the database
-            //         data: {
-            //             username: encodeURIComponent(username),
-            //             buttonNo: encodeURIComponent(buttonNo)
-            //         },
-            //         success: function (response) {
-            //             var remainingTime = parseInt(response); // Assuming the response is the remaining time in seconds
+        // Fetch the end time from the server
+        function fetchEndTime() {
+            $.ajax({
+                type: 'POST',
+                url: 'get_end_time.php',
+                dataType: 'json',
+                success: function (response) {
+                    if (!isNaN(response.end_time)) {
+                        var endTime = parseInt(response.end_time, 10);
 
-            //             // Start the timer with the fetched remaining time
-            //             startTimer(remainingTime);
-            //         },
-            //         error: function (xhr, status, error) {
-            //             console.error('AJAX Error:', status, error);
-            //         }
-            //     });
-            // }
+                        // Calculate remaining time and start the timer
+                        calculateRemainingTime(endTime);
+                    } else {
+                        console.error('Invalid end time received from the server:', response);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error('AJAX Error:', status, error);
+                }
+            });
+        }
 
-            // Function to update the timer display
-            // function updateTimerDisplay(minutes, seconds) {
-            //     $('#timer').text('Time remaining: ' + minutes + ':' + (seconds < 10 ? '0' : '') + seconds);
-            // }
+        // Function to calculate remaining time
+        function calculateRemainingTime(endTime) {
+            var timerInterval = setInterval(function () {
+                var currentTime = Math.floor(Date.now() / 1000);
+                var remainingTime = Math.max(endTime - currentTime, 0);
+                updateTimerDisplay(remainingTime);
 
-            // Function to start the timer
-            // function startTimer(totalSeconds) {
-            //     var minutes = Math.floor(totalSeconds / 60);
-            //     var seconds = totalSeconds % 60;
+                if (remainingTime === 0) {
+                    // Stop the timer interval
+                    clearInterval(timerInterval);
 
-            //     // Update the timer display initially
-            //     updateTimerDisplay(minutes, seconds);
+                    // Time is up, submit the rating and the selected option
+                    submitRatingAndOption();
+                }
+            }, 1000);
+        }
 
-            //     // Function to decrement the timer
-            //     function decrementTimer() {
-            //         if (minutes === 0 && seconds === 0) {
-            //             // Submit vote when the timer reaches zero
-            //             // submitVote();
-            //         } else {
-            //             if (seconds === 0) {
-            //                 minutes--;
-            //                 seconds = 59;
-            //             } else {
-            //                 seconds--;
-            //             }
+        // Function to update the timer display
+        function updateTimerDisplay(remainingTime) {
+            var minutes = Math.floor(remainingTime / 60);
+            var seconds = remainingTime % 60;
+            $('#timer').text('Time remaining: ' + minutes + ':' + (seconds < 10 ? '0' : '') + seconds);
+        }
 
-            //             // Update the timer display
-            //             updateTimerDisplay(minutes, seconds);
-            //         }
-            //     }
+        // Function to submit the rating and the selected option
+        function submitRatingAndOption() {
+            $('#vote').addClass('loading');
 
-            //     // Set an interval to decrement the timer every second
-            //     var timerInterval = setInterval(decrementTimer, 1000);
+            var choiceElement = $('.tr.active .td:nth-child(2)');
+            var choiceValue = choiceElement.attr('data-value');
 
-            //     // Function to submit the vote
-            //     function submitVote() {
-            //         $('#vote').addClass('loading');
+            // Now you have both the display text and the value of the selected option
+            console.log("Selected Option Text: ", choiceElement.text());
+            console.log("Selected Option Value: ", choiceValue);
+            console.log("Selected Rating Value: ", rate);
 
-            //         var choiceElement = $('.tr.active .td:nth-child(2)');
-            //         var choiceValue = choiceElement.attr('data-value');
+            // Include the username and buttonNo in the data sent to submit_vote.php
+            $.ajax({
+                type: 'POST',
+                url: 'submit_vote.php',
+                data: {
+                    option: choiceValue,
+                    username: encodeURIComponent(username),
+                    buttonNo: encodeURIComponent(buttonNo),
+                    rate: rate
+                },
+                success: function (response) {
+                    var parsedResponse = JSON.parse(response);
+                    if (parsedResponse.status === 'success') {
+                        // Successful vote, update content or redirect if needed
+                        $('#content').html('<h2>Thank you for voting!</h2><button class="shown"><a href="buttons.php">Vote for next Pitch </a><i class="fas fa-arrow-left"></i></button>');
+                    } else if (parsedResponse.status === 'error') {
+                        alert(parsedResponse.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    // Handle the error
+                    console.error('AJAX Error:', status, error);
+                }
+            });
+        }
 
-            //         $.ajax({
-            //             type: 'POST',
-            //             url: 'submit_vote.php',
-            //             data: {
-            //                 option: choiceValue,
-            //                 username: encodeURIComponent(username),
-            //                 buttonNo: encodeURIComponent(buttonNo)
-            //             },
-            //             success: function (response) {
-            //                 var parsedResponse = JSON.parse(response);
-            //                 if (parsedResponse.status === 'success') {
-            //                     // Successful vote, update content or redirect if needed
-            //                     $('#content').html('<h2>Thank you for voting!</h2><button class="shown"><a href="buttons.php">Vote for next Pitch </a><i class="fas fa-arrow-left"></i></button>');
-            //                 } else if (parsedResponse.status === 'error') {
-            //                     alert(parsedResponse.message);
-            //                 }
-            //             },
-            //             error: function (xhr, status, error) {
-            //                 // Handle the error
-            //                 console.error('AJAX Error:', status, error);
-            //             },
-            //             complete: function () {
-            //                 // Stop the timer interval
-            //                 clearInterval(timerInterval);
-            //             }
-            //         });
-            //     }
+        // Call fetchEndTime when the document is ready
+        fetchEndTime();
+    });
+</script>
 
-            //     // Attach the submitVote function to the vote button click event
-            //     $('#vote').click(function () {
-            //         submitVote();
-            //     });
-            // }
+<!-- Your existing rating and option submission script -->
+<script>
+    // ... (Your existing starRatingWidget and options selection script)
+</script>
 
-            // Fetch the remaining time when the document is ready
-            // fetchRemainingTime();
-        });
-    </script>
+
 
 </body>
 

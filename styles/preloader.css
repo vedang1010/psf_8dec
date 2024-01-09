@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+#loading {
+  position: fixed;
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #0a0c26;
+  z-index: 999999999999;
+}
+#loading{
+  scale: 1.5;
+}
+
+.loader-container {
+  top: 45vh;
+  margin: auto;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  animation: scaleAnimation 2s ease-in-out infinite;
+}
+
+
+.outer-ring1,
+.outer-ring2,.outer-ring3{
+  content: '';
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
+  border: 1px solid #092869; 
+}
+
+.outer-ring1 {
+  transform: scale(1.2);
+  animation: expandContract1 2.5s ease-in-out infinite; 
+}
+
+.outer-ring2 {
+  transform: scale(1.35);
+  animation: expandContract2 2.5s ease-in-out infinite; 
+ 
+}
+
+.outer-ring3 {
+  transform: scale(1.5);
+  animation: expandContract3 2.5s ease-in-out infinite; 
+}
+@keyframes expandContract1 {
+  0%, 100% {
+      transform: scale(1);
+  }
+
+  50% {
+      transform: scale(1.25);
+  }
+}
+
+
+@keyframes expandContract2 {
+  0%, 100% {
+      transform: scale(1.05);
+  }
+
+  50% {
+      transform: scale(1.4);
+  }
+}
+@keyframes expandContract3 {
+  0%, 100% {
+      transform: scale(1);
+  }
+
+  50% {
+      transform: scale(1.6);
+  }
+}
+.loader:before,
+.loader:after,
+.reflection {
+  content: '';
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+.loader:after {
+  box-shadow: 0px 3px 15px 1px #094b69 inset;
+  animation: rotate 2s linear infinite;
+}
+
+.reflection {
+  transform: scaleY(-1);
+  opacity: 0.5;
+}
+
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  width: 80%;
+  height: 80%;
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes scaleAnimation {
+  0%, 100% {
+      transform: scale(1);
+  }
+
+  50% {
+      transform: scale(1.2);
+  }
+}

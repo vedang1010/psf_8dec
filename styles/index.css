@@ -440,7 +440,16 @@ button:focus{
   align-items: center;
 }
 
+@media screen and (min-width: 480px) {
+  #head1, #head2{
+    font-size: 40px;
+  }
 
+  #head3{
+    font-size: 50px;
+    transform: scale(1.2);
+  }
+}
 /* media query */
 @media screen and (min-width: 750px) {
   #head1, #head2{
@@ -496,7 +505,7 @@ button:focus{
   font-size: 20px;
   position: relative;
   display: inline-block;
-  padding: 25px 30px;
+  padding: 15px 20px;
   margin-top: 3%;
   color: #03e9f4;
   text-decoration: none;

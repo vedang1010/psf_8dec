@@ -71,9 +71,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             "data" => array(
                 "title" => "New Issue: " . $issue,
                 "body" => "Startup: " . $startupName . "\nStall No: " . $stall_no . "\nContact: " . $contact . "\nDescription: " . $description . "\nImage Link: " . $image_link,
-                "icon" => "https://www.clipscutter.com/image/brand/brand-256.png",
+                "icon" => "https://www.clipscutter.com/image/brand/brand-256.webp",
                 "image" => $image_link,
-                "click_action" => "https://punestartupfest.in/startup_issues/ops_login.php"
+                "click_action" => "https://punestartupfest.in/startup_issues/ops_login.html"
             ),
             "registration_ids" => $registrationIds,
         );
@@ -102,14 +102,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 // Redirect after successful submission
         echo '<script>';
         echo 'alert("Issue submitted successfully!");';
-        echo 'window.location.href = "https://punestartupfest.in/startup_issues/add_issue.php";';
+        echo 'window.location.href = "https://punestartupfest.in/startup_issues/add_issue.html";';
         echo '</script>';
 
         // Redirect after successful submission
         echo '<script>alert("Issue submitted successfully!");</script>';
 
     // Redirect after successful submission
-        header("Location: https://punestartupfest.in/startup_issues/add_issue.php");
+        header("Location: https://punestartupfest.in/startup_issues/add_issue.html");
     } else {
         echo "Error: " . mysqli_error($conn);
     }

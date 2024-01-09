@@ -259,7 +259,7 @@ header .text span {
 header {
     height: calc(100vh - 22px);
     background-size: cover;
-    /* background: url("/bg.jpg") fixed bottom; */
+    /* background: url("/bg.webp") fixed bottom; */
     padding: 20px 70px;
 }
 
@@ -308,7 +308,7 @@ header .arrow-down {
     left: 50%;
     transform: translate(-50%, 0);
     z-index: 10;
-    background: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988515/arrow-down.png") no-repeat center;
+    background: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988515/arrow-down.webp") no-repeat center;
 }
 
 /*End Header*/
@@ -966,5 +966,11 @@ body .containerr .carrd .box .content a:hover {
 @media (max-width: 576px) {
     .pitchersValley-container a img {
         width: 50%;
+    }
+}
+@media (max-width: 500px) {
+    .carousel-wrapper {
+        margin: 0px;
+        margin-bottom: 30px;
     }
 }

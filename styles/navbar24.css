@@ -7,16 +7,28 @@
 }
 
 
+
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-color: #0b0430;
 }
-
 nav {
-    /* background:black; */
-   
-    height: 60px;
+    background: #003747;
+    /* background: transparent; */
+    height: 62px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1212px) {
+    nav{
+        display: block;
+    }
+}
+.color-change{
+    background: transparent;
 }
 .mobli{
     display: none;
@@ -48,7 +60,8 @@ label.logo {
 ul{
     text-align: center;
     /* margin-left: 15%; */
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 }
 
@@ -139,6 +152,8 @@ nav ul li a:hover::before {
     }
     nav ul{
         background: transparent;
+        overflow-y: scroll;
+
     }
     .checkbtn {
         display: block;
@@ -167,7 +182,7 @@ nav ul li a:hover::before {
         /* margin-top: 50px; */
         position: absolute;
         width: 100%;
-        /* height: 100vh; */
+        height: 100vh;
         background: #1c3045;
         /* top: 80px; */
         left: -100%;
@@ -178,7 +193,7 @@ nav ul li a:hover::before {
     nav ul li {
         display: block;
         /* align-items: center; */
-        margin: 33px 0;
+        margin: 27px 0;
         line-height: 30px;
     }
 
@@ -198,7 +213,7 @@ nav ul li a:hover::before {
 }
 
 nav section {
-    /* background: url(bg1.jpg) no-repeat; */
+    /* background: url(bg1.webp) no-repeat; */
     background-size: cover;
     height: calc(100vh - 80px);
 }
@@ -355,4 +370,14 @@ h1 {
 .dropdown:hover .dropdown-content {
     display: block;
     transition-delay: 5ms;
+    z-index: 600;
+}
+
+.scrolled{
+    background-color: #003747;
+}
+@media screen and (max-width:1212px){
+    .scrolled{
+        background-color: transparent;
+    }
 }
