@@ -1,0 +1,300 @@
+.foot-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    background: rgb(13,5,56);
+    background: linear-gradient(90deg, rgba(13,5,56,1) 50%, rgb(20, 95, 181) 100%);
+
+}
+
+.footbox-left {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.footer-logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    color: aliceblue;
+}
+
+.footbox-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+.footer-details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 5px;
+    color: aliceblue;
+}
+
+.foot-svg {
+    width: 35px;
+    height: 35px;
+    min-width: 30;
+    min-height: 30;
+    flex : 2;
+    color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.foot-detail-content {
+    flex: 3;
+}
+
+.footbox-right {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+
+.ft-Copyright {
+    grid-column: span 12;
+    height: 16px;
+    position: relative;
+    color: #0CAFE8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.ft-designed {
+    background-color: #003747;
+    grid-column: span 12;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 600;
+
+}
+
+
+
+
+/*social media css */
+
+
+
+.foot-link-card {
+    width: 80%;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: rgba(44, 44, 44, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 0.2s;
+  }
+
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: 0.3s;
+  }
+
+  .containerTwo:hover {
+    background-color: #dd0000;
+    transition-duration: 0.3s;
+    
+  }
+  
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: 0.3s;
+  }
+  
+  .containerFour:hover {
+    background-color: rgb(0, 56, 160);
+    transition-duration: 0.3s;
+  }
+
+  .containerFive:hover {
+    background-color: rgb(0, 102, 255);
+    transition-duration: 0.3s;
+  }
+
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+  }
+  
+  .socialSvg {
+    width: 25px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+
+  /* detail cards css here */
+
+
+  .foot-detail-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+
+  
+  .foot-detail-cards .ft-detail-card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0D0538;
+    cursor: pointer;
+    transition: 0.05s;
+  }
+  
+  .foot-detail-cards .ft-detail-card p.ft-tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .foot-detail-cards .ft-detail-card p.ft-second-text {
+    font-size: 0.7em;
+  }
+  
+  .foot-detail-cards .ft-detail-card:hover {
+    transform: scale(1.01, 1.01);
+  }
+  
+  .foot-detail-cards:hover > .ft-detail-card:not(:hover) {
+    filter: blur(1px);
+    transform: scale(0.99, 0.99);
+  }
+
+  .ft-detail-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .ft-tip {
+    margin-left: 10px;
+    flex: 1;
+  }
+
+  .ft-detail-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  /* media query */ 
+
+
+  @media (max-width: 1000px) {
+
+    .foot-container {
+        height: auto;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: rgb(50,48,146);
+        background: linear-gradient(0deg, rgba(50,48,146,1) 0%, rgba(13,5,56,1) 60%);
+    }
+
+    .footbox-center {
+        width: 90vw;
+        text-align: center;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+
+    }
+
+  }
+
+
+  @media (max-width: 600px) {
+
+    .footbox-center {
+        width: 80vw
+        padding: 10px;
+    }
+
+    .foot-detail-cards {
+      margin: 10px;
+    }
+
+  }
+  
+  
