@@ -213,7 +213,7 @@ nav ul li a:hover::before {
 }
 
 nav section {
-    /* background: url(bg1.jpg) no-repeat; */
+    /* background: url(bg1.webp) no-repeat; */
     background-size: cover;
     height: calc(100vh - 80px);
 }

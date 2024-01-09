@@ -104,7 +104,7 @@ $mail->Port = 587; // Use port 587 for TLS
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/navbarAndFooter/PSF24 White.png">
+    <link rel="shortcut icon" href="./images/navbarAndFooter/PSF24 White.webp">
 
     <title>Pune Startup Fest'24</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -167,7 +167,7 @@ $mail->Port = 587; // Use port 587 for TLS
           <div class="outer-ring3"></div>
           
           <div class="loader">
-              <img class="image" src="./images/navbarAndFooter/PSF24 White.png" alt="PSF'24 LOGO">
+              <img class="image" src="./images/navbarAndFooter/PSF24 White.webp" alt="PSF'24 LOGO">
           </div>
       </div>
   </div>
@@ -201,10 +201,10 @@ $mail->Port = 587; // Use port 587 for TLS
     <div class="line"></div>
     
   </label> -->
-        <!-- <div class="imgg"><a href="./main"><img  class="imgg" src="PSF + Marsh White1.png" alt=""></a></div> -->
+        <!-- <div class="imgg"><a href="./main"><img  class="imgg" src="PSF + Marsh White1.webp" alt=""></a></div> -->
   
         <ul>
-            <!-- <img class="imgg" src="PSF + Marsh White1.png" alt="PSF + Marsh White1.png"> -->
+            <!-- <img class="imgg" src="PSF + Marsh White1.webp" alt="PSF + Marsh White1.webp"> -->
   
             <li> <a href="./main.html"> <i id="icon" class="fa-solid fa-house icon" style="padding-right: 0.5rem;"></i>
                     Home</a>
@@ -297,9 +297,9 @@ $mail->Port = 587; // Use port 587 for TLS
 					  <div class="app-title">
 						<span>VISITOR</span>
 						<span>REGISTRATION</span>
-						<!-- <img src="PSFb.png" class="psfimg"> -->
+						<!-- <img src="PSFb.webp" class="psfimg"> -->
 					  </div>
-					  <img src="./images/navbarAndFooter/PSFb.png" class="psfimg">
+					  <img src="./images/navbarAndFooter/PSFb.webp" class="psfimg">
 		
 					  <div class="app-contact">CONTACT INFO : <a href="mailto:queries.psf@gmail.com">queries.psf@gmail.com</a>
 					  </div>
@@ -408,7 +408,7 @@ $mail->Port = 587; // Use port 587 for TLS
 				<div class="ftbox">
 					<div class="fttop-bar"></div>
 					<div class="ftcontent">
-						<!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+						<!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
 						<b>Dr Vidya More</b>
 						Faculty Advisor
@@ -421,7 +421,7 @@ $mail->Port = 587; // Use port 587 for TLS
 					<div class="fttop">
 					</div>
 					<div class="ftcontent">
-						<!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+						<!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
 							alt=""> -->
 						<b>Dr Rahul Adhao</b>
 						Faculty Advisor
@@ -432,7 +432,7 @@ $mail->Port = 587; // Use port 587 for TLS
 				<div class="ftbox">
 					<div class="fttop-bar"></div>
 					<div class="ftcontent">
-						<!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+						<!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.webp?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 							alt=""> -->
 						<b>Gaurav Sonewane</b>
 						Secretary
@@ -442,7 +442,7 @@ $mail->Port = 587; // Use port 587 for TLS
 				<div class="ftbox">
 					<div class="fttop-bar"></div>
 					<div class="ftcontent">
-						<!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+						<!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.webp?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 							alt=""> -->
 						<b>Samta Raka </b>
 						Finance and Marketing Executive
@@ -452,7 +452,7 @@ $mail->Port = 587; // Use port 587 for TLS
 				<div class="ftbox">
 					<div class="fttop-bar"></div>
 					<div class="ftcontent">
-						<!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+						<!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
 						<b>Sanmeet Sawla</b>
 						Investor Relations Executive
@@ -463,7 +463,7 @@ $mail->Port = 587; // Use port 587 for TLS
 				<div class="ftbox">
 					<div class="fttop-bar"></div>
 					<div class="ftcontent">
-						<!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+						<!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
 						<b>Varun Shetty</b>
 						Events and Networking Executive
@@ -477,7 +477,7 @@ $mail->Port = 587; // Use port 587 for TLS
   
 			<div class="ftfooter-left">
   
-				<span><img style="margin-left: 30%;max-width:40%;" src="./images/navbarAndFooter/PSF24 White.png" alt=""></span>
+				<span><img style="margin-left: 30%;max-width:40%;" src="./images/navbarAndFooter/PSF24 White.webp" alt=""></span>
   
 				<p class="ftfooter-links">
 					<a href="./main.html" class="ftlink-1">Home</a>

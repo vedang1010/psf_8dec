@@ -19,9 +19,11 @@ $result = $conn->query($sql);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/navbarAndFooter/PSF24 White.webp">
     <style>
         body {
-            background-color: #1c1c1c; /* Dark black background color */
+            background-color: #1c1c1c;
+            /* Dark black background color */
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
@@ -50,13 +52,15 @@ $result = $conn->query($sql);
         .bar-graph {
             flex: 2;
             height: 20px;
-            background-color: #444; /* Dark gray background color for the bar graph container */
+            background-color: #444;
+            /* Dark gray background color for the bar graph container */
             margin: 10px auto;
         }
 
         .bar {
             height: 100%;
-            background-color: #33cfff; /* Blue color for the bar graph */
+            background-color: #33cfff;
+            /* Blue color for the bar graph */
         }
 
         .score {
@@ -66,32 +70,32 @@ $result = $conn->query($sql);
             padding-right: 10px;
         }
     </style>
-  <link rel="stylesheet" href="../styles/preloader.css">
+    <link rel="stylesheet" href="../styles/preloader.css">
 </head>
 
-<body>  
-  <!-- PAGE LOADER -->
+<body>
+    <!-- PAGE LOADER -->
     <div id="loading">
-      <div class="loader-container">
-          <!-- Outer rings -->
-          <div class="outer-ring1"></div>
-          <div class="outer-ring2"></div>
-          <div class="outer-ring3"></div>
-          
-          <div class="loader">
-              <img class="image" src="../images/navbarAndFooter/PSF24 White.png" alt="PSF'24 LOGO">
-          </div>
-      </div>
-  </div>
-  <script>
-      var loader = document.getElementById("loading");
-      window.addEventListener("load", function () {
-          setTimeout(function() {
-              $('#loading').hide();
-          }, 2000);
-      })
-  </script>
-  <!-- PAGE LOADER END -->
+        <div class="loader-container">
+            <!-- Outer rings -->
+            <div class="outer-ring1"></div>
+            <div class="outer-ring2"></div>
+            <div class="outer-ring3"></div>
+
+            <div class="loader">
+                <img class="image" src="../images/navbarAndFooter/PSF24 White.webp" alt="PSF'24 LOGO">
+            </div>
+        </div>
+    </div>
+    <script>
+        var loader = document.getElementById("loading");
+        window.addEventListener("load", function () {
+            setTimeout(function () {
+                $('#loading').hide();
+            }, 2000);
+        })
+    </script>
+    <!-- PAGE LOADER END -->
     <?php
     if ($result->num_rows > 0) {
         echo "<h2>Leaderboard</h2>";

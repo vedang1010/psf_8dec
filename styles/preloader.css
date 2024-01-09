@@ -17,6 +17,9 @@
   background-color: #0a0c26;
   z-index: 999999999999;
 }
+#loading{
+  scale: 1.5;
+}
 
 .loader-container {
   top: 45vh;

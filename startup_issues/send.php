@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Check if an image is uploaded
     $image = isset($_FILES['image']) ? $_FILES['image'] : null;
-    $imageURL = "https://www.clipscutter.com/image/brand/brand-256.png"; // Default image URL
+    $imageURL = "https://www.clipscutter.com/image/brand/brand-256.webp"; // Default image URL
 
     if ($image && $image['error'] == UPLOAD_ERR_OK) {
         $uploadDir = "https://punestartupfest.in/startup_issues/issues_images"; // Set your upload directory on the server

@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 "title" => "Investor Arrived: " . $investorDetails['name'],
                 // "title" => "Investor Arrived: " . $image_link,
                 "body" => "Investor has arrived!",
-                "icon" => "https://punestartupfest.in/images/navbarAndFooter/PSF24%20White.png",
+                "icon" => "https://punestartupfest.in/images/navbarAndFooter/PSF24%20White.webp",
                 "image" => $image_link,
                 "click_action" => "https://punestartupfest.in/arrival/long_polling",
                 // "name" => $investorDetails['name'],

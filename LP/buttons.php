@@ -17,7 +17,7 @@ if (isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="../images/navbarAndFooter/PSF24 White.png"
+      href="../images/navbarAndFooter/PSF24 White.webp"
     />
     <link rel="stylesheet" href="../trial.css" />
     <title>PSF'24</title>
@@ -104,7 +104,7 @@ if (isset($_SESSION['username'])) {
         <div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
 			<div class="card b1 active">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -127,7 +127,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b2">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -151,7 +151,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b3">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -175,7 +175,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b4">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -199,7 +199,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b5">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -223,7 +223,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b6">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -247,7 +247,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b7">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -271,7 +271,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b8">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -295,7 +295,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b9">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -319,7 +319,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b10">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -343,7 +343,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b11">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -367,7 +367,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b12">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -391,7 +391,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b13">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -415,7 +415,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b14">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -439,7 +439,7 @@ if (isset($_SESSION['username'])) {
 				</div>
 			<div class="card b15">
 				<div class="cover-photo">
-					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.jpg" class="profile"> -->
+					<!-- <img src="../images/alumni/gradient-background-wallpaper-87543_1080x675.webp" class="profile"> -->
 				</div>
 				<h3 class="profile-name">Startup Name</h3>
 				<p class="about">Team Member <br> XYZ </p>
@@ -572,7 +572,7 @@ if (isset($_SESSION['username'])) {
           <div class="ftbox">
             <div class="fttop-bar"></div>
             <div class="ftcontent">
-              <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
               <b>Dr Vidya More</b>
               Faculty Advisor
@@ -583,7 +583,7 @@ if (isset($_SESSION['username'])) {
             <div class="fttop-bar"></div>
             <div class="fttop"></div>
             <div class="ftcontent">
-              <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+              <!-- <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
 							alt=""> -->
               <b>Dr Rahul Adhao</b>
               Faculty Advisor
@@ -593,7 +593,7 @@ if (isset($_SESSION['username'])) {
           <div class="ftbox">
             <div class="fttop-bar"></div>
             <div class="ftcontent">
-              <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+              <!-- <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.webp?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 							alt=""> -->
               <b>Gaurav Sonewane</b>
               Secretary
@@ -603,7 +603,7 @@ if (isset($_SESSION['username'])) {
           <div class="ftbox">
             <div class="fttop-bar"></div>
             <div class="ftcontent">
-              <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+              <!-- <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.webp?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 							alt=""> -->
               <b>Samta Raka </b>
               Finance and Marketing Executive
@@ -613,7 +613,7 @@ if (isset($_SESSION['username'])) {
           <div class="ftbox">
             <div class="fttop-bar"></div>
             <div class="ftcontent">
-              <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
               <b>Sanmeet Sawla</b>
               Investor Relations Executive
@@ -623,7 +623,7 @@ if (isset($_SESSION['username'])) {
           <div class="ftbox">
             <div class="fttop-bar"></div>
             <div class="ftcontent">
-              <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              <!-- <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.webp?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 							alt=""> -->
               <b>Varun Shetty</b>
               Events and Networking Executive
@@ -637,7 +637,7 @@ if (isset($_SESSION['username'])) {
           <span
             ><img
               style="margin-left: 30%; max-width: 40%"
-              src="../images/navbarAndFooter/PSF24 White.png"
+              src="../images/navbarAndFooter/PSF24 White.webp"
               alt=""
           /></span>
 

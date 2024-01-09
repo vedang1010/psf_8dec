@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             "data" => array(
                 "title" => "New Issue: " . $issue,
                 "body" => "Startup: " . $startupName . "\nStall No: " . $stall_no . "\nContact: " . $contact . "\nDescription: " . $description . "\nImage Link: " . $image_link,
-                "icon" => "https://www.clipscutter.com/image/brand/brand-256.png",
+                "icon" => "https://www.clipscutter.com/image/brand/brand-256.webp",
                 "image" => $image_link,
                 "click_action" => "https://punestartupfest.in/startup_issues/ops_login.html"
             ),
