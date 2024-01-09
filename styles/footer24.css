@@ -1,3 +1,8 @@
+footer {
+  width: 100%;
+}
+
+
 .foot-container {
   width: 100%;
   height: auto;
@@ -5,6 +10,7 @@
   grid-template-columns: 4fr 4fr 4fr;
   background: rgb(13,5,56);
   background: linear-gradient(90deg, rgba(13,5,56,1) 50%, rgb(20, 95, 181) 100%);
+  color: aliceblue !important;
 
 }
 
@@ -15,6 +21,10 @@
   flex-direction: column;
   justify-content: center;
 
+}
+
+.footbox-left p {
+  font-size: 14px !important;
 }
 
 .footer-logo {
@@ -31,7 +41,14 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  color: aliceblue;
+  color: aliceblue !important;
+  font-size: 16px;
+
+}
+
+.footer-links p {
+  color: aliceblue !important;
+  font-size: 16px;
 }
 
 .footbox-center {
@@ -39,6 +56,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 40px;
+  font-size: 18px !important;
 
 }
 
@@ -48,7 +66,11 @@
   align-items: flex-start;
   padding: 10px;
   margin: 5px;
-  color: aliceblue;
+  color: aliceblue !important;
+}
+
+.footer-details p {
+  color: aliceblue !important;
 }
 
 .foot-svg {
@@ -65,6 +87,7 @@
 
 .foot-detail-content {
   flex: 3;
+  font-size: 18px;
 }
 
 .footbox-right {
@@ -85,23 +108,35 @@
 .ft-Copyright {
   grid-column: span 12;
   height: 16px;
+  font-size: 14px !important;
   position: relative;
-  color: #0CAFE8;
+  color: #0CAFE8 !important;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 10px;
 }
 
+.ft-Copyright p{
+  color: #0CAFE8 !important;
+  font-size: 14px !important;
+}
+
 .ft-designed {
   background-color: #003747;
   grid-column: span 12;
-  color: antiquewhite;
+  color: antiquewhite !important;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font: 16px !important;
   font-weight: 600;
+}
 
+.ft-designed p {
+  color: antiquewhite !important;
+  font: 18px !important;
+  font-weight: 600;
 }
 
 
@@ -218,13 +253,23 @@
   transition: 0.05s;
 }
 
+.foot-detail-cards .ft-detail-card p {
+  color: white;
+}
+
+
+
 .foot-detail-cards .ft-detail-card p.ft-tip {
-  font-size: 1em;
+  font-size: 18px;
   font-weight: 700;
 }
 
 .foot-detail-cards .ft-detail-card p.ft-second-text {
-  font-size: 0.7em;
+  font-size: 12px;
+}
+
+a.ft-third-text {
+  font-size: 16px;
 }
 
 .foot-detail-cards .ft-detail-card:hover {
@@ -287,7 +332,7 @@
 @media (max-width: 600px) {
 
   .footbox-center {
-      width: 80vw
+      width: 80vw;
       padding: 10px;
   }
 
